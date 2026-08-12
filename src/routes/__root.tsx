@@ -115,7 +115,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
           "@type": "LocalBusiness",
           name: "DHANSA Personal & Dienstleistungen e.K.",
           slogan: "Menschen. Lösungen. Vertrauen.",
-          telephone: "+4915201972975",
+          telephone: "+491623179432",
           areaServed: "Hamburg, Norddeutschland",
           address: { "@type": "PostalAddress", addressLocality: "Hamburg", addressCountry: "DE" },
         }),

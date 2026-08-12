@@ -6,23 +6,14 @@ import {
   Wrench,
   type LucideIcon,
 } from "lucide-react";
-import photoBauArbeit from "@/assets/bau-arbeit.jpeg";
-import photoGebaeudereinung02 from "@/assets/Gebaeudereinung-02.jpeg";
-import photoStrasseBau from "@/assets/strasse-bau.jpeg";
-import photoGebaeudereinung03 from "@/assets/Gebaeudereinung-03.jpeg";
-import photoPersonal from "@/assets/Personal.jpeg";
-import photoTransportUmzug from "@/assets/Transport-umzug.jpeg";
-import photoWinterDienst from "@/assets/Winter-diesnt.jpeg";
-import photoWinterDienst02 from "@/assets/Winter-diesnt-02.jpeg";
-import photoWinterDienst03 from "@/assets/Winter-diesnt-03.jpeg";
 
 export const COMPANY = {
   name: "DHANSA",
   legal: "DHANSA Personal & Dienstleistungen e.K.",
   tagline: "Menschen. Lösungen. Vertrauen.",
-  phone: "01520 197 2975",
-  phoneHref: "tel:+4915201972975",
-  whatsapp: "4915201972975",
+  phone: "0162 3179 432",
+  phoneHref: "tel:+491623179432",
+  whatsapp: "491623179432",
   email: "info@dhansa.de",
   address: "Hamburg",
   city: "Hamburg",
@@ -31,15 +22,15 @@ export const COMPANY = {
 };
 
 export const PHOTO_ASSETS = {
-  photo01: photoBauArbeit,
-  photo02: photoGebaeudereinung02,
-  photo03: photoStrasseBau,
-  photo04: photoGebaeudereinung03,
-  photo05: photoPersonal,
-  photo06: photoTransportUmzug,
-  photo07: photoWinterDienst,
-  photo08: photoWinterDienst02,
-  photo09: photoWinterDienst03,
+  photo01: "/src/assets/bau-arbeit.jpeg",
+  photo02: "/src/assets/Gebaeudereinung-02.jpeg",
+  photo03: "/src/assets/strasse-bau.jpeg",
+  photo04: "/src/assets/Gebaeudereinung-03.jpeg",
+  photo05: "/src/assets/Personal.jpeg",
+  photo06: "/src/assets/Transport-umzug.jpeg",
+  photo07: "/src/assets/Winter-diesnt.jpeg",
+  photo08: "/src/assets/Winter-diesnt-02.jpeg",
+  photo09: "/src/assets/Winter-diesnt-03.jpeg",
 } as const;
 
 export type Service = {
@@ -61,59 +52,65 @@ export const SERVICES: Service[] = [
     id: "reinigung",
     icon: SprayCan,
     title: "Gebäudereinigung",
-    kicker: "Büro · Praxis · Sonderreinigung",
-    claim: "Sauberkeit ist unser Anspruch.",
-    headline: "Moderne Raumhygiene aus Hamburg.",
+    kicker: "Gewerbe · Objekte · Reinigung",
+    claim: "Professionelle Reinigung für Gewerbe & Objekte.",
+    headline: "Verlässliche, gründliche und flexible Reinigungsleistungen aus Hamburg.",
     description:
-      "Unsere geschulten Reinigungsteams pflegen Ihre Räume nach festen Qualitätsplänen — mit dokumentierten Intervallen, zertifizierten Mitteln und diskretem Auftreten. Für Praxen, Büros und Wohnanlagen.",
+      "DHANSA steht für zuverlässige, gründliche und flexible Reinigungsleistungen. Wir betreuen Unternehmen, Gewerbeobjekte und öffentliche Einrichtungen – regelmäßig, individuell und mit geschultem Personal.",
     items: [
-      "Unterhalts- & Grundreinigung",
-      "Glas-, Fassaden- & Fensterreinigung",
-      "Bauend-, Sonder- & Desinfektionsreinigung",
-      "Treppenhaus- & Hausflurpflege",
-      "Praxis- & Hygienereinigung",
+      "Unterhaltsreinigung",
+      "Büroreinigung",
+      "Sanitärreinigung",
+      "Treppenhausreinigung",
+      "Praxis- & medizinische Objekte",
+      "Fitnessstudios & Freizeit",
+      "Industriereinigung",
+      "Grund- & Baureinigung",
+      "Weitere Leistungen auf Anfrage",
     ],
     subLinks: [
-      "Büroreinigung Hamburg",
-      "Treppenhausreinigung Hamburg",
-      "Glas- & Fensterreinigung Hamburg",
-      "Praxis- & Klinikreinigung Hamburg",
+      "Glasreinigung",
+      "Sonderreinigung",
+      "Küchenreinigung",
+      "Desinfektion",
+      "Endreinigung",
     ],
     stats: [
-      { value: "Geprüft", label: "Reinigungsmittel" },
-      { value: "Fest", label: "Ansprechpartner" },
-      { value: "Doku", label: "Nach jedem Einsatz" },
+      { value: "Regelmäßig", label: "Einsatzplan" },
+      { value: "Individuell", label: "Leistungsumfang" },
+      { value: "Geprüft", label: "Personal" },
     ],
-    photo: photoGebaeudereinung02,
+    photo: "/src/assets/Gebaeudereinung-02.jpeg",
   },
   {
     id: "umzug",
     icon: Truck,
     title: "Umzüge & Entrümpelung",
     kicker: "Privat · Gewerbe · Transport",
-    claim: "Schnell. Sicher. Zuverlässig.",
-    headline: "Vom ersten Karton bis zur besenreinen Übergabe.",
+    claim: "Zuverlässig. Sorgfältig. Persönlich.",
+    headline: "Professioneller Umzug mit klarer Organisation und persönlicher Betreuung.",
     description:
-      "Erfahrene Teams begleiten Sie von der Begehung über die Möbeldemontage bis zur Endreinigung. Bei Wohnungsauflösungen sortieren wir wertschätzend, entsorgen umweltgerecht und übergeben den Raum besenrein.",
+      "DHANSA Personal & Dienstleistungen unterstützt Sie beim sicheren Transport Ihrer Möbel und persönlichen Gegenstände – von der Vorbereitung bis zum Einzug. Wir organisieren Umzüge, Entrümpelungen, Montageservice und Einlagerung mit einem festen Ablauf und persönlichem Kontakt.",
     items: [
-      "Privat- & Firmenumzüge in Hamburg & deutschlandweit",
-      "Möbelmontage, Verpackungsservice & Halteverbotszonen",
-      "Wohnungsauflösungen & Haushaltsauflösungen",
-      "Fachgerechte Entsorgung, Recycling & Schrottabholung",
-      "Seniorenumzüge / Pflegebedürftige",
+      "Privatumzüge",
+      "Möbeltransport",
+      "Entrümpelungen",
+      "Montageservice",
+      "Einlagerung",
+      "Umzugsservice",
     ],
     subLinks: [
-      "Umzugsunternehmen Hamburg",
-      "Entrümpelung Hamburg",
-      "Haushaltsauflösung Hamburg",
-      "Firmenumzug Hamburg",
+      "Umzüge",
+      "Entrümpelungen",
+      "Montageservice",
+      "Einlagerung",
     ],
     stats: [
-      { value: "1.500+", label: "Umzüge realisiert" },
-      { value: "100 %", label: "Versichert" },
-      { value: "0 €", label: "Erstberatung" },
+      { value: "Sorgfältig", label: "Behandlung" },
+      { value: "Strukturiert", label: "Ablauf" },
+      { value: "Flexibel", label: "Leistungsumfang" },
     ],
-    photo: photoTransportUmzug,
+    photo: "/src/assets/Transport-umzug.jpeg",
   },
   {
     id: "galabau",
@@ -142,7 +139,43 @@ export const SERVICES: Service[] = [
       { value: "Eigene", label: "Maschinenflotte" },
       { value: "Nachhaltig", label: "Konzepte" },
     ],
-    photo: photoBauArbeit,
+    photo: "/Galabau-hero.jpg",
+  },
+  {
+    id: "tiefbau",
+    icon: Wrench,
+    title: "Tiefbau & Erdarbeiten",
+    kicker: "Bau · Erdarbeiten · Infrastruktur",
+    claim: "Präzise. Sicher. Vor Ort.",
+    headline: "Erdarbeiten, Gräben und Bauvorbereitung mit sauberem Ablauf.",
+    description:
+      "DHANSA übernimmt professionelle Erdarbeiten, Baugruben, Entwässerungsarbeiten und infrastrukturelle Vorbereitungen für Wohnbau, Gewerbe und öffentliche Projekte. Unser Team arbeitet sicher, termintreu und mit modernem Equipment.",
+    items: [
+      "Erdarbeiten – Aushub, Bodenabtrag, Baugruben und Geländemodellierung",
+      "Baugruben & Gründungsarbeiten – Vorbereitung für Fundamente und Gebäude",
+      "Abbrucharbeiten – kleinere Abbruch- und Rückbauarbeiten",
+      "Kanal- und Rohrleitungsbau – Verlegung von Leitungen und Schutzrohren",
+      "Entwässerungsarbeiten – Regenwasser- und Entwässerungsleitungen",
+      "Leitungsgräben – Vorbereitung und Verfüllung von Gräben für Versorgungsleitungen",
+      "Kabel- und Leerrohrbau – Gräben und Verlegung von Schutz-/Leerrohren",
+      "Pflaster- und Wegearbeiten – Gehwege, Zufahrten, Hofflächen und Außenanlagen",
+      "Hausanschlüsse – Erdarbeiten für Wasser, Strom, Telekommunikation etc.",
+      "Baggerarbeiten – mit Minibagger, Radlader und weiteren Geräten",
+      "Mehr auf Anfrage",
+    ],
+    subLinks: [
+      "Erdarbeiten Hamburg",
+      "Baugruben",
+      "Kanalbau",
+      "Entwässerung",
+      "Leitungsgräben",
+    ],
+    stats: [
+      { value: "Sicher", label: "Ausführung" },
+      { value: "Flexibel", label: "Projektgröße" },
+      { value: "Vor Ort", label: "Koordination" },
+    ],
+    photo: "/Tief-bau.jpeg",
   },
   {
     id: "winterdienst",
@@ -152,7 +185,7 @@ export const SERVICES: Service[] = [
     claim: "Flexibel. Zuverlässig. Für Sie da.",
     headline: "Sichere Wege an 365 Tagen.",
     description:
-      "Unser Winterdienst rückt vor 7 Uhr aus und hält Gehwege, Zufahrten und Parkflächen frei. Ergänzend kümmern wir uns ganzjährig als Hausmeister um Kontrollgänge, Kleinreparaturen und die Pflege Ihrer Immobilie.",
+      "Unser Winterdienst rückt vor 7 Uhr aus und hält Gehwege, Zufahrten und Parkflächen frei. Ergänzend kümmern wir uns ganzjährig als Hausmeister um Kontrollgänge, Kleinreparaturen und die Pflege Ihrer Immobilie. Wir sind Mo–So 24/7 erreichbar.",
     items: [
       "Räum- & Streudienst rund um die Uhr",
       "Gehwege, Parkplätze & Firmenzufahrten",
@@ -168,10 +201,10 @@ export const SERVICES: Service[] = [
     ],
     stats: [
       { value: "Vor 7 Uhr", label: "Einsatzbereit" },
+      { value: "Mo–So", label: "24/7" },
       { value: "365 Tage", label: "Im Jahr" },
-      { value: "Doku", label: "Per Einsatzprotokoll" },
     ],
-    photo: photoWinterDienst,
+    photo: "/src/assets/Winter-diesnt.jpeg",
   },
   {
     id: "personal",
@@ -200,7 +233,7 @@ export const SERVICES: Service[] = [
       { value: "0 €", label: "Erstberatung" },
       { value: "100 %", label: "Geprüfte Kräfte" },
     ],
-    photo: photoPersonal,
+    photo: "/src/assets/Personal.jpeg",
   },
 ];
 

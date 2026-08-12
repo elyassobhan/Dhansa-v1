@@ -1,10 +1,11 @@
 const PARTNER_MARKS = [
   { src: "/logo/logo-prowin-international-rgb.jpg", alt: "PROWIN" },
-  { src: "/logo/handwerkskammer-hamburg-logo.webp", alt: "Handwerkskammer Hamburg" },
   { src: "/logo/Kaercher_Logo.png", alt: "Kärcher" },
-  { src: "/logo/tork-logo.png", alt: "Tork" },
-  { src: "/logo/logo-shop.png", alt: "Logo Shop" },
-  { src: "/logo/bbc.png", alt: "BBC" },
+  { src: "/logo/bg-bau-logo.jpeg", alt: "BG Bau" },
+  { src: "/logo/handelskammer.png", alt: "Handelskammer Hamburg" },
+  { src: "/logo/handwerkskammer-hamburg-logo.webp", alt: "Handwerkskammer Hamburg" },
+  { src: "/logo/Bosch.webp", alt: "Bosch" },
+  { src: "/logo/makita_logo.webp", alt: "Makita" },
 ];
 
 function LogoBadge({ src, alt }: { src: string; alt: string }) {

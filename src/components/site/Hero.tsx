@@ -29,11 +29,7 @@ export function Hero() {
             24/7 Service · Hamburg &amp; Norddeutschland
           </div>
 
-          <p className="font-display text-base font-semibold uppercase tracking-widest text-primary-glow">
-            DHANSA Personal &amp; Dienstleistungen e.K.
-          </p>
-
-          <h1 className="mt-3 font-display text-5xl font-bold leading-[1.02] text-white sm:text-6xl lg:text-7xl">
+          <h1 className="font-display text-5xl font-bold leading-[1.02] text-white sm:text-6xl lg:text-7xl">
             Gründlichkeit ist
             <br />
             unser Standard.
@@ -43,8 +39,8 @@ export function Hero() {
           </p>
 
           <p className="mt-6 text-base leading-relaxed text-white/80 sm:text-lg">
-            Professionelle Gebäudereinigung, zuverlässige Umzüge &amp; Entrümpelungen,
-            Galabau, Winterdienst und Personal — alles aus einer Hand für Privat- und Gewerbekunden.
+            Professionelle Gebäudereinigung, zuverlässige Umzüge &amp; Entrümpelungen, Galabau,
+            Winterdienst und Personal — alles aus einer Hand für Privat- und Gewerbekunden.
           </p>
 
           <div className="mt-8 flex flex-wrap gap-3">

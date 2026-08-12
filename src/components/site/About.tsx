@@ -34,8 +34,8 @@ export function About() {
               <span className="text-primary">Norddeutscher Anspruch.</span>
             </h2>
             <p className="mt-5 text-base leading-relaxed text-muted-foreground sm:text-lg">
-              Als inhabergeführtes Unternehmen aus Hamburg verbinden wir die Bandbreite eines
-              Full-Service-Dienstleisters mit der Verbindlichkeit eines persönlichen Ansprechpartners.
+              Als inhabergeführtes Unternehmen aus Hamburg steht DHANSA Personal &amp; Dienstleistungen e.K.
+              für zuverlässige, professionelle und flexibel skalierbare Dienstleistungen aus einer Hand.
             </p>
           </div>
 
@@ -53,14 +53,23 @@ export function About() {
             {/* Left */}
             <div>
               <p className="text-base leading-relaxed text-muted-foreground sm:text-lg">
-                Was als kleines Hamburger Familienunternehmen begann, ist heute ein eingespieltes
-                Team mit eigener Fahrzeugflotte und festen Ansprechpartnern. Reinigung, Umzüge,
-                Galabau, Winterdienst und Personal — zuverlässig aus einer Hand.
+                Als inhabergeführtes Unternehmen aus Hamburg steht DHANSA Personal &amp; Dienstleistungen e.K.
+                für zuverlässige, professionelle und flexibel skalierbare Dienstleistungen aus einer Hand.
               </p>
               <p className="mt-4 text-base leading-relaxed text-muted-foreground sm:text-lg">
-                Unser Versprechen: Termine, die gehalten werden. Qualität, die nachvollziehbar
-                dokumentiert wird. Und ein direkter Kontakt, den Sie nicht erst über eine Hotline
-                suchen müssen.
+                Unser junges, dynamisches Team arbeitet engagiert, lösungsorientiert und mit einem hohen
+                Anspruch an Qualität und Zuverlässigkeit. Wir unterstützen Unternehmen, Gewerbekunden und
+                öffentliche Auftraggeber bei der effizienten Umsetzung unterschiedlichster Projekte und
+                übernehmen dabei Verantwortung von der Planung bis zur Ausführung.
+              </p>
+              <p className="mt-4 text-base leading-relaxed text-muted-foreground sm:text-lg">
+                Durch klare Abläufe, persönliche Ansprechpartner und eine flexible Einsatzplanung
+                gewährleisten wir eine termingerechte und professionelle Umsetzung. Dabei verstehen wir
+                uns nicht nur als Dienstleister, sondern als verlässlicher Partner, der sich an den
+                individuellen Anforderungen unserer Kunden orientiert.
+              </p>
+              <p className="mt-4 text-base leading-relaxed text-muted-foreground sm:text-lg">
+                DHANSA – professionelle Dienstleistungen. Persönlich. Zuverlässig. Leistungsstark.
               </p>
 
               <div className="mt-6 flex items-center gap-2 text-sm text-muted-foreground">
@@ -116,7 +125,7 @@ export function About() {
                   <span className="font-display text-sm font-semibold">Notfall am Wochenende?</span>
                 </div>
                 <p className="text-sm leading-relaxed opacity-90">
-                  Wir sind 365 Tage erreichbar — auch nachts und sonntags.
+                  Wir sind 365 Tage erreichbar — Mo–So 24/7.
                 </p>
                 <Button asChild variant="glass" size="pill" className="mt-4">
                   <a href={COMPANY.phoneHref}><Phone className="size-4" />{COMPANY.phone}</a>

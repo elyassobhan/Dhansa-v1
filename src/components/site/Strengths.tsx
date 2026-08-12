@@ -41,10 +41,10 @@ export function Strengths() {
 
             {/* Photo grid */}
             <div className="grid grid-cols-2 gap-3">
-              <img src={PHOTO_ASSETS.photo02} alt="DHANSA Team" className="rounded-2xl object-cover w-full h-52" />
-              <img src={PHOTO_ASSETS.photo05} alt="DHANSA Leistungen" className="rounded-2xl object-cover w-full h-52 mt-8" />
-              <img src={PHOTO_ASSETS.photo06} alt="DHANSA Hamburg" className="rounded-2xl object-cover w-full h-44" />
-              <img src={PHOTO_ASSETS.photo08} alt="DHANSA Service" className="rounded-2xl object-cover w-full h-44 mt-4" />
+              <img src="/Galabau-hero.jpg" alt="DHANSA Galabau" className="rounded-2xl object-cover w-full h-52" />
+              <img src={PHOTO_ASSETS.photo02} alt="DHANSA Gebäudereinigung" className="rounded-2xl object-cover w-full h-52 mt-8" />
+              <img src={PHOTO_ASSETS.photo06} alt="DHANSA Umzug" className="rounded-2xl object-cover w-full h-44" />
+              <img src={PHOTO_ASSETS.photo07} alt="DHANSA Winterdienst" className="rounded-2xl object-cover w-full h-44 mt-4" />
             </div>
           </div>
         </div>

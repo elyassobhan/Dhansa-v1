@@ -55,7 +55,23 @@ const SCHEMES = [
     ctaSecondary: "glassOutline",
   },
   {
-    // 04 Winterdienst — sky blue bg, dark text
+    // 04 Tiefbau & Erdarbeiten — stone blue bg, dark text
+    section: "bg-slate-100 text-foreground",
+    badge: "bg-primary/10 text-primary border border-primary/20",
+    numColor: "text-primary/15",
+    titleColor: "text-foreground",
+    claimColor: "text-primary",
+    descColor: "text-muted-foreground",
+    checkBg: "bg-primary text-white",
+    tagBg: "bg-white border border-primary/20 text-primary",
+    photoBg: "from-primary-deep/90 via-primary/40 to-transparent",
+    statBorder: "border-primary/20 bg-white/80",
+    eyebrowColor: "text-primary",
+    ctaPrimary: "hero",
+    ctaSecondary: "outline",
+  },
+  {
+    // 05 Winterdienst — sky blue bg, dark text
     section: "bg-blue-light",
     badge: "bg-primary/10 text-primary border border-primary/20",
     numColor: "text-primary/15",
@@ -71,7 +87,7 @@ const SCHEMES = [
     ctaSecondary: "outline",
   },
   {
-    // 05 Personal — navy gradient bg, white text
+    // 06 Personal — navy gradient bg, white text
     section: "bg-navy text-white",
     badge: "bg-primary/30 text-white border border-primary/40",
     numColor: "text-white/8",
@@ -98,7 +114,7 @@ export function Services() {
         <div className="mx-auto max-w-3xl px-5">
           <p className="eyebrow">Unsere Leistungen</p>
           <h2 className="mt-4 font-display text-4xl font-bold leading-[1.08] text-foreground sm:text-5xl">
-            Fünf Bereiche. Ein Partner.
+            Sechs Bereiche. Ein Partner.
           </h2>
           <p className="mt-5 text-base leading-relaxed text-muted-foreground sm:text-lg">
             Jeder Bereich mit eigenem Team, eigener Ausrüstung und festem Ansprechpartner —
