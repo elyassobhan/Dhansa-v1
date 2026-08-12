@@ -19,273 +19,280 @@ var public_assets_data_default = {
 	"/Galabau-02.jpg": {
 		"type": "image/jpeg",
 		"etag": "\"6618e-wTwCB1ewferK6juhdKEa8mt2da8\"",
-		"mtime": "2026-08-12T13:11:45.377Z",
+		"mtime": "2026-08-12T13:15:13.726Z",
 		"size": 418190,
 		"path": "../public/Galabau-02.jpg"
 	},
-	"/favicon (1).ico": {
-		"type": "image/vnd.microsoft.icon",
-		"etag": "\"4f95-3RXc3p2mhEAs1WBwaIvE0Y0uu0Y\"",
-		"mtime": "2026-08-12T13:11:45.377Z",
-		"size": 20373,
-		"path": "../public/favicon (1).ico"
+	"/Tief-bau.jpeg": {
+		"type": "image/jpeg",
+		"etag": "\"437ca-ok3SkDs3VGLdwiiQuPu3vWRxGRg\"",
+		"mtime": "2026-08-12T13:15:13.727Z",
+		"size": 276426,
+		"path": "../public/Tief-bau.jpeg"
 	},
 	"/favicon-dhansa-white.svg": {
 		"type": "image/svg+xml",
 		"etag": "\"1d1-aKW8hn4Q86RGyzqeidJNOlMItfk\"",
-		"mtime": "2026-08-12T13:11:45.377Z",
+		"mtime": "2026-08-12T13:15:13.726Z",
 		"size": 465,
 		"path": "../public/favicon-dhansa-white.svg"
-	},
-	"/Galabau-03.jpg": {
-		"type": "image/jpeg",
-		"etag": "\"73bdb-T0QJt+pldulyGBzgPD4u/9OMFEk\"",
-		"mtime": "2026-08-12T13:11:45.377Z",
-		"size": 474075,
-		"path": "../public/Galabau-03.jpg"
-	},
-	"/robots.txt": {
-		"type": "text/plain; charset=utf-8",
-		"etag": "\"a0-CKGXSIe7TSsqDTmGm/nY1t/o5d0\"",
-		"mtime": "2026-08-12T13:11:45.377Z",
-		"size": 160,
-		"path": "../public/robots.txt"
-	},
-	"/Galabau-hero.jpg": {
-		"type": "image/jpeg",
-		"etag": "\"6f9f6-YArRK33VPTzWW0wlb9Axujv0r3g\"",
-		"mtime": "2026-08-12T13:11:45.377Z",
-		"size": 457206,
-		"path": "../public/Galabau-hero.jpg"
-	},
-	"/standorte-karte.html": {
-		"type": "text/html; charset=utf-8",
-		"etag": "\"337b-yLHt5uERLb/tgR3MwcnZ9XLxrFE\"",
-		"mtime": "2026-08-12T13:11:45.378Z",
-		"size": 13179,
-		"path": "../public/standorte-karte.html"
-	},
-	"/logo/bbc.png": {
-		"type": "image/png",
-		"etag": "\"147f-cX/2gCR1+tBrYx6JT4bx8sOFyI8\"",
-		"mtime": "2026-08-12T13:11:45.374Z",
-		"size": 5247,
-		"path": "../public/logo/bbc.png"
-	},
-	"/logo/bg-bau-logo.jpeg": {
-		"type": "image/jpeg",
-		"etag": "\"4801-wTvAcm+RsP6NEnGDTAQhTB+ETtE\"",
-		"mtime": "2026-08-12T13:11:45.375Z",
-		"size": 18433,
-		"path": "../public/logo/bg-bau-logo.jpeg"
-	},
-	"/logo/handwerkskammer-hamburg-logo.webp": {
-		"type": "image/webp",
-		"etag": "\"145c-AXvUq9VbqDxIz0a+qq9bRLxoJG8\"",
-		"mtime": "2026-08-12T13:11:45.375Z",
-		"size": 5212,
-		"path": "../public/logo/handwerkskammer-hamburg-logo.webp"
-	},
-	"/logo/Kaercher_Logo.png": {
-		"type": "image/png",
-		"etag": "\"c884-359mk6v+w+jqLD36XktUdF32jqM\"",
-		"mtime": "2026-08-12T13:11:45.374Z",
-		"size": 51332,
-		"path": "../public/logo/Kaercher_Logo.png"
-	},
-	"/logo/images.png": {
-		"type": "image/png",
-		"etag": "\"16ce-EHLT/2RdjZIXZhyme2TaCNdJoUU\"",
-		"mtime": "2026-08-12T13:11:45.374Z",
-		"size": 5838,
-		"path": "../public/logo/images.png"
-	},
-	"/logo/logo-shop.png": {
-		"type": "image/png",
-		"etag": "\"3d2a-mB7btM23w+dSfzxmA0czWPLqqAQ\"",
-		"mtime": "2026-08-12T13:11:45.374Z",
-		"size": 15658,
-		"path": "../public/logo/logo-shop.png"
-	},
-	"/logo/redbull.webp": {
-		"type": "image/webp",
-		"etag": "\"405a-Y/s0YgyV5qlHGDcDRcK7LNEGGaw\"",
-		"mtime": "2026-08-12T13:11:45.375Z",
-		"size": 16474,
-		"path": "../public/logo/redbull.webp"
-	},
-	"/logo/tork-logo.png": {
-		"type": "image/png",
-		"etag": "\"1c04-7k5cGeSoJLVaU0SHiwFszYpJQgk\"",
-		"mtime": "2026-08-12T13:11:45.375Z",
-		"size": 7172,
-		"path": "../public/logo/tork-logo.png"
-	},
-	"/logo/logo-prowin-international-rgb.jpg": {
-		"type": "image/jpeg",
-		"etag": "\"12cd5-7nCirYz3Bgg5IBvjFqJqiGy3X1c\"",
-		"mtime": "2026-08-12T13:11:45.374Z",
-		"size": 77013,
-		"path": "../public/logo/logo-prowin-international-rgb.jpg"
 	},
 	"/galabau-werk-01.jpeg": {
 		"type": "image/jpeg",
 		"etag": "\"3a899-Gwa4Z0+sNIo0GETCsQ1caG1/e10\"",
-		"mtime": "2026-08-12T13:11:45.378Z",
+		"mtime": "2026-08-12T13:15:13.727Z",
 		"size": 239769,
 		"path": "../public/galabau-werk-01.jpeg"
 	},
-	"/assets/Gebaeudereinung-03-L1ihJJmn.jpeg": {
-		"type": "image/jpeg",
-		"etag": "\"1e66a-ewzvP1bD3gzaQajdfKtO3XQ09S4\"",
-		"mtime": "2026-08-12T13:11:45.204Z",
-		"size": 124522,
-		"path": "../public/assets/Gebaeudereinung-03-L1ihJJmn.jpeg"
+	"/favicon (1).ico": {
+		"type": "image/vnd.microsoft.icon",
+		"etag": "\"4f95-3RXc3p2mhEAs1WBwaIvE0Y0uu0Y\"",
+		"mtime": "2026-08-12T13:15:13.726Z",
+		"size": 20373,
+		"path": "../public/favicon (1).ico"
 	},
-	"/assets/Gebaeudereinung-02-BZyHVPNJ.jpeg": {
+	"/standorte-karte.html": {
+		"type": "text/html; charset=utf-8",
+		"etag": "\"337b-yLHt5uERLb/tgR3MwcnZ9XLxrFE\"",
+		"mtime": "2026-08-12T13:15:13.727Z",
+		"size": 13179,
+		"path": "../public/standorte-karte.html"
+	},
+	"/robots.txt": {
+		"type": "text/plain; charset=utf-8",
+		"etag": "\"a0-CKGXSIe7TSsqDTmGm/nY1t/o5d0\"",
+		"mtime": "2026-08-12T13:15:13.727Z",
+		"size": 160,
+		"path": "../public/robots.txt"
+	},
+	"/logo/Kaercher_Logo.png": {
+		"type": "image/png",
+		"etag": "\"c884-359mk6v+w+jqLD36XktUdF32jqM\"",
+		"mtime": "2026-08-12T13:15:13.725Z",
+		"size": 51332,
+		"path": "../public/logo/Kaercher_Logo.png"
+	},
+	"/logo/bbc.png": {
+		"type": "image/png",
+		"etag": "\"147f-cX/2gCR1+tBrYx6JT4bx8sOFyI8\"",
+		"mtime": "2026-08-12T13:15:13.725Z",
+		"size": 5247,
+		"path": "../public/logo/bbc.png"
+	},
+	"/logo/handwerkskammer-hamburg-logo.webp": {
+		"type": "image/webp",
+		"etag": "\"145c-AXvUq9VbqDxIz0a+qq9bRLxoJG8\"",
+		"mtime": "2026-08-12T13:15:13.725Z",
+		"size": 5212,
+		"path": "../public/logo/handwerkskammer-hamburg-logo.webp"
+	},
+	"/logo/bg-bau-logo.jpeg": {
 		"type": "image/jpeg",
-		"etag": "\"21a7e-x/xwfLAqREqjJFOwf6BhMir7xFc\"",
-		"mtime": "2026-08-12T13:11:45.204Z",
-		"size": 137854,
-		"path": "../public/assets/Gebaeudereinung-02-BZyHVPNJ.jpeg"
+		"etag": "\"4801-wTvAcm+RsP6NEnGDTAQhTB+ETtE\"",
+		"mtime": "2026-08-12T13:15:13.725Z",
+		"size": 18433,
+		"path": "../public/logo/bg-bau-logo.jpeg"
+	},
+	"/logo/images.png": {
+		"type": "image/png",
+		"etag": "\"16ce-EHLT/2RdjZIXZhyme2TaCNdJoUU\"",
+		"mtime": "2026-08-12T13:15:13.725Z",
+		"size": 5838,
+		"path": "../public/logo/images.png"
+	},
+	"/logo/logo-prowin-international-rgb.jpg": {
+		"type": "image/jpeg",
+		"etag": "\"12cd5-7nCirYz3Bgg5IBvjFqJqiGy3X1c\"",
+		"mtime": "2026-08-12T13:15:13.725Z",
+		"size": 77013,
+		"path": "../public/logo/logo-prowin-international-rgb.jpg"
 	},
 	"/map-svg-3.svg": {
 		"type": "image/svg+xml",
 		"etag": "\"5eb45-RHuVSOLpBPAriP7fhud1r/4A5IM\"",
-		"mtime": "2026-08-12T13:11:45.379Z",
+		"mtime": "2026-08-12T13:15:13.727Z",
 		"size": 387909,
 		"path": "../public/map-svg-3.svg"
 	},
-	"/assets/SiteFooter-WNJH9Dji.js": {
-		"type": "text/javascript; charset=utf-8",
-		"etag": "\"32bb-QjIz7+7loT17ofzgtaqt27N/UWw\"",
-		"mtime": "2026-08-12T13:11:45.203Z",
-		"size": 12987,
-		"path": "../public/assets/SiteFooter-WNJH9Dji.js"
+	"/logo/logo-shop.png": {
+		"type": "image/png",
+		"etag": "\"3d2a-mB7btM23w+dSfzxmA0czWPLqqAQ\"",
+		"mtime": "2026-08-12T13:15:13.725Z",
+		"size": 15658,
+		"path": "../public/logo/logo-shop.png"
 	},
-	"/assets/Personal-BBj7EZ-t.jpeg": {
-		"type": "image/jpeg",
-		"etag": "\"2b2d1-h8Dqd1Un5DYW3cSc7t1hO8NJSWg\"",
-		"mtime": "2026-08-12T13:11:45.204Z",
-		"size": 176849,
-		"path": "../public/assets/Personal-BBj7EZ-t.jpeg"
-	},
-	"/assets/Transport-umzug-D_Uyfnoo.jpeg": {
-		"type": "image/jpeg",
-		"etag": "\"3ba19-vqyqZWUfYd0UJtzmCh80DwSdY+E\"",
-		"mtime": "2026-08-12T13:11:45.204Z",
-		"size": 244249,
-		"path": "../public/assets/Transport-umzug-D_Uyfnoo.jpeg"
+	"/logo/tork-logo.png": {
+		"type": "image/png",
+		"etag": "\"1c04-7k5cGeSoJLVaU0SHiwFszYpJQgk\"",
+		"mtime": "2026-08-12T13:15:13.725Z",
+		"size": 7172,
+		"path": "../public/logo/tork-logo.png"
 	},
 	"/logo/vw.jpg": {
 		"type": "image/jpeg",
 		"etag": "\"17fd1-oguVFEMjX98xto0u2Lw88Gd9A+M\"",
-		"mtime": "2026-08-12T13:11:45.376Z",
+		"mtime": "2026-08-12T13:15:13.725Z",
 		"size": 98257,
 		"path": "../public/logo/vw.jpg"
+	},
+	"/Galabau-03.jpg": {
+		"type": "image/jpeg",
+		"etag": "\"73bdb-T0QJt+pldulyGBzgPD4u/9OMFEk\"",
+		"mtime": "2026-08-12T13:15:13.726Z",
+		"size": 474075,
+		"path": "../public/Galabau-03.jpg"
+	},
+	"/Galabau-hero.jpg": {
+		"type": "image/jpeg",
+		"etag": "\"6f9f6-YArRK33VPTzWW0wlb9Axujv0r3g\"",
+		"mtime": "2026-08-12T13:15:13.726Z",
+		"size": 457206,
+		"path": "../public/Galabau-hero.jpg"
+	},
+	"/logo/redbull.webp": {
+		"type": "image/webp",
+		"etag": "\"405a-Y/s0YgyV5qlHGDcDRcK7LNEGGaw\"",
+		"mtime": "2026-08-12T13:15:13.725Z",
+		"size": 16474,
+		"path": "../public/logo/redbull.webp"
+	},
+	"/assets/Gebaeudereinung-02-BZyHVPNJ.jpeg": {
+		"type": "image/jpeg",
+		"etag": "\"21a7e-x/xwfLAqREqjJFOwf6BhMir7xFc\"",
+		"mtime": "2026-08-12T13:15:13.559Z",
+		"size": 137854,
+		"path": "../public/assets/Gebaeudereinung-02-BZyHVPNJ.jpeg"
+	},
+	"/assets/Gebaeudereinung-03-L1ihJJmn.jpeg": {
+		"type": "image/jpeg",
+		"etag": "\"1e66a-ewzvP1bD3gzaQajdfKtO3XQ09S4\"",
+		"mtime": "2026-08-12T13:15:13.559Z",
+		"size": 124522,
+		"path": "../public/assets/Gebaeudereinung-03-L1ihJJmn.jpeg"
+	},
+	"/assets/SiteFooter-WNJH9Dji.js": {
+		"type": "text/javascript; charset=utf-8",
+		"etag": "\"32bb-QjIz7+7loT17ofzgtaqt27N/UWw\"",
+		"mtime": "2026-08-12T13:15:13.558Z",
+		"size": 12987,
+		"path": "../public/assets/SiteFooter-WNJH9Dji.js"
 	},
 	"/Galabau-01.jpg": {
 		"type": "image/jpeg",
 		"etag": "\"803c7-Bijdrc6Xsvjn7AA9Z8NCO/hoH+A\"",
-		"mtime": "2026-08-12T13:11:45.377Z",
+		"mtime": "2026-08-12T13:15:13.726Z",
 		"size": 525255,
 		"path": "../public/Galabau-01.jpg"
 	},
-	"/assets/Winter-diesnt-02-DBZrW7SX.jpeg": {
+	"/assets/Personal-BBj7EZ-t.jpeg": {
 		"type": "image/jpeg",
-		"etag": "\"2d807-AM3MEeqXVuif53Z7mt0HJezp/eQ\"",
-		"mtime": "2026-08-12T13:11:45.205Z",
-		"size": 186375,
-		"path": "../public/assets/Winter-diesnt-02-DBZrW7SX.jpeg"
-	},
-	"/assets/Winter-diesnt-MTSFmDUY.jpeg": {
-		"type": "image/jpeg",
-		"etag": "\"391ba-022+pDu8LZEtPxvDKhSUwIhkRPY\"",
-		"mtime": "2026-08-12T13:11:45.205Z",
-		"size": 233914,
-		"path": "../public/assets/Winter-diesnt-MTSFmDUY.jpeg"
-	},
-	"/assets/_serviceId-C8vybMq-.js": {
-		"type": "text/javascript; charset=utf-8",
-		"etag": "\"45c1-VswA2Ito1CjogJoszSd26AHliJI\"",
-		"mtime": "2026-08-12T13:11:45.203Z",
-		"size": 17857,
-		"path": "../public/assets/_serviceId-C8vybMq-.js"
+		"etag": "\"2b2d1-h8Dqd1Un5DYW3cSc7t1hO8NJSWg\"",
+		"mtime": "2026-08-12T13:15:13.559Z",
+		"size": 176849,
+		"path": "../public/assets/Personal-BBj7EZ-t.jpeg"
 	},
 	"/assets/accordion-isGlUkdj.js": {
 		"type": "text/javascript; charset=utf-8",
 		"etag": "\"59e2-K18RpmFeP0osRwidRXl5OycjShU\"",
-		"mtime": "2026-08-12T13:11:45.203Z",
+		"mtime": "2026-08-12T13:15:13.558Z",
 		"size": 23010,
 		"path": "../public/assets/accordion-isGlUkdj.js"
-	},
-	"/assets/bau-arbeit-DJPq5Afd.jpeg": {
-		"type": "image/jpeg",
-		"etag": "\"437ca-ok3SkDs3VGLdwiiQuPu3vWRxGRg\"",
-		"mtime": "2026-08-12T13:11:45.205Z",
-		"size": 276426,
-		"path": "../public/assets/bau-arbeit-DJPq5Afd.jpeg"
-	},
-	"/assets/datenschutz-BEk7SJrz.js": {
-		"type": "text/javascript; charset=utf-8",
-		"etag": "\"a4e-nO27XUGhLdlLAaqp57aAOnuzLqc\"",
-		"mtime": "2026-08-12T13:11:45.204Z",
-		"size": 2638,
-		"path": "../public/assets/datenschutz-BEk7SJrz.js"
 	},
 	"/assets/agb-CXNZ78Hd.js": {
 		"type": "text/javascript; charset=utf-8",
 		"etag": "\"a00-ho8QIxi6d1yZp6FQXxUXE2pISJ0\"",
-		"mtime": "2026-08-12T13:11:45.204Z",
+		"mtime": "2026-08-12T13:15:13.558Z",
 		"size": 2560,
 		"path": "../public/assets/agb-CXNZ78Hd.js"
+	},
+	"/assets/Winter-diesnt-02-DBZrW7SX.jpeg": {
+		"type": "image/jpeg",
+		"etag": "\"2d807-AM3MEeqXVuif53Z7mt0HJezp/eQ\"",
+		"mtime": "2026-08-12T13:15:13.559Z",
+		"size": 186375,
+		"path": "../public/assets/Winter-diesnt-02-DBZrW7SX.jpeg"
+	},
+	"/assets/datenschutz-BEk7SJrz.js": {
+		"type": "text/javascript; charset=utf-8",
+		"etag": "\"a4e-nO27XUGhLdlLAaqp57aAOnuzLqc\"",
+		"mtime": "2026-08-12T13:15:13.559Z",
+		"size": 2638,
+		"path": "../public/assets/datenschutz-BEk7SJrz.js"
+	},
+	"/assets/Transport-umzug-D_Uyfnoo.jpeg": {
+		"type": "image/jpeg",
+		"etag": "\"3ba19-vqyqZWUfYd0UJtzmCh80DwSdY+E\"",
+		"mtime": "2026-08-12T13:15:13.559Z",
+		"size": 244249,
+		"path": "../public/assets/Transport-umzug-D_Uyfnoo.jpeg"
 	},
 	"/assets/impressum-CL0uSmw2.js": {
 		"type": "text/javascript; charset=utf-8",
 		"etag": "\"804-13eDwquHCIx01NPR7U0BRRDsZSU\"",
-		"mtime": "2026-08-12T13:11:45.204Z",
+		"mtime": "2026-08-12T13:15:13.559Z",
 		"size": 2052,
 		"path": "../public/assets/impressum-CL0uSmw2.js"
 	},
-	"/assets/index-Coewd1nL.js": {
-		"type": "text/javascript; charset=utf-8",
-		"etag": "\"6176a-P6S5woBkz5AM4PdUaPxwK3Gk8XE\"",
-		"mtime": "2026-08-12T13:11:45.203Z",
-		"size": 399210,
-		"path": "../public/assets/index-Coewd1nL.js"
+	"/assets/bau-arbeit-DJPq5Afd.jpeg": {
+		"type": "image/jpeg",
+		"etag": "\"437ca-ok3SkDs3VGLdwiiQuPu3vWRxGRg\"",
+		"mtime": "2026-08-12T13:15:13.560Z",
+		"size": 276426,
+		"path": "../public/assets/bau-arbeit-DJPq5Afd.jpeg"
 	},
-	"/assets/logo-BUq-wfXe.png": {
-		"type": "image/png",
-		"etag": "\"6987-Lbzgztl36XaIWSljfoPPQzWy7FA\"",
-		"mtime": "2026-08-12T13:11:45.208Z",
-		"size": 27015,
-		"path": "../public/assets/logo-BUq-wfXe.png"
+	"/assets/_serviceId-C8vybMq-.js": {
+		"type": "text/javascript; charset=utf-8",
+		"etag": "\"45c1-VswA2Ito1CjogJoszSd26AHliJI\"",
+		"mtime": "2026-08-12T13:15:13.558Z",
+		"size": 17857,
+		"path": "../public/assets/_serviceId-C8vybMq-.js"
+	},
+	"/assets/Winter-diesnt-MTSFmDUY.jpeg": {
+		"type": "image/jpeg",
+		"etag": "\"391ba-022+pDu8LZEtPxvDKhSUwIhkRPY\"",
+		"mtime": "2026-08-12T13:15:13.559Z",
+		"size": 233914,
+		"path": "../public/assets/Winter-diesnt-MTSFmDUY.jpeg"
 	},
 	"/assets/routes-DYihsLmw.js": {
 		"type": "text/javascript; charset=utf-8",
 		"etag": "\"14b77-Deu0fFsAwKfIIel3bw/yCUCW7zA\"",
-		"mtime": "2026-08-12T13:11:45.204Z",
+		"mtime": "2026-08-12T13:15:13.559Z",
 		"size": 84855,
 		"path": "../public/assets/routes-DYihsLmw.js"
 	},
-	"/assets/strasse-bau-CZavTSN8.jpeg": {
-		"type": "image/jpeg",
-		"etag": "\"3a899-Gwa4Z0+sNIo0GETCsQ1caG1/e10\"",
-		"mtime": "2026-08-12T13:11:45.208Z",
-		"size": 239769,
-		"path": "../public/assets/strasse-bau-CZavTSN8.jpeg"
+	"/assets/logo-BUq-wfXe.png": {
+		"type": "image/png",
+		"etag": "\"6987-Lbzgztl36XaIWSljfoPPQzWy7FA\"",
+		"mtime": "2026-08-12T13:15:13.562Z",
+		"size": 27015,
+		"path": "../public/assets/logo-BUq-wfXe.png"
 	},
 	"/assets/styles-DKjycWuN.css": {
 		"type": "text/css; charset=utf-8",
 		"etag": "\"19917-Qudgm6nbbbUs9cs9ObZMWJ7pq7M\"",
-		"mtime": "2026-08-12T13:11:45.208Z",
+		"mtime": "2026-08-12T13:15:13.562Z",
 		"size": 104727,
 		"path": "../public/assets/styles-DKjycWuN.css"
+	},
+	"/assets/strasse-bau-CZavTSN8.jpeg": {
+		"type": "image/jpeg",
+		"etag": "\"3a899-Gwa4Z0+sNIo0GETCsQ1caG1/e10\"",
+		"mtime": "2026-08-12T13:15:13.562Z",
+		"size": 239769,
+		"path": "../public/assets/strasse-bau-CZavTSN8.jpeg"
+	},
+	"/assets/index-Coewd1nL.js": {
+		"type": "text/javascript; charset=utf-8",
+		"etag": "\"6176a-P6S5woBkz5AM4PdUaPxwK3Gk8XE\"",
+		"mtime": "2026-08-12T13:15:13.558Z",
+		"size": 399210,
+		"path": "../public/assets/index-Coewd1nL.js"
 	},
 	"/assets/elb-Bnq1FDqK.mp4": {
 		"type": "video/mp4",
 		"etag": "\"f9eaa5-VyeAV4qJIiGF6J1YcOyFSNRTg38\"",
-		"mtime": "2026-08-12T13:11:45.207Z",
+		"mtime": "2026-08-12T13:15:13.561Z",
 		"size": 16378533,
 		"path": "../public/assets/elb-Bnq1FDqK.mp4"
 	}
