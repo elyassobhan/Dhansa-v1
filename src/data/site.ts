@@ -6,6 +6,15 @@ import {
   Wrench,
   type LucideIcon,
 } from "lucide-react";
+import photoBauArbeit from "@/assets/bau-arbeit.jpeg";
+import photoGebaeudereinung02 from "@/assets/Gebaeudereinung-02.jpeg";
+import photoStrasseBau from "@/assets/strasse-bau.jpeg";
+import photoGebaeudereinung03 from "@/assets/Gebaeudereinung-03.jpeg";
+import photoPersonal from "@/assets/Personal.jpeg";
+import photoTransportUmzug from "@/assets/Transport-umzug.jpeg";
+import photoWinterDienst from "@/assets/Winter-diesnt.jpeg";
+import photoWinterDienst02 from "@/assets/Winter-diesnt-02.jpeg";
+import photoWinterDienst03 from "@/assets/Winter-diesnt-03.jpeg";
 
 export const COMPANY = {
   name: "DHANSA",
@@ -22,15 +31,15 @@ export const COMPANY = {
 };
 
 export const PHOTO_ASSETS = {
-  photo01: "/src/assets/bau-arbeit.jpeg",
-  photo02: "/src/assets/Gebaeudereinung-02.jpeg",
-  photo03: "/src/assets/strasse-bau.jpeg",
-  photo04: "/src/assets/Gebaeudereinung-03.jpeg",
-  photo05: "/src/assets/Personal.jpeg",
-  photo06: "/src/assets/Transport-umzug.jpeg",
-  photo07: "/src/assets/Winter-diesnt.jpeg",
-  photo08: "/src/assets/Winter-diesnt-02.jpeg",
-  photo09: "/src/assets/Winter-diesnt-03.jpeg",
+  photo01: photoBauArbeit,
+  photo02: photoGebaeudereinung02,
+  photo03: photoStrasseBau,
+  photo04: photoGebaeudereinung03,
+  photo05: photoPersonal,
+  photo06: photoTransportUmzug,
+  photo07: photoWinterDienst,
+  photo08: photoWinterDienst02,
+  photo09: photoWinterDienst03,
 } as const;
 
 export type Service = {
@@ -75,7 +84,7 @@ export const SERVICES: Service[] = [
       { value: "Fest", label: "Ansprechpartner" },
       { value: "Doku", label: "Nach jedem Einsatz" },
     ],
-    photo: "/src/assets/Gebaeudereinung-02.jpeg",
+    photo: photoGebaeudereinung02,
   },
   {
     id: "umzug",
@@ -104,7 +113,7 @@ export const SERVICES: Service[] = [
       { value: "100 %", label: "Versichert" },
       { value: "0 €", label: "Erstberatung" },
     ],
-    photo: "/src/assets/Transport-umzug.jpeg",
+    photo: photoTransportUmzug,
   },
   {
     id: "galabau",
@@ -133,7 +142,7 @@ export const SERVICES: Service[] = [
       { value: "Eigene", label: "Maschinenflotte" },
       { value: "Nachhaltig", label: "Konzepte" },
     ],
-    photo: "/src/assets/bau-arbeit.jpeg",
+    photo: photoBauArbeit,
   },
   {
     id: "winterdienst",
@@ -162,7 +171,7 @@ export const SERVICES: Service[] = [
       { value: "365 Tage", label: "Im Jahr" },
       { value: "Doku", label: "Per Einsatzprotokoll" },
     ],
-    photo: "/src/assets/Winter-diesnt.jpeg",
+    photo: photoWinterDienst,
   },
   {
     id: "personal",
@@ -191,7 +200,7 @@ export const SERVICES: Service[] = [
       { value: "0 €", label: "Erstberatung" },
       { value: "100 %", label: "Geprüfte Kräfte" },
     ],
-    photo: "/src/assets/Personal.jpeg",
+    photo: photoPersonal,
   },
 ];
 
