@@ -13,6 +13,7 @@ import { Route as IndexRouteImport } from './routes/index'
 import { Route as AgbRouteImport } from './routes/agb'
 import { Route as DatenschutzRouteImport } from './routes/datenschutz'
 import { Route as ImpressumRouteImport } from './routes/impressum'
+import { Route as KarriereRouteImport } from './routes/karriere'
 import { Route as LeistungenServiceIdRouteImport } from './routes/leistungen/$serviceId'
 
 const IndexRoute = IndexRouteImport.update({
@@ -35,6 +36,11 @@ const ImpressumRoute = ImpressumRouteImport.update({
   path: '/impressum',
   getParentRoute: () => rootRouteImport,
 } as any)
+const KarriereRoute = KarriereRouteImport.update({
+  id: '/karriere',
+  path: '/karriere',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const LeistungenServiceIdRoute = LeistungenServiceIdRouteImport.update({
   id: '/leistungen/$serviceId',
   path: '/leistungen/$serviceId',
@@ -46,6 +52,7 @@ export interface FileRoutesByFullPath {
   '/agb': typeof AgbRoute
   '/datenschutz': typeof DatenschutzRoute
   '/impressum': typeof ImpressumRoute
+  '/karriere': typeof KarriereRoute
   '/leistungen/$serviceId': typeof LeistungenServiceIdRoute
 }
 export interface FileRoutesByTo {
@@ -53,6 +60,7 @@ export interface FileRoutesByTo {
   '/agb': typeof AgbRoute
   '/datenschutz': typeof DatenschutzRoute
   '/impressum': typeof ImpressumRoute
+  '/karriere': typeof KarriereRoute
   '/leistungen/$serviceId': typeof LeistungenServiceIdRoute
 }
 export interface FileRoutesById {
@@ -61,20 +69,33 @@ export interface FileRoutesById {
   '/agb': typeof AgbRoute
   '/datenschutz': typeof DatenschutzRoute
   '/impressum': typeof ImpressumRoute
+  '/karriere': typeof KarriereRoute
   '/leistungen/$serviceId': typeof LeistungenServiceIdRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
   fullPaths:
-    '/' | '/agb' | '/datenschutz' | '/impressum' | '/leistungen/$serviceId'
+    | '/'
+    | '/agb'
+    | '/datenschutz'
+    | '/impressum'
+    | '/karriere'
+    | '/leistungen/$serviceId'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/agb' | '/datenschutz' | '/impressum' | '/leistungen/$serviceId'
+  to:
+    | '/'
+    | '/agb'
+    | '/datenschutz'
+    | '/impressum'
+    | '/karriere'
+    | '/leistungen/$serviceId'
   id:
     | '__root__'
     | '/'
     | '/agb'
     | '/datenschutz'
     | '/impressum'
+    | '/karriere'
     | '/leistungen/$serviceId'
   fileRoutesById: FileRoutesById
 }
@@ -83,6 +104,7 @@ export interface RootRouteChildren {
   AgbRoute: typeof AgbRoute
   DatenschutzRoute: typeof DatenschutzRoute
   ImpressumRoute: typeof ImpressumRoute
+  KarriereRoute: typeof KarriereRoute
   LeistungenServiceIdRoute: typeof LeistungenServiceIdRoute
 }
 
@@ -116,6 +138,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof ImpressumRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/karriere': {
+      id: '/karriere'
+      path: '/karriere'
+      fullPath: '/karriere'
+      preLoaderRoute: typeof KarriereRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/leistungen/$serviceId': {
       id: '/leistungen/$serviceId'
       path: '/leistungen/$serviceId'
@@ -131,6 +160,7 @@ const rootRouteChildren: RootRouteChildren = {
   AgbRoute: AgbRoute,
   DatenschutzRoute: DatenschutzRoute,
   ImpressumRoute: ImpressumRoute,
+  KarriereRoute: KarriereRoute,
   LeistungenServiceIdRoute: LeistungenServiceIdRoute,
 }
 export const routeTree = rootRouteImport

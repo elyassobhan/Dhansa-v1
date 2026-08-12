@@ -1,7 +1,14 @@
-import { Phone, MessageCircle, Star } from "lucide-react";
+import { Phone, MessageCircle, Star, ShieldCheck, Clock3, Truck, Users } from "lucide-react";
 import { COMPANY, STATS_HERO } from "@/data/site";
 import { Button } from "@/components/ui/button";
 import heroVideo from "@/assets/elb.mp4";
+
+const FEATURE_PILLS = [
+  { icon: ShieldCheck, label: "Geprüfte Qualität" },
+  { icon: Clock3, label: "24/7 verfügbar" },
+  { icon: Truck, label: "Zuverlässige Logistik" },
+  { icon: Users, label: "Persönlicher Kontakt" },
+];
 
 export function Hero() {
   return (
@@ -30,17 +37,18 @@ export function Hero() {
           </div>
 
           <h1 className="font-display text-5xl font-bold leading-[1.02] text-white sm:text-6xl lg:text-7xl">
-            Gründlichkeit ist
+            Verlässliche Lösungen
             <br />
-            unser Standard.
+            für jeden Einsatz.
           </h1>
           <p className="mt-3 font-display text-2xl font-semibold text-primary-glow sm:text-3xl">
-            Verlässlichkeit unser Versprechen.
+            Professionell. Sicher. Persönlich.
           </p>
 
           <p className="mt-6 text-base leading-relaxed text-white/80 sm:text-lg">
-            Professionelle Gebäudereinigung, zuverlässige Umzüge &amp; Entrümpelungen, Galabau,
-            Winterdienst und Personal — alles aus einer Hand für Privat- und Gewerbekunden.
+            DHANSA verbindet Gebäudereinigung, Umzüge, Transport &amp; Logistik, Galabau,
+            Winterdienst und Personal in einem klaren, verlässlichen Service für Privat- und
+            Gewerbekunden in Hamburg.
           </p>
 
           <div className="mt-8 flex flex-wrap gap-3">
@@ -56,10 +64,22 @@ export function Hero() {
                 WhatsApp
               </a>
             </Button>
-            <Button asChild size="pill"
-              className="bg-white text-primary font-semibold hover:bg-white/90 rounded-full">
-              <a href="#kontakt">Angebot anfordern</a>
+            <Button asChild size="pill" className="rounded-full bg-white font-semibold text-primary hover:bg-white/90">
+              <a href="#kontakt">Angebot anfragen</a>
             </Button>
+            <Button asChild variant="outline" size="pill" className="border-white/25 bg-white/5 text-white hover:bg-white/10">
+              <a href="/karriere">Karriere</a>
+            </Button>
+          </div>
+
+          <div className="mt-7 flex flex-wrap items-center gap-4 text-xs uppercase tracking-[0.18em] text-white/65">
+            <span>Personal</span>
+            <span className="text-white/30">•</span>
+            <span>Reinigung</span>
+            <span className="text-white/30">•</span>
+            <span>Logistik</span>
+            <span className="text-white/30">•</span>
+            <span>Service</span>
           </div>
 
           {/* Google stars */}
@@ -75,7 +95,7 @@ export function Hero() {
         </div>
 
         {/* Stats row */}
-        <div className="mt-14 grid grid-cols-2 gap-3 sm:grid-cols-4 max-w-2xl">
+        <div className="mt-14 grid max-w-2xl grid-cols-2 gap-3 sm:grid-cols-4">
           {STATS_HERO.map((s) => (
             <div
               key={s.label}
@@ -87,6 +107,19 @@ export function Hero() {
           ))}
         </div>
 
+        <div className="mt-6 grid max-w-3xl gap-3 sm:grid-cols-2 xl:grid-cols-4">
+          {FEATURE_PILLS.map(({ icon: Icon, label }) => (
+            <div
+              key={label}
+              className="flex items-center gap-3 rounded-2xl border border-white/15 bg-white/5 px-4 py-3 backdrop-blur-sm"
+            >
+              <span className="grid size-9 place-items-center rounded-xl bg-primary/15 text-primary-glow">
+                <Icon className="size-4" />
+              </span>
+              <span className="text-sm font-medium text-white/85">{label}</span>
+            </div>
+          ))}
+        </div>
       </div>
     </section>
   );

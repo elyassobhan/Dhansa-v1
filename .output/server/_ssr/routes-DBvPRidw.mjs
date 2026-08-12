@@ -1,0 +1,2267 @@
+import { r as __toESM } from "../_runtime.mjs";
+import { l as require_jsx_runtime, u as require_react } from "../_libs/@radix-ui/react-accordion+[...].mjs";
+import { A as BadgeCheck, N as ArrowRight, S as Leaf, T as Clock3, _ as MessageCircle, a as Truck, b as MapPin, c as Star, f as ShieldCheck, h as Phone, i as Users, k as Briefcase, m as Quote, o as TrendingUp, p as Send, t as Zap, w as Clock, x as Mail, y as MapPinned } from "../_libs/lucide-react.mjs";
+import { t as cva } from "../_libs/class-variance-authority+clsx.mjs";
+import { g as Link } from "../_libs/@tanstack/react-router+[...].mjs";
+import { c as JOBS, d as SERVICES, f as STATS_HERO, h as cn, l as PHOTO_ASSETS, m as TRUST, n as Button, o as COMPANY, p as TESTIMONIALS, s as FAQS, u as PROCESS } from "./router-DybuYDG4.mjs";
+import { n as SiteHeader, t as SiteFooter } from "./SiteFooter-Hxl4iJ7Y.mjs";
+import { i as AccordionTrigger, n as AccordionContent, r as AccordionItem, t as Accordion } from "./accordion-yL1dBOAx.mjs";
+import { t as Root } from "../_libs/radix-ui__react-label.mjs";
+//#region node_modules/.nitro/vite/services/ssr/assets/routes-DBvPRidw.js
+var import_react = /* @__PURE__ */ __toESM(require_react());
+var import_jsx_runtime = require_jsx_runtime();
+var elb_default = "/assets/elb-Bnq1FDqK.mp4";
+var FEATURE_PILLS = [
+	{
+		icon: ShieldCheck,
+		label: "Geprüfte Qualität"
+	},
+	{
+		icon: Clock3,
+		label: "24/7 verfügbar"
+	},
+	{
+		icon: Truck,
+		label: "Zuverlässige Logistik"
+	},
+	{
+		icon: Users,
+		label: "Persönlicher Kontakt"
+	}
+];
+function Hero() {
+	return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("section", {
+		id: "home",
+		className: "relative isolate min-h-[100svh] overflow-hidden bg-ink",
+		children: [
+			/* @__PURE__ */ (0, import_jsx_runtime.jsx)("video", {
+				className: "absolute inset-0 size-full object-cover",
+				src: elb_default,
+				autoPlay: true,
+				muted: true,
+				loop: true,
+				playsInline: true,
+				preload: "metadata",
+				"aria-hidden": "true"
+			}),
+			/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { className: "absolute inset-0 bg-gradient-to-r from-ink/90 via-ink/60 to-ink/20" }),
+			/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { className: "absolute inset-x-0 bottom-0 h-32 bg-gradient-to-t from-ink to-transparent" }),
+			/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+				className: "relative mx-auto flex min-h-[100svh] max-w-7xl flex-col justify-center px-5 pb-16 pt-28 lg:px-8",
+				children: [
+					/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+						className: "max-w-2xl",
+						children: [
+							/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+								className: "mb-6 inline-flex items-center gap-2 rounded-full border border-white/25 bg-white/10 px-4 py-1.5 text-xs font-semibold text-white",
+								children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { className: "size-1.5 rounded-full bg-green-400" }), "24/7 Service · Hamburg & Norddeutschland"]
+							}),
+							/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("h1", {
+								className: "font-display text-5xl font-bold leading-[1.02] text-white sm:text-6xl lg:text-7xl",
+								children: [
+									"Verlässliche Lösungen",
+									/* @__PURE__ */ (0, import_jsx_runtime.jsx)("br", {}),
+									"für jeden Einsatz."
+								]
+							}),
+							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+								className: "mt-3 font-display text-2xl font-semibold text-primary-glow sm:text-3xl",
+								children: "Professionell. Sicher. Persönlich."
+							}),
+							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+								className: "mt-6 text-base leading-relaxed text-white/80 sm:text-lg",
+								children: "DHANSA verbindet Gebäudereinigung, Umzüge, Transport & Logistik, Galabau, Winterdienst und Personal in einem klaren, verlässlichen Service für Privat- und Gewerbekunden in Hamburg."
+							}),
+							/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+								className: "mt-8 flex flex-wrap gap-3",
+								children: [
+									/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Button, {
+										asChild: true,
+										variant: "hero",
+										size: "pill",
+										className: "shadow-blue",
+										children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("a", {
+											href: COMPANY.phoneHref,
+											children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Phone, { className: "size-4" }), "Jetzt anrufen"]
+										})
+									}),
+									/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Button, {
+										asChild: true,
+										variant: "whatsapp",
+										size: "pill",
+										children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("a", {
+											href: `https://wa.me/${COMPANY.whatsapp}`,
+											target: "_blank",
+											rel: "noopener noreferrer",
+											children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(MessageCircle, { className: "size-4" }), "WhatsApp"]
+										})
+									}),
+									/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Button, {
+										asChild: true,
+										size: "pill",
+										className: "rounded-full bg-white font-semibold text-primary hover:bg-white/90",
+										children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
+											href: "#kontakt",
+											children: "Angebot anfragen"
+										})
+									}),
+									/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Button, {
+										asChild: true,
+										variant: "outline",
+										size: "pill",
+										className: "border-white/25 bg-white/5 text-white hover:bg-white/10",
+										children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
+											href: "/karriere",
+											children: "Karriere"
+										})
+									})
+								]
+							}),
+							/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+								className: "mt-7 flex flex-wrap items-center gap-4 text-xs uppercase tracking-[0.18em] text-white/65",
+								children: [
+									/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "Personal" }),
+									/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+										className: "text-white/30",
+										children: "•"
+									}),
+									/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "Reinigung" }),
+									/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+										className: "text-white/30",
+										children: "•"
+									}),
+									/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "Logistik" }),
+									/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+										className: "text-white/30",
+										children: "•"
+									}),
+									/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "Service" })
+								]
+							}),
+							/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+								className: "mt-8 flex items-center gap-3",
+								children: [
+									/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+										className: "flex gap-0.5 text-yellow-400",
+										children: Array.from({ length: 5 }).map((_, i) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Star, { className: "size-4 fill-current" }, i))
+									}),
+									/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+										className: "text-sm font-semibold text-white",
+										children: "5.0 / 5"
+									}),
+									/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+										className: "text-sm text-white/60",
+										children: "Hervorragend auf Google bewertet"
+									})
+								]
+							})
+						]
+					}),
+					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+						className: "mt-14 grid max-w-2xl grid-cols-2 gap-3 sm:grid-cols-4",
+						children: STATS_HERO.map((s) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+							className: "rounded-2xl border border-white/20 bg-white/10 px-4 py-4 text-center",
+							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+								className: "font-display text-2xl font-bold text-white",
+								children: s.value
+							}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+								className: "mt-1 text-xs text-white/65",
+								children: s.label
+							})]
+						}, s.label))
+					}),
+					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+						className: "mt-6 grid max-w-3xl gap-3 sm:grid-cols-2 xl:grid-cols-4",
+						children: FEATURE_PILLS.map(({ icon: Icon, label }) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+							className: "flex items-center gap-3 rounded-2xl border border-white/15 bg-white/5 px-4 py-3 backdrop-blur-sm",
+							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+								className: "grid size-9 place-items-center rounded-xl bg-primary/15 text-primary-glow",
+								children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Icon, { className: "size-4" })
+							}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+								className: "text-sm font-medium text-white/85",
+								children: label
+							})]
+						}, label))
+					})
+				]
+			})
+		]
+	});
+}
+var PARTNER_MARKS = [
+	{
+		src: "/logo/logo-prowin-international-rgb.jpg",
+		alt: "PROWIN"
+	},
+	{
+		src: "/logo/Kaercher_Logo.png",
+		alt: "Kärcher"
+	},
+	{
+		src: "/logo/bg-bau-logo.jpeg",
+		alt: "BG Bau"
+	},
+	{
+		src: "/logo/handelskammer.png",
+		alt: "Handelskammer Hamburg"
+	},
+	{
+		src: "/logo/handwerkskammer-hamburg-logo.webp",
+		alt: "Handwerkskammer Hamburg"
+	},
+	{
+		src: "/logo/Bosch.webp",
+		alt: "Bosch"
+	},
+	{
+		src: "/logo/makita_logo.webp",
+		alt: "Makita"
+	}
+];
+function LogoBadge({ src, alt }) {
+	return /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+		className: "flex h-[92px] min-w-[180px] items-center justify-center rounded-2xl border border-slate-200 bg-white px-4 shadow-[0_10px_25px_-18px_rgba(15,23,42,0.35)] transition-transform duration-200 hover:-translate-y-0.5 sm:min-w-[220px]",
+		children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("img", {
+			src,
+			alt,
+			className: "max-h-[52px] w-auto max-w-[160px] object-contain opacity-90 sm:max-h-[60px] sm:max-w-[180px]"
+		})
+	});
+}
+function PartnerMarquee() {
+	const logos = [...PARTNER_MARKS, ...PARTNER_MARKS];
+	return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("section", {
+		className: "relative w-full overflow-hidden border-y border-slate-200 bg-[linear-gradient(180deg,#f8fbff_0%,#eff5ff_100%)] py-16 sm:py-20",
+		children: [
+			/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { className: "absolute inset-y-0 left-0 w-28 bg-gradient-to-r from-[#f8fbff] to-transparent" }),
+			/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { className: "absolute inset-y-0 right-0 w-28 bg-gradient-to-l from-[#f8fbff] to-transparent" }),
+			/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+				className: "relative w-full px-3 sm:px-5 lg:px-8",
+				children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+					className: "mx-auto mb-9 max-w-5xl text-center",
+					children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+						className: "eyebrow",
+						children: "Vertrauen aus Hamburg & Umgebung"
+					}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("h2", {
+						className: "mt-4 font-display text-3xl font-bold leading-tight text-slate-900 sm:text-4xl",
+						children: "Zuverlässig im Einsatz — in der Region und darüber hinaus."
+					})]
+				}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+					className: "relative overflow-hidden rounded-[28px] border border-slate-200 bg-white/80 p-3 shadow-soft backdrop-blur-sm sm:p-4",
+					children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+						className: "flex w-max animate-marquee gap-4 sm:gap-5",
+						children: logos.map((logo, idx) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(LogoBadge, {
+							src: logo.src,
+							alt: logo.alt
+						}, `${logo.alt}-${idx}`))
+					})
+				})]
+			})
+		]
+	});
+}
+var STATS = [
+	{
+		value: "5+",
+		label: "Jahre Erfahrung"
+	},
+	{
+		value: "100+",
+		label: "Zufriedene Kunden"
+	},
+	{
+		value: "24/7",
+		label: "Erreichbarkeit"
+	},
+	{
+		value: "40+",
+		label: "Mitarbeiter:innen"
+	}
+];
+var TRUST_ICONS = [
+	ShieldCheck,
+	BadgeCheck,
+	Users,
+	Leaf
+];
+var VALUES = [
+	{
+		icon: Zap,
+		title: "Schnelle Reaktion",
+		text: "Einsätze innerhalb von 24–48 Stunden organisiert."
+	},
+	{
+		icon: TrendingUp,
+		title: "Dokumentierte Qualität",
+		text: "Jeder Einsatz wird protokolliert und nachvollziehbar dokumentiert."
+	},
+	{
+		icon: Star,
+		title: "Persönlicher Kontakt",
+		text: "Kein Callcenter — ein fester Ansprechpartner für Sie."
+	},
+	{
+		icon: ShieldCheck,
+		title: "Voll versichert",
+		text: "Betriebs- und Haftpflichtversicherung für alle Leistungen."
+	},
+	{
+		icon: Users,
+		title: "Eigene Teams",
+		text: "Keine anonymen Subunternehmer — nur geprüfte Eigenmitarbeiter."
+	},
+	{
+		icon: Leaf,
+		title: "Nachhaltig",
+		text: "Umweltfreundliche Mittel und ressourcenschonende Prozesse."
+	}
+];
+function About() {
+	return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(import_jsx_runtime.Fragment, { children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("section", {
+		id: "ueber-uns",
+		className: "section bg-white",
+		children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+			className: "mx-auto max-w-7xl px-5 lg:px-8",
+			children: [
+				/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+					className: "mx-auto max-w-3xl text-center mb-16",
+					children: [
+						/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("p", {
+							className: "eyebrow",
+							children: ["Willkommen bei ", COMPANY.name]
+						}),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("h2", {
+							className: "mt-4 font-display text-4xl font-bold leading-[1.08] text-foreground sm:text-5xl",
+							children: [
+								"Hamburger Wurzeln.",
+								" ",
+								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+									className: "text-primary",
+									children: "Norddeutscher Anspruch."
+								})
+							]
+						}),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+							className: "mt-5 text-base leading-relaxed text-muted-foreground sm:text-lg",
+							children: "Als inhabergeführtes Unternehmen aus Hamburg steht DHANSA Personal & Dienstleistungen e.K. für zuverlässige, professionelle und flexibel skalierbare Dienstleistungen aus einer Hand."
+						})
+					]
+				}),
+				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+					className: "grid grid-cols-2 gap-4 sm:grid-cols-4 mb-16",
+					children: STATS.map((s) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+						className: "rounded-2xl border-2 border-primary/15 bg-blue-light-section p-6 text-center",
+						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+							className: "font-display text-3xl font-bold text-primary",
+							children: s.value
+						}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+							className: "mt-1 text-sm font-medium text-muted-foreground",
+							children: s.label
+						})]
+					}, s.label))
+				}),
+				/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+					className: "grid gap-14 lg:grid-cols-2 lg:gap-20 items-start",
+					children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { children: [
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+							className: "text-base leading-relaxed text-muted-foreground sm:text-lg",
+							children: "Als inhabergeführtes Unternehmen aus Hamburg steht DHANSA Personal & Dienstleistungen e.K. für zuverlässige, professionelle und flexibel skalierbare Dienstleistungen aus einer Hand."
+						}),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+							className: "mt-4 text-base leading-relaxed text-muted-foreground sm:text-lg",
+							children: "Unser junges, dynamisches Team arbeitet engagiert, lösungsorientiert und mit einem hohen Anspruch an Qualität und Zuverlässigkeit. Wir unterstützen Unternehmen, Gewerbekunden und öffentliche Auftraggeber bei der effizienten Umsetzung unterschiedlichster Projekte und übernehmen dabei Verantwortung von der Planung bis zur Ausführung."
+						}),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+							className: "mt-4 text-base leading-relaxed text-muted-foreground sm:text-lg",
+							children: "Durch klare Abläufe, persönliche Ansprechpartner und eine flexible Einsatzplanung gewährleisten wir eine termingerechte und professionelle Umsetzung. Dabei verstehen wir uns nicht nur als Dienstleister, sondern als verlässlicher Partner, der sich an den individuellen Anforderungen unserer Kunden orientiert."
+						}),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+							className: "mt-4 text-base leading-relaxed text-muted-foreground sm:text-lg",
+							children: "DHANSA – professionelle Dienstleistungen. Persönlich. Zuverlässig. Leistungsstark."
+						}),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+							className: "mt-6 flex items-center gap-2 text-sm text-muted-foreground",
+							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(MapPin, { className: "size-4 text-primary shrink-0" }), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", { children: [
+								"Hauptsitz ",
+								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("strong", {
+									className: "text-foreground",
+									children: "Hamburg"
+								}),
+								" · Einsatz in ganz Norddeutschland"
+							] })]
+						}),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+							className: "mt-8 flex flex-wrap gap-3",
+							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Button, {
+								asChild: true,
+								variant: "hero",
+								size: "pill",
+								className: "shadow-blue",
+								children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
+									href: "#kontakt",
+									children: "Jetzt Angebot anfordern"
+								})
+							}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Button, {
+								asChild: true,
+								variant: "outline",
+								size: "pill",
+								children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("a", {
+									href: COMPANY.phoneHref,
+									children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Phone, { className: "size-4" }), COMPANY.phone]
+								})
+							})]
+						}),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+							className: "mt-10 grid grid-cols-2 gap-3",
+							children: TRUST.map((t, i) => {
+								const Icon = TRUST_ICONS[i];
+								return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+									className: "flex items-center gap-3 rounded-2xl border border-border bg-white p-4 shadow-soft",
+									children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+										className: "grid size-10 shrink-0 place-items-center rounded-xl bg-primary/10",
+										children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Icon, { className: "size-5 text-primary" })
+									}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+										className: "text-sm font-semibold text-foreground",
+										children: t.title
+									}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+										className: "text-xs text-muted-foreground",
+										children: t.text
+									})] })]
+								}, t.title);
+							})
+						})
+					] }), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+						className: "flex flex-col gap-4",
+						children: [
+							/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+								className: "grid grid-cols-2 gap-4",
+								children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("img", {
+									src: PHOTO_ASSETS.photo01,
+									alt: "DHANSA Team",
+									className: "rounded-2xl object-cover w-full h-52"
+								}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("img", {
+									src: PHOTO_ASSETS.photo04,
+									alt: "DHANSA Leistungen",
+									className: "rounded-2xl object-cover w-full h-52"
+								})]
+							}),
+							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("img", {
+								src: PHOTO_ASSETS.photo07,
+								alt: "DHANSA Hamburg",
+								className: "rounded-2xl object-cover w-full h-48"
+							}),
+							/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+								className: "rounded-3xl gradient-primary p-6 text-white shadow-lift",
+								children: [
+									/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+										className: "flex items-center gap-2 mb-2",
+										children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Clock, { className: "size-4" }), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+											className: "font-display text-sm font-semibold",
+											children: "Notfall am Wochenende?"
+										})]
+									}),
+									/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+										className: "text-sm leading-relaxed opacity-90",
+										children: "Wir sind 365 Tage erreichbar — Mo–So 24/7."
+									}),
+									/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Button, {
+										asChild: true,
+										variant: "glass",
+										size: "pill",
+										className: "mt-4",
+										children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("a", {
+											href: COMPANY.phoneHref,
+											children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Phone, { className: "size-4" }), COMPANY.phone]
+										})
+									})
+								]
+							})
+						]
+					})]
+				})
+			]
+		})
+	}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("section", {
+		className: "section bg-blue-deep text-white",
+		children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+			className: "mx-auto max-w-7xl px-5 lg:px-8",
+			children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+				className: "mx-auto max-w-3xl text-center mb-14",
+				children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+					className: "eyebrow-white",
+					children: "Unsere Werte"
+				}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("h2", {
+					className: "mt-4 font-display text-4xl font-bold leading-[1.08] sm:text-5xl",
+					children: "Warum Kunden DHANSA vertrauen"
+				})]
+			}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+				className: "grid gap-4 sm:grid-cols-2 lg:grid-cols-3",
+				children: VALUES.map((v) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+					className: "rounded-2xl border border-white/10 bg-white/[0.07] p-6",
+					children: [
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+							className: "grid size-11 place-items-center rounded-xl bg-primary/30",
+							children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(v.icon, { className: "size-5 text-primary-glow" })
+						}),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h3", {
+							className: "mt-4 font-display text-base font-semibold text-white",
+							children: v.title
+						}),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+							className: "mt-2 text-sm leading-relaxed text-white/65",
+							children: v.text
+						})
+					]
+				}, v.title))
+			})]
+		})
+	})] });
+}
+var SCHEMES = [
+	{
+		section: "bg-white",
+		badge: "bg-primary/10 text-primary border border-primary/20",
+		numColor: "text-primary/20",
+		titleColor: "text-foreground",
+		claimColor: "text-primary",
+		descColor: "text-muted-foreground",
+		checkBg: "bg-primary text-white",
+		tagBg: "bg-blue-light-section border border-primary/20 text-primary",
+		photoBg: "from-primary-deep/90 via-primary/50 to-transparent",
+		statBorder: "border-white/25 bg-white/15",
+		eyebrowColor: "text-primary",
+		ctaPrimary: "hero",
+		ctaSecondary: "outline"
+	},
+	{
+		section: "bg-blue-deep text-white",
+		badge: "bg-white/10 text-white/80 border border-white/20",
+		numColor: "text-white/10",
+		titleColor: "text-white",
+		claimColor: "text-primary-glow",
+		descColor: "text-white/70",
+		checkBg: "bg-primary-glow/20 text-primary-glow border border-primary-glow/30",
+		tagBg: "bg-white/10 border border-white/20 text-white/80",
+		photoBg: "from-ink/90 via-ink/40 to-transparent",
+		statBorder: "border-white/20 bg-white/10",
+		eyebrowColor: "text-primary-glow",
+		ctaPrimary: "glass",
+		ctaSecondary: "glassOutline"
+	},
+	{
+		section: "bg-blue-deep text-white",
+		badge: "bg-white/10 text-white/80 border border-white/20",
+		numColor: "text-white/10",
+		titleColor: "text-white",
+		claimColor: "text-primary-glow",
+		descColor: "text-white/70",
+		checkBg: "bg-primary-glow/20 text-primary-glow border border-primary-glow/30",
+		tagBg: "bg-white/10 border border-white/20 text-white/80",
+		photoBg: "from-ink/90 via-ink/40 to-transparent",
+		statBorder: "border-white/20 bg-white/10",
+		eyebrowColor: "text-primary-glow",
+		ctaPrimary: "glass",
+		ctaSecondary: "glassOutline"
+	},
+	{
+		section: "bg-blue-mid text-white",
+		badge: "bg-white/15 text-white border border-white/25",
+		numColor: "text-white/10",
+		titleColor: "text-white",
+		claimColor: "text-yellow-300",
+		descColor: "text-white/75",
+		checkBg: "bg-white/20 text-white border border-white/30",
+		tagBg: "bg-white/15 border border-white/25 text-white",
+		photoBg: "from-primary-deep/95 via-primary-deep/50 to-transparent",
+		statBorder: "border-white/20 bg-white/15",
+		eyebrowColor: "text-yellow-300",
+		ctaPrimary: "glass",
+		ctaSecondary: "glassOutline"
+	},
+	{
+		section: "bg-slate-100 text-foreground",
+		badge: "bg-primary/10 text-primary border border-primary/20",
+		numColor: "text-primary/15",
+		titleColor: "text-foreground",
+		claimColor: "text-primary",
+		descColor: "text-muted-foreground",
+		checkBg: "bg-primary text-white",
+		tagBg: "bg-white border border-primary/20 text-primary",
+		photoBg: "from-primary-deep/90 via-primary/40 to-transparent",
+		statBorder: "border-primary/20 bg-white/80",
+		eyebrowColor: "text-primary",
+		ctaPrimary: "hero",
+		ctaSecondary: "outline"
+	},
+	{
+		section: "bg-blue-light",
+		badge: "bg-primary/10 text-primary border border-primary/20",
+		numColor: "text-primary/15",
+		titleColor: "text-foreground",
+		claimColor: "text-primary",
+		descColor: "text-muted-foreground",
+		checkBg: "bg-primary text-white",
+		tagBg: "bg-white border border-primary/20 text-primary",
+		photoBg: "from-primary-deep/90 via-primary/40 to-transparent",
+		statBorder: "border-primary/20 bg-white/80",
+		eyebrowColor: "text-primary",
+		ctaPrimary: "hero",
+		ctaSecondary: "outline"
+	},
+	{
+		section: "bg-navy text-white",
+		badge: "bg-primary/30 text-white border border-primary/40",
+		numColor: "text-white/8",
+		titleColor: "text-white",
+		claimColor: "text-primary-glow",
+		descColor: "text-white/70",
+		checkBg: "bg-primary text-white",
+		tagBg: "bg-white/10 border border-white/20 text-white/80",
+		photoBg: "from-ink/95 via-ink/50 to-transparent",
+		statBorder: "border-white/20 bg-white/10",
+		eyebrowColor: "text-primary-glow",
+		ctaPrimary: "glass",
+		ctaSecondary: "glassOutline"
+	}
+];
+function Services() {
+	const sectionRef = (0, import_react.useRef)(null);
+	return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+		id: "leistungen",
+		children: [
+			/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+				className: "bg-white py-20 text-center",
+				children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+					className: "mx-auto max-w-3xl px-5",
+					children: [
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+							className: "eyebrow",
+							children: "Unsere Leistungen"
+						}),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h2", {
+							className: "mt-4 font-display text-4xl font-bold leading-[1.08] text-foreground sm:text-5xl",
+							children: "Sieben Bereiche. Ein Partner."
+						}),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+							className: "mt-5 text-base leading-relaxed text-muted-foreground sm:text-lg",
+							children: "Jeder Bereich mit eigenem Team, eigener Ausrüstung und festem Ansprechpartner — verbunden durch ein Versprechen: Verlässlichkeit aus Hamburg."
+						}),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+							className: "mt-8 flex flex-wrap justify-center gap-2",
+							children: SERVICES.map((s, i) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("a", {
+								href: `#service-${s.id}`,
+								className: "inline-flex items-center gap-2 rounded-full border border-border bg-secondary px-4 py-2 text-sm font-semibold text-muted-foreground transition-all hover:border-primary hover:bg-primary hover:text-white",
+								children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", {
+									className: "text-xs opacity-50",
+									children: ["0", i + 1]
+								}), s.title]
+							}, s.id))
+						})
+					]
+				})
+			}),
+			/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+				ref: sectionRef,
+				children: SERVICES.map((service, i) => {
+					const sc = SCHEMES[i];
+					const isEven = i % 2 === 0;
+					return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("section", {
+						id: `service-${service.id}`,
+						className: `${sc.section} relative overflow-hidden`,
+						children: [
+							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+								className: `pointer-events-none absolute right-8 top-1/2 -translate-y-1/2 font-display text-[18rem] font-black leading-none select-none ${sc.numColor}`,
+								"aria-hidden": "true",
+								children: String(i + 1).padStart(2, "0")
+							}),
+							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+								className: "relative mx-auto max-w-7xl px-5 py-20 lg:px-8 lg:py-28",
+								children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+									className: `grid items-center gap-12 lg:grid-cols-2 lg:gap-20 ${!isEven ? "lg:[&>*:first-child]:order-2" : ""}`,
+									children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+										className: "group",
+										children: [
+											/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+												className: "mb-5 flex items-center gap-3",
+												children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", {
+													className: `inline-flex items-center gap-2 rounded-full px-3 py-1 text-xs font-bold ${sc.badge}`,
+													children: [
+														/* @__PURE__ */ (0, import_jsx_runtime.jsx)(service.icon, { className: "size-3.5" }),
+														"Bereich ",
+														String(i + 1).padStart(2, "0")
+													]
+												}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+													className: `text-xs font-semibold tracking-widest uppercase ${sc.eyebrowColor}`,
+													children: service.kicker
+												})]
+											}),
+											/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h2", {
+												className: `font-display text-4xl font-bold leading-tight sm:text-5xl lg:text-6xl ${sc.titleColor} transition-transform duration-500`,
+												children: service.title
+											}),
+											/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+												className: `mt-3 font-display text-xl font-semibold sm:text-2xl ${sc.claimColor}`,
+												children: service.claim
+											}),
+											/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+												className: `mt-5 text-base leading-relaxed sm:text-lg ${sc.descColor}`,
+												children: service.description
+											}),
+											/* @__PURE__ */ (0, import_jsx_runtime.jsx)("ul", {
+												className: "mt-8 grid gap-2.5 sm:grid-cols-2",
+												children: service.items.map((item) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("li", {
+													className: "flex items-start gap-3 transition-transform duration-200 hover:translate-x-1",
+													children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+														className: `mt-0.5 grid size-5 shrink-0 place-items-center rounded-full text-xs font-bold ${sc.checkBg}`,
+														children: "✓"
+													}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+														className: `text-sm font-medium ${sc.titleColor}`,
+														children: item
+													})]
+												}, item))
+											}),
+											/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+												className: "mt-6 flex flex-wrap gap-2",
+												children: service.subLinks.map((link) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+													className: `rounded-full px-3 py-1.5 text-xs font-semibold ${sc.tagBg}`,
+													children: link
+												}, link))
+											}),
+											/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+												className: "mt-8 flex flex-wrap gap-3",
+												children: service.stats.map((st) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+													className: `rounded-2xl border px-5 py-3 text-center ${sc.statBorder}`,
+													children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+														className: `font-display text-xl font-bold ${sc.titleColor}`,
+														children: st.value
+													}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+														className: `text-xs mt-0.5 ${sc.descColor}`,
+														children: st.label
+													})]
+												}, st.label))
+											}),
+											/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+												className: "mt-10 flex flex-wrap gap-3",
+												children: [
+													/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Button, {
+														asChild: true,
+														variant: sc.ctaPrimary,
+														size: "pill",
+														className: "shadow-blue transition-transform hover:-translate-y-0.5",
+														children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("a", {
+															href: "#kontakt",
+															children: ["Angebot anfordern", /* @__PURE__ */ (0, import_jsx_runtime.jsx)(ArrowRight, { className: "size-4" })]
+														})
+													}),
+													/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Button, {
+														asChild: true,
+														variant: sc.ctaSecondary,
+														size: "pill",
+														className: "transition-transform hover:-translate-y-0.5",
+														children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(Link, {
+															to: "/leistungen/$serviceId",
+															params: { serviceId: service.id },
+															children: ["Mehr erfahren", /* @__PURE__ */ (0, import_jsx_runtime.jsx)(ArrowRight, { className: "size-4" })]
+														})
+													}),
+													/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Button, {
+														asChild: true,
+														variant: "ghost",
+														size: "pill",
+														className: `transition-transform hover:-translate-y-0.5 ${i % 2 !== 0 ? "text-white hover:bg-white/10" : ""}`,
+														children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("a", {
+															href: COMPANY.phoneHref,
+															children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Phone, { className: "size-4" }), COMPANY.phone]
+														})
+													})
+												]
+											})
+										]
+									}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+										className: "relative",
+										children: [
+											/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { className: "absolute -inset-4 rounded-3xl border-2 border-white/10 opacity-0 transition-opacity duration-500 group-hover:opacity-100" }),
+											/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+												className: "relative overflow-hidden rounded-3xl shadow-lift",
+												children: [
+													/* @__PURE__ */ (0, import_jsx_runtime.jsx)("img", {
+														src: service.photo,
+														alt: service.title,
+														className: "h-[420px] w-full object-cover transition-transform duration-700 hover:scale-105 lg:h-[520px]"
+													}),
+													/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { className: `absolute inset-0 bg-gradient-to-t ${sc.photoBg}` }),
+													/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+														className: "absolute bottom-0 inset-x-0 p-7",
+														children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+															className: "flex items-center gap-3 mb-4",
+															children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+																className: "grid size-10 place-items-center rounded-xl bg-white/20",
+																children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(service.icon, { className: "size-5 text-white" })
+															}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+																className: "font-display text-lg font-bold text-white",
+																children: service.claim
+															})]
+														}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+															className: "grid grid-cols-3 gap-2",
+															children: service.stats.map((st) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+																className: "rounded-xl border border-white/20 bg-white/15 p-3 text-center backdrop-blur-sm",
+																children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+																	className: "font-display text-base font-bold text-white",
+																	children: st.value
+																}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+																	className: "text-xs text-white/70 mt-0.5",
+																	children: st.label
+																})]
+															}, st.label))
+														})]
+													})
+												]
+											}),
+											/* @__PURE__ */ (0, import_jsx_runtime.jsxs)(Link, {
+												to: "/leistungen/$serviceId",
+												params: { serviceId: service.id },
+												className: "absolute -top-4 -right-4 flex items-center gap-2 rounded-2xl bg-white px-4 py-2.5 text-sm font-bold text-primary shadow-lift transition-all hover:-translate-y-1 hover:shadow-blue",
+												children: ["Zur Seite", /* @__PURE__ */ (0, import_jsx_runtime.jsx)(ArrowRight, { className: "size-4" })]
+											})
+										]
+									})]
+								})
+							}),
+							i < SERVICES.length - 1 && /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { className: "absolute bottom-0 inset-x-0 h-px bg-white/10" })
+						]
+					}, service.id);
+				})
+			}),
+			/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+				className: "bg-white py-16 text-center",
+				children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+					className: "mx-auto max-w-2xl px-5",
+					children: [
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+							className: "eyebrow",
+							children: "Alle Leistungen"
+						}),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h3", {
+							className: "mt-3 font-display text-3xl font-bold text-foreground",
+							children: "Nicht das Richtige dabei?"
+						}),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+							className: "mt-3 text-base text-muted-foreground",
+							children: "Sprechen Sie uns an — wir finden gemeinsam die passende Lösung."
+						}),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+							className: "mt-6 flex flex-wrap justify-center gap-3",
+							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Button, {
+								asChild: true,
+								variant: "hero",
+								size: "pill",
+								className: "shadow-blue",
+								children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("a", {
+									href: "#kontakt",
+									children: ["Angebot anfordern ", /* @__PURE__ */ (0, import_jsx_runtime.jsx)(ArrowRight, { className: "size-4" })]
+								})
+							}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Button, {
+								asChild: true,
+								variant: "outline",
+								size: "pill",
+								children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("a", {
+									href: COMPANY.phoneHref,
+									children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Phone, { className: "size-4" }), COMPANY.phone]
+								})
+							})]
+						})
+					]
+				})
+			})
+		]
+	});
+}
+var STRENGTHS = [
+	{
+		num: "01",
+		title: "Professionelles Gebäudemanagement",
+		text: "Höchster Qualitätsanspruch bei jedem Einsatz."
+	},
+	{
+		num: "02",
+		title: "Feste Ansprechpartner vor Ort",
+		text: "Persönliche Betreuung — kein Callcenter."
+	},
+	{
+		num: "03",
+		title: "Rund um die Uhr erreichbar",
+		text: "24/7 Service, 365 Tage im Jahr."
+	},
+	{
+		num: "04",
+		title: "Transparente Kostenplanung",
+		text: "Keine versteckten Kosten, klare Angebote."
+	},
+	{
+		num: "05",
+		title: "Qualifizierte Fachkräfte",
+		text: "Geprüftes, eigenes Personal — keine Subunternehmer."
+	},
+	{
+		num: "06",
+		title: "Eigene Fahrzeugflotte",
+		text: "Schnelle Reaktionszeiten durch eigene Logistik."
+	}
+];
+function Strengths() {
+	return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(import_jsx_runtime.Fragment, { children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("section", {
+		id: "staerke",
+		className: "section bg-navy text-white",
+		children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+			className: "mx-auto max-w-7xl px-5 lg:px-8",
+			children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+				className: "grid gap-14 lg:grid-cols-2 lg:gap-20 items-center",
+				children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { children: [
+					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+						className: "eyebrow-white",
+						children: "Unser Team aus Hamburg"
+					}),
+					/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("h2", {
+						className: "mt-4 font-display text-4xl font-bold leading-[1.08] sm:text-5xl",
+						children: [
+							"Menschen. Lösungen.",
+							" ",
+							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+								className: "text-primary-glow",
+								children: "Vertrauen."
+							})
+						]
+					}),
+					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+						className: "mt-5 text-base leading-relaxed text-white/70 sm:text-lg",
+						children: "Was als kleines Hamburger Familienunternehmen begann, ist heute ein eingespieltes Team mit eigener Fahrzeugflotte und festen Ansprechpartnern für alle Leistungsbereiche."
+					}),
+					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+						className: "mt-10 grid gap-3 sm:grid-cols-2",
+						children: STRENGTHS.map((s) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+							className: "rounded-2xl border border-white/10 bg-white/[0.06] p-5 hover:bg-white/10 transition-colors",
+							children: [
+								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+									className: "font-display text-xs font-bold text-primary-glow",
+									children: s.num
+								}),
+								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h3", {
+									className: "mt-2 font-display text-sm font-semibold text-white",
+									children: s.title
+								}),
+								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+									className: "mt-1 text-xs text-white/55",
+									children: s.text
+								})
+							]
+						}, s.num))
+					})
+				] }), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+					className: "grid grid-cols-2 gap-3",
+					children: [
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("img", {
+							src: "/Galabau-hero.jpg",
+							alt: "DHANSA Galabau",
+							className: "rounded-2xl object-cover w-full h-52"
+						}),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("img", {
+							src: PHOTO_ASSETS.photo02,
+							alt: "DHANSA Gebäudereinigung",
+							className: "rounded-2xl object-cover w-full h-52 mt-8"
+						}),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("img", {
+							src: PHOTO_ASSETS.photo06,
+							alt: "DHANSA Umzug",
+							className: "rounded-2xl object-cover w-full h-44"
+						}),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("img", {
+							src: PHOTO_ASSETS.photo07,
+							alt: "DHANSA Winterdienst",
+							className: "rounded-2xl object-cover w-full h-44 mt-4"
+						})
+					]
+				})]
+			})
+		})
+	}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("section", {
+		id: "ablauf",
+		className: "section bg-blue-mid text-white",
+		children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+			className: "mx-auto max-w-7xl px-5 lg:px-8",
+			children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+				className: "mx-auto max-w-3xl text-center mb-14",
+				children: [
+					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+						className: "eyebrow-white",
+						children: "So arbeiten wir"
+					}),
+					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h2", {
+						className: "mt-4 font-display text-4xl font-bold leading-[1.08] sm:text-5xl",
+						children: "Direkt, klar und zuverlässig."
+					}),
+					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+						className: "mt-5 text-base leading-relaxed text-white/75 sm:text-lg",
+						children: "Von Ihrer Anfrage bis zur passenden Leistung — übersichtlich und persönlich."
+					})
+				]
+			}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("ol", {
+				className: "grid gap-4 lg:grid-cols-4",
+				children: PROCESS.map((p, i) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("li", {
+					className: "relative rounded-2xl border border-white/20 bg-white/10 p-7",
+					children: [
+						i < PROCESS.length - 1 && /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { className: "absolute top-10 -right-2 hidden h-px w-4 bg-white/30 lg:block" }),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+							className: "grid size-12 place-items-center rounded-xl bg-white font-display text-lg font-bold text-primary shadow-blue",
+							children: p.step
+						}),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h3", {
+							className: "mt-5 font-display text-lg font-semibold text-white",
+							children: p.title
+						}),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+							className: "mt-2 text-sm leading-relaxed text-white/70",
+							children: p.text
+						})
+					]
+				}, p.step))
+			})]
+		})
+	})] });
+}
+function Process() {
+	return null;
+}
+var GERMANY_STATES = [
+	{
+		name: "Baden-Württemberg",
+		d: "M912.6,1435.0L910.5,1456.4L916.0,1458.2L923.1,1447.9L926.1,1458.1L936.0,1447.8L942.6,1454.2L942.0,1466.2L949.6,1478.1L940.8,1491.1L947.2,1493.7L956.1,1483.5L953.6,1490.0L958.1,1489.9L959.5,1509.1L972.3,1508.9L980.2,1493.3L983.2,1502.4L989.6,1502.3L985.3,1517.9L996.6,1530.5L987.5,1534.2L990.4,1541.5L986.7,1544.3L993.2,1546.9L995.0,1558.2L988.0,1564.2L991.7,1565.0L990.0,1577.7L1011.3,1591.8L1003.2,1602.8L1010.6,1604.5L1010.7,1617.1L1027.4,1619.5L1043.9,1642.0L1039.4,1649.2L1043.9,1652.8L1039.4,1663.6L1042.9,1672.7L1036.6,1681.6L1050.1,1702.6L1036.5,1708.7L1041.0,1700.6L1035.6,1699.6L1026.5,1710.3L1024.7,1701.3L1013.7,1697.7L1011.0,1707.5L1021.9,1721.0L1017.4,1721.9L1020.1,1741.7L1006.4,1744.1L1008.2,1748.7L997.5,1757.1L974.9,1757.8L975.9,1764.9L964.3,1777.0L979.8,1800.8L982.7,1825.1L991.8,1844.8L991.0,1864.6L982.2,1879.1L986.7,1884.4L985.8,1897.8L981.4,1900.6L990.3,1913.0L979.7,1920.3L987.7,1926.5L989.5,1947.1L982.4,1947.3L980.6,1956.3L972.7,1943.7L963.1,1952.6L943.7,1946.6L928.1,1963.7L899.2,1968.7L888.3,1952.9L858.6,1947.1L815.0,1912.0L836.4,1932.6L843.5,1949.2L834.3,1952.7L806.6,1930.1L809.6,1934.4L798.5,1934.0L809.0,1942.8L790.5,1952.3L784.4,1945.5L787.7,1939.8L777.1,1931.6L771.1,1936.9L775.5,1946.4L764.2,1942.4L764.6,1925.8L758.1,1926.6L752.6,1916.3L748.4,1925.8L746.8,1916.7L738.5,1914.2L739.8,1920.3L723.1,1924.8L712.1,1946.5L722.9,1955.1L743.8,1947.1L748.2,1953.2L743.1,1954.2L741.1,1965.4L730.9,1956.4L720.8,1964.2L726.8,1969.0L717.4,1972.3L700.1,1971.5L693.8,1962.2L680.0,1959.2L661.2,1974.3L638.0,1977.5L629.5,1967.0L618.2,1966.8L593.9,1980.5L587.9,1974.4L595.5,1972.4L594.0,1967.1L583.9,1970.0L570.6,1951.1L575.9,1898.3L586.3,1876.0L577.6,1860.9L579.1,1840.5L593.3,1816.4L597.8,1796.8L606.1,1790.1L604.2,1773.4L615.7,1745.6L615.7,1726.2L642.3,1686.5L661.0,1675.3L678.8,1637.4L694.6,1625.9L705.3,1602.4L709.4,1569.2L726.1,1552.8L719.5,1545.0L726.6,1538.2L727.3,1530.0L721.9,1530.3L728.9,1518.1L718.7,1515.9L722.3,1510.3L714.4,1490.7L716.1,1482.4L742.2,1497.4L747.6,1490.8L743.6,1475.5L759.3,1472.1L756.7,1484.0L764.4,1498.2L792.2,1500.8L788.6,1509.9L780.2,1509.3L782.2,1518.2L775.8,1523.9L785.1,1527.2L800.7,1513.3L800.6,1500.6L829.4,1498.6L822.8,1492.2L825.5,1483.1L849.6,1482.2L858.6,1464.8L875.2,1467.6L876.7,1451.0L872.1,1446.4L866.7,1452.8L870.2,1447.3L857.3,1444.5L861.9,1443.6L860.0,1437.2L890.0,1432.5L900.2,1443.5L900.0,1434.2L912.6,1435.0ZM761.0,1937.9L763.3,1942.4L753.4,1942.7L761.0,1937.9Z"
+	},
+	{
+		name: "Bayern",
+		d: "M990.4,1240.7L1001.7,1239.7L1006.5,1250.1L1022.6,1254.8L1034.0,1272.7L1032.1,1280.3L1042.5,1278.4L1048.2,1290.6L1066.2,1296.2L1067.3,1322.5L1085.1,1329.0L1087.0,1316.8L1106.4,1316.6L1084.2,1298.0L1085.0,1288.7L1102.6,1281.1L1120.1,1281.1L1129.4,1293.2L1129.4,1287.6L1136.8,1293.1L1147.9,1287.4L1155.4,1296.8L1152.6,1307.1L1170.2,1312.6L1175.1,1287.3L1169.6,1259.2L1181.9,1256.3L1185.7,1247.8L1198.9,1249.6L1196.9,1265.6L1201.5,1273.1L1207.2,1270.3L1213.7,1285.3L1225.1,1277.7L1256.3,1272.9L1262.8,1280.4L1280.8,1271.8L1288.0,1280.2L1287.6,1290.6L1310.7,1300.5L1312.7,1308.3L1304.4,1315.0L1322.6,1330.1L1322.6,1351.1L1332.6,1356.1L1331.8,1363.5L1369.3,1382.5L1367.1,1394.1L1378.7,1397.4L1371.3,1419.4L1366.6,1420.2L1366.5,1431.5L1355.4,1440.3L1362.0,1452.3L1375.5,1457.0L1375.1,1470.8L1381.5,1472.8L1385.2,1492.7L1394.5,1495.9L1392.4,1508.6L1396.9,1520.4L1412.8,1528.3L1416.7,1540.3L1443.9,1541.2L1456.9,1550.9L1457.6,1561.0L1480.5,1584.0L1480.5,1591.4L1499.1,1597.4L1516.4,1614.2L1519.7,1633.8L1531.4,1641.5L1533.6,1634.7L1546.2,1634.6L1559.5,1655.5L1572.4,1657.6L1586.0,1682.8L1578.1,1695.0L1584.3,1714.5L1581.8,1726.8L1570.5,1741.8L1532.4,1725.4L1521.6,1733.2L1524.6,1744.9L1517.5,1778.5L1497.4,1796.1L1466.1,1801.8L1430.3,1820.6L1411.7,1841.4L1451.7,1905.2L1437.2,1934.1L1453.9,1934.5L1464.6,1943.7L1468.5,1956.1L1459.2,1969.1L1460.1,1990.5L1453.6,1997.5L1446.6,1994.8L1419.3,1974.7L1416.3,1969.9L1423.6,1961.6L1414.6,1954.7L1416.5,1947.4L1388.0,1946.6L1383.5,1957.3L1372.0,1958.6L1360.7,1941.4L1332.2,1947.3L1331.5,1932.0L1318.6,1941.9L1324.3,1965.2L1293.3,1960.3L1267.6,1970.5L1232.1,1965.9L1223.2,1986.5L1200.1,1986.2L1192.1,1996.0L1197.9,2002.3L1184.7,2000.8L1173.8,2015.3L1165.8,2015.2L1169.3,2004.8L1126.1,2014.0L1117.9,1994.5L1107.7,1994.6L1116.6,1985.5L1110.9,1980.2L1093.0,1985.5L1065.4,1971.8L1059.1,1980.8L1038.4,1968.9L1038.5,1989.9L1043.3,1992.4L1044.7,2005.3L1038.6,2018.2L1031.6,2019.0L1020.8,2036.2L996.2,2044.0L1005.3,2014.8L984.3,2023.8L979.9,2010.3L984.1,2008.7L983.4,1999.7L968.4,1992.6L964.2,1977.3L948.5,1982.0L938.8,1977.2L936.9,1966.2L926.3,1979.5L907.1,1971.6L914.0,1962.3L929.8,1962.8L943.7,1946.6L963.1,1952.6L972.7,1943.7L980.6,1956.3L982.4,1947.3L989.5,1947.1L987.7,1926.5L979.7,1920.3L990.3,1913.0L981.4,1900.6L985.8,1897.8L986.7,1884.4L982.2,1879.1L991.0,1864.6L991.8,1844.8L982.7,1825.1L979.8,1800.8L964.3,1777.0L975.9,1764.9L974.9,1757.8L997.5,1757.1L1008.2,1748.7L1006.4,1744.1L1020.1,1741.7L1017.4,1721.9L1021.9,1721.0L1011.0,1707.5L1013.7,1697.7L1024.7,1701.3L1026.5,1710.3L1035.6,1699.6L1041.0,1700.6L1036.5,1708.7L1050.1,1702.6L1036.6,1681.6L1042.9,1672.7L1039.4,1663.6L1043.9,1652.8L1039.4,1649.2L1043.9,1642.0L1027.4,1619.5L1010.7,1617.1L1010.6,1604.5L1003.2,1602.8L1011.3,1591.8L990.0,1577.7L991.7,1565.0L988.0,1564.2L995.0,1558.2L993.2,1546.9L986.7,1544.3L990.4,1541.5L987.5,1534.2L996.6,1530.5L985.3,1517.9L989.6,1502.3L983.2,1502.4L980.2,1493.3L972.3,1508.9L962.3,1510.0L956.7,1506.4L956.1,1483.5L947.2,1493.7L940.8,1491.1L949.6,1477.2L937.8,1447.7L927.1,1458.1L923.1,1447.9L914.2,1458.2L909.5,1454.5L913.4,1432.2L900.0,1434.2L900.2,1443.5L890.0,1432.5L869.1,1434.4L857.3,1444.5L870.2,1447.3L864.8,1449.2L868.5,1453.8L873.9,1447.3L877.7,1455.6L875.2,1467.6L858.6,1464.8L845.9,1484.0L828.3,1484.9L819.8,1477.6L826.2,1467.5L823.3,1455.7L834.2,1442.7L826.8,1439.1L831.3,1429.9L824.8,1430.9L824.7,1418.0L815.4,1417.3L813.1,1381.5L818.7,1380.4L815.7,1368.5L807.1,1366.0L813.4,1351.0L830.2,1347.8L835.8,1349.4L835.2,1356.9L846.2,1341.7L868.6,1346.0L875.4,1359.0L891.5,1356.0L893.6,1337.2L889.0,1335.4L888.4,1318.4L914.2,1320.9L910.4,1317.2L913.0,1311.5L927.6,1301.0L928.0,1274.4L949.9,1279.0L962.2,1273.2L980.9,1242.6L990.4,1240.7Z"
+	},
+	{
+		name: "Berlin",
+		d: "M1477.5,711.3L1486.3,714.5L1488.5,702.8L1495.4,703.9L1497.5,695.1L1511.0,704.3L1527.9,696.8L1525.0,693.8L1529.1,690.0L1536.6,699.0L1534.3,712.7L1558.3,729.0L1551.0,744.5L1575.1,752.9L1557.8,778.9L1556.1,769.1L1530.0,764.5L1528.2,757.6L1520.3,760.4L1521.0,769.2L1492.0,757.7L1474.2,766.1L1466.6,758.1L1479.9,734.9L1471.1,730.8L1477.5,711.3Z"
+	},
+	{
+		name: "Brandenburg",
+		d: "M1593.0,468.7L1599.1,490.5L1651.0,488.3L1650.3,504.2L1628.5,533.3L1653.9,534.2L1663.8,519.5L1680.0,516.0L1684.6,533.3L1671.4,555.1L1674.8,566.9L1671.3,583.0L1635.3,613.8L1637.4,635.6L1631.9,646.1L1667.3,667.6L1687.4,694.7L1715.2,715.2L1709.0,727.6L1713.9,736.6L1697.5,763.7L1706.4,786.2L1704.2,791.8L1724.9,804.6L1720.0,835.9L1731.6,848.5L1721.8,892.5L1706.5,910.2L1731.2,954.5L1731.4,970.9L1722.6,971.9L1719.4,984.5L1704.1,978.9L1667.4,997.5L1637.1,986.0L1627.1,998.6L1629.6,1002.8L1620.4,1002.7L1625.3,1011.2L1614.8,1030.1L1607.8,1023.8L1576.8,1033.3L1541.6,1031.2L1519.3,1009.6L1515.2,1017.1L1505.7,1013.0L1497.6,1027.1L1489.0,1024.1L1487.3,1015.4L1482.5,1016.3L1487.8,996.4L1484.3,982.9L1461.7,959.4L1483.5,941.7L1473.7,907.8L1477.7,901.1L1459.2,901.6L1460.4,894.0L1448.7,893.7L1447.0,885.0L1429.5,885.5L1428.7,876.8L1418.9,878.6L1400.7,865.6L1379.1,872.9L1367.6,859.1L1360.7,863.8L1326.2,824.5L1339.2,810.1L1331.4,802.2L1341.7,778.0L1337.8,774.0L1340.9,762.4L1336.1,759.4L1345.2,742.9L1329.7,730.9L1323.6,738.6L1318.8,735.6L1321.8,728.8L1314.9,730.6L1321.0,718.0L1319.2,704.2L1330.1,703.4L1329.4,687.6L1323.6,680.7L1325.8,664.9L1332.8,659.1L1329.1,642.2L1265.9,629.3L1263.0,624.3L1267.1,617.4L1241.3,610.1L1240.4,602.2L1231.4,601.0L1232.5,593.1L1213.6,591.8L1203.7,582.7L1185.6,589.5L1173.7,576.4L1193.7,574.6L1193.8,566.6L1216.7,570.9L1222.8,560.0L1220.9,547.0L1232.0,539.1L1263.9,543.6L1259.0,536.5L1295.2,523.1L1299.4,505.1L1318.3,513.4L1328.3,508.6L1333.2,517.7L1355.0,523.2L1362.7,537.4L1398.5,536.1L1399.4,543.1L1413.2,544.4L1410.1,551.4L1414.0,554.5L1447.8,551.3L1442.7,558.1L1448.6,561.2L1470.9,539.8L1480.9,537.1L1488.6,546.3L1500.0,529.6L1516.7,538.0L1522.1,524.2L1536.1,518.6L1539.9,496.7L1551.9,494.0L1565.6,474.4L1584.9,470.0L1577.0,465.7L1578.5,453.7L1583.1,464.9L1593.0,468.7ZM1529.1,690.0L1525.0,693.8L1527.9,696.8L1511.0,704.3L1497.5,695.1L1495.4,703.9L1488.5,702.8L1486.3,714.5L1473.5,714.2L1477.3,719.2L1471.1,730.8L1479.9,734.9L1467.5,761.1L1474.2,766.1L1500.8,758.9L1521.0,769.2L1520.3,760.4L1528.2,757.6L1530.0,764.5L1556.1,769.1L1557.8,778.9L1570.9,762.6L1574.2,750.0L1551.0,744.5L1558.3,729.0L1534.3,712.7L1536.6,699.0L1529.1,690.0Z"
+	},
+	{
+		name: "Bremen",
+		d: "M805.6,569.1L799.7,570.3L806.8,577.1L801.9,579.2L805.2,590.1L797.6,599.4L786.4,591.7L778.7,597.0L771.5,588.2L764.7,593.5L747.7,559.2L725.4,542.1L743.3,545.3L742.6,553.4L780.5,558.9L785.7,566.7L799.4,561.3L805.6,569.1Z"
+	},
+	{
+		name: "Hamburg",
+		d: "M980.3,409.8L1000.8,403.7L991.8,417.8L1005.5,432.7L993.7,453.8L1022.1,483.5L1008.7,494.7L997.3,493.9L977.5,476.0L968.2,488.1L953.7,489.3L955.7,480.2L946.4,485.4L930.8,464.4L931.6,451.2L924.4,450.3L930.2,431.3L940.8,443.2L953.8,425.0L980.5,417.8L980.3,409.8Z"
+	},
+	{
+		name: "Hessen",
+		d: "M888.2,963.6L909.0,962.1L918.8,976.2L902.9,991.8L911.7,1004.8L911.9,1018.1L899.9,1025.2L898.3,1036.8L925.6,1049.0L931.9,1038.3L926.4,1043.2L921.5,1031.1L939.8,1019.5L947.8,1029.8L945.7,1019.4L954.5,1018.4L964.6,1052.8L978.0,1054.8L981.0,1068.2L1006.9,1078.0L1003.3,1096.0L996.5,1087.4L988.9,1090.2L997.5,1096.0L992.9,1112.1L1004.4,1119.8L994.0,1127.3L975.7,1122.4L972.0,1130.9L979.7,1139.5L960.5,1139.4L960.6,1145.0L967.3,1142.2L965.4,1149.8L971.2,1146.0L978.9,1155.5L972.3,1160.2L972.4,1168.7L960.8,1171.5L961.8,1181.9L956.1,1186.6L959.0,1193.1L948.4,1217.4L960.1,1220.4L961.0,1210.0L976.7,1208.4L982.7,1219.8L975.0,1224.5L979.0,1238.8L975.3,1255.0L963.1,1272.2L944.3,1279.0L929.9,1272.5L926.8,1303.9L913.0,1311.5L910.4,1317.2L914.2,1320.9L888.4,1318.4L889.0,1335.4L893.6,1337.2L891.5,1356.0L875.4,1359.0L868.6,1346.0L846.2,1341.7L835.2,1356.9L835.8,1349.4L830.2,1347.8L810.7,1355.7L807.2,1367.8L815.7,1368.5L818.7,1380.4L813.1,1381.5L815.4,1417.3L824.7,1418.0L824.8,1430.9L831.3,1429.9L826.8,1439.1L834.2,1442.7L823.3,1455.7L826.2,1467.5L819.8,1473.1L825.5,1483.1L822.8,1492.2L829.4,1498.6L800.6,1500.6L800.7,1513.3L778.6,1527.4L780.2,1509.3L788.6,1509.9L792.2,1500.8L764.4,1498.2L756.7,1484.0L759.3,1472.1L743.6,1475.5L747.6,1490.8L736.7,1497.7L710.3,1474.5L705.3,1456.4L725.3,1437.1L716.0,1437.6L709.2,1424.1L710.9,1416.6L703.3,1408.7L702.8,1389.3L691.4,1375.0L677.3,1371.0L629.0,1386.5L612.5,1365.8L626.1,1346.9L637.6,1353.4L638.3,1344.0L630.6,1336.5L634.1,1328.0L648.1,1320.3L654.8,1325.8L659.3,1321.0L655.4,1311.7L669.4,1310.3L660.4,1285.1L644.5,1275.2L651.9,1266.4L646.5,1257.2L648.8,1246.7L656.1,1238.9L673.1,1240.3L675.0,1227.9L666.2,1208.8L676.0,1193.5L668.3,1179.3L691.4,1156.5L708.3,1162.2L722.9,1148.8L722.3,1135.6L736.3,1122.8L730.3,1116.3L733.6,1101.8L765.2,1098.9L761.2,1092.4L773.2,1073.8L768.1,1059.5L743.8,1063.2L739.5,1052.7L760.3,1030.0L801.1,1026.8L802.9,1016.1L798.1,1016.3L793.8,1002.9L806.4,995.8L825.0,998.1L826.3,1012.5L844.7,1008.1L868.9,973.8L863.2,968.2L886.1,957.0L888.2,963.6Z"
+	},
+	{
+		name: "Mecklenburg-Vorpommern",
+		d: "M1374.2,199.6L1396.0,211.1L1445.4,212.5L1419.7,220.7L1393.1,216.0L1383.4,222.0L1386.0,227.5L1360.7,228.8L1348.6,248.8L1352.2,256.2L1349.1,259.9L1364.6,264.7L1356.4,256.1L1376.7,239.8L1379.6,228.6L1385.8,234.7L1398.3,225.5L1396.4,220.7L1405.7,221.7L1404.0,224.4L1408.8,231.0L1417.2,224.0L1421.0,238.1L1454.6,212.1L1455.5,223.9L1466.5,232.1L1463.7,238.0L1468.5,255.5L1497.6,268.4L1507.2,283.4L1502.6,289.1L1518.4,284.9L1513.0,293.9L1517.7,290.0L1525.0,308.1L1532.1,309.6L1530.2,299.0L1563.5,285.8L1581.3,304.7L1571.2,324.9L1598.6,354.2L1584.2,369.5L1602.3,358.0L1597.2,335.7L1606.8,335.6L1605.9,351.0L1609.7,343.2L1619.2,348.8L1619.9,333.9L1608.2,315.5L1598.0,315.3L1600.2,323.2L1590.2,333.1L1592.9,321.9L1589.5,319.7L1575.2,327.7L1582.2,305.8L1572.0,289.3L1580.8,284.0L1591.6,305.1L1614.6,318.1L1648.0,352.0L1642.3,356.0L1647.3,369.7L1618.6,367.5L1596.0,376.8L1581.2,371.7L1618.6,399.8L1657.8,404.0L1647.0,414.0L1656.3,414.9L1658.9,432.7L1664.6,436.8L1661.1,457.4L1672.8,479.9L1679.3,514.9L1663.8,519.5L1653.9,534.2L1628.5,533.3L1650.3,504.2L1651.0,488.3L1599.1,490.5L1593.0,468.2L1583.1,464.9L1578.5,453.7L1577.0,465.7L1584.9,470.0L1565.6,474.4L1551.9,494.0L1539.9,496.7L1536.1,518.6L1522.1,524.2L1516.7,538.0L1500.0,529.6L1488.6,546.3L1480.9,537.1L1470.9,539.8L1448.6,561.2L1442.7,558.1L1447.8,551.3L1414.0,554.5L1410.1,551.4L1413.2,544.4L1399.4,543.1L1398.5,536.1L1362.7,537.4L1355.0,523.2L1333.2,517.7L1328.3,508.6L1318.3,513.4L1299.4,505.1L1295.2,523.1L1283.1,531.9L1274.1,529.8L1270.0,537.7L1259.0,536.5L1263.9,543.6L1249.9,546.4L1232.0,539.1L1218.9,549.0L1222.8,560.0L1216.7,570.9L1193.8,566.6L1191.7,574.6L1159.7,567.2L1161.7,555.2L1140.8,541.8L1128.7,513.6L1116.7,509.2L1103.8,520.5L1082.8,501.6L1064.9,503.1L1071.7,478.4L1101.4,464.3L1101.3,447.2L1117.4,445.9L1121.2,420.9L1090.7,400.7L1088.6,376.5L1092.4,365.4L1109.6,352.7L1113.8,359.9L1123.9,357.3L1111.6,353.8L1112.8,345.0L1158.5,328.6L1171.3,337.1L1171.3,351.0L1183.6,344.3L1202.9,360.2L1207.5,341.6L1201.1,343.8L1201.3,333.7L1198.6,343.6L1192.1,342.4L1190.5,333.7L1208.9,326.7L1204.9,340.0L1208.6,341.6L1213.2,324.2L1221.8,324.0L1230.4,308.4L1226.8,304.8L1215.4,319.5L1214.2,313.3L1239.5,290.9L1267.0,293.1L1304.7,282.7L1305.4,291.2L1310.7,291.8L1313.5,285.7L1305.9,283.3L1345.2,251.1L1374.2,199.6ZM1520.5,144.0L1511.9,157.7L1519.2,173.6L1560.8,177.9L1559.0,189.5L1543.1,205.8L1549.6,221.6L1559.8,222.7L1574.9,239.1L1566.8,247.7L1568.2,257.8L1555.5,251.5L1564.8,243.3L1549.7,246.0L1561.4,236.9L1550.2,242.1L1544.9,235.9L1524.6,240.7L1515.0,258.4L1508.2,258.9L1518.7,263.0L1514.8,272.3L1498.2,264.0L1503.2,265.6L1505.4,256.5L1494.9,263.3L1483.6,258.8L1482.7,251.4L1473.9,255.4L1481.2,250.3L1469.9,241.8L1472.0,230.9L1493.6,227.6L1485.5,214.7L1475.6,214.9L1494.6,201.0L1488.1,199.1L1488.5,192.2L1477.0,194.1L1474.6,182.3L1492.5,180.8L1500.6,191.4L1499.3,180.7L1510.8,173.3L1505.9,181.7L1512.2,178.9L1517.9,197.0L1532.9,200.5L1532.2,181.8L1515.2,175.0L1511.0,163.5L1490.6,179.0L1497.0,154.7L1477.4,178.9L1491.7,150.9L1520.5,144.0ZM1481.1,196.8L1488.0,203.9L1470.9,211.2L1481.1,196.8ZM1473.4,166.1L1476.9,173.3L1469.3,172.0L1470.3,184.8L1461.7,207.0L1467.2,170.2L1473.4,166.1Z"
+	},
+	{
+		name: "Niedersachsen",
+		d: "M756.6,362.4L768.8,375.9L789.2,379.9L810.6,377.7L823.4,364.6L854.3,368.6L889.5,414.5L896.0,435.3L931.6,451.2L930.8,464.4L946.4,485.4L952.5,477.2L956.7,483.2L953.7,489.3L966.1,489.2L977.5,476.0L997.3,493.9L1022.1,484.5L1062.0,504.1L1082.8,501.6L1103.8,520.5L1118.7,509.3L1128.7,513.6L1140.8,541.8L1161.7,555.2L1159.7,567.2L1172.7,569.4L1182.6,587.4L1203.7,582.7L1226.5,595.0L1220.5,604.9L1212.5,603.8L1211.4,619.6L1181.4,637.1L1136.4,626.6L1128.5,628.4L1120.5,643.1L1092.1,643.1L1096.8,677.9L1102.7,677.1L1117.0,708.1L1126.2,704.1L1119.1,718.9L1131.3,738.5L1121.3,738.4L1119.4,747.2L1142.4,769.7L1127.7,779.3L1144.5,808.6L1132.9,816.2L1140.7,824.0L1137.8,832.7L1121.5,840.2L1125.7,852.8L1080.1,853.9L1059.5,865.1L1074.3,878.0L1067.4,882.8L1074.3,892.6L1061.6,906.6L1061.7,924.4L1070.5,930.9L1082.3,960.5L1071.8,966.8L1075.8,982.7L1066.2,977.9L1052.8,984.6L1029.7,975.6L1025.1,992.0L1007.1,1005.3L1000.4,1002.3L991.9,1012.8L994.8,1015.7L977.6,1013.7L959.7,1028.9L954.5,1018.4L945.7,1019.4L947.8,1029.8L939.8,1019.5L921.5,1031.1L926.4,1043.2L931.9,1038.3L925.6,1049.0L898.3,1036.8L899.9,1025.2L911.9,1018.1L911.7,1004.8L902.9,991.8L918.8,976.2L909.0,962.1L869.5,959.4L873.7,945.9L870.5,930.7L880.5,921.8L878.3,909.4L882.9,905.4L862.8,905.9L864.4,895.2L852.6,886.7L853.3,876.0L836.7,873.4L840.5,868.5L836.3,858.8L838.9,849.0L830.0,843.4L833.7,835.5L811.2,833.1L805.9,816.6L815.7,820.3L814.4,809.6L820.2,807.4L802.2,794.2L827.7,762.1L823.5,751.4L830.1,742.3L823.1,736.6L816.2,735.8L798.3,761.9L784.7,765.2L761.2,763.9L760.3,735.4L752.2,727.7L728.8,732.4L716.7,749.5L696.0,746.2L697.5,760.9L718.4,772.0L722.8,784.6L718.9,812.2L730.8,818.7L712.1,838.7L690.5,832.5L678.6,848.4L652.3,849.9L642.9,858.2L628.7,845.2L648.5,837.6L649.9,822.5L631.0,815.6L639.8,795.2L635.6,787.6L645.2,786.0L637.0,771.0L601.9,762.2L597.7,747.9L584.8,742.7L579.2,754.5L584.2,757.2L580.5,769.0L534.2,798.5L497.5,803.9L490.9,790.6L498.9,767.3L487.2,744.4L478.2,753.0L440.1,740.4L435.3,721.5L448.9,719.1L441.8,712.4L444.9,697.4L494.5,700.4L501.3,644.4L528.2,604.1L527.4,577.1L522.7,570.1L533.3,559.8L531.9,550.0L530.0,540.8L519.2,539.4L526.2,514.9L490.5,513.2L485.9,506.4L494.2,466.9L491.7,460.0L507.7,460.2L500.7,448.3L511.6,434.3L537.2,419.2L571.5,422.5L649.6,411.9L654.2,430.6L664.8,430.4L674.8,454.2L672.0,465.3L657.5,467.4L658.9,478.5L687.7,496.3L698.0,478.1L698.0,463.0L684.2,463.5L690.8,439.2L730.1,453.8L736.7,462.0L730.7,468.7L738.9,464.1L724.9,416.3L736.8,378.3L756.6,362.4ZM730.6,550.9L747.7,559.2L764.7,593.5L771.5,588.2L778.7,597.0L786.4,591.7L797.6,599.4L805.2,590.1L801.9,579.2L806.8,577.1L799.7,570.3L805.6,569.1L799.4,561.3L785.7,566.7L780.5,558.9L742.6,553.4L743.3,545.3L725.4,542.1L730.6,550.9ZM727.3,351.7L729.9,355.6L725.5,356.4L727.3,351.7ZM648.5,391.4L650.7,402.6L645.0,395.7L648.5,391.4ZM630.3,389.2L641.9,394.4L622.3,391.1L630.3,389.2ZM599.8,393.1L615.8,394.5L593.5,398.8L599.8,393.1ZM578.4,399.2L587.1,401.6L561.4,407.4L564.1,399.8L578.4,399.2ZM549.6,405.4L555.3,407.9L544.1,407.5L549.6,405.4ZM537.1,408.4L541.3,409.1L508.4,413.4L537.1,408.4ZM495.6,418.9L501.6,420.0L462.8,425.3L495.6,418.9ZM470.3,427.3L469.7,434.8L464.4,431.3L470.3,427.3ZM447.9,436.8L455.8,441.2L441.3,446.3L445.9,453.6L426.8,442.5L447.9,436.8Z"
+	},
+	{
+		name: "Nordrhein-Westfalen",
+		d: "M754.2,729.6L760.3,735.4L761.2,763.9L766.2,765.7L798.3,761.9L816.2,735.8L829.1,740.4L822.2,774.0L812.5,777.2L802.2,794.2L820.2,807.4L814.4,809.6L815.7,820.3L805.9,816.6L811.2,833.1L833.7,835.5L830.0,843.4L838.9,849.0L836.3,858.8L840.5,868.5L836.7,873.4L853.3,876.0L852.6,886.7L864.4,895.2L862.8,905.9L882.9,905.4L878.3,909.4L880.5,921.8L869.7,934.6L873.7,945.9L869.5,959.4L880.6,960.0L863.2,968.2L868.9,973.8L844.7,1008.1L826.3,1012.5L826.0,999.1L814.7,992.7L793.8,1002.9L798.1,1016.3L802.9,1016.1L801.1,1026.8L760.3,1030.0L748.8,1039.9L738.6,1055.7L743.8,1063.2L766.1,1056.7L773.2,1073.8L761.2,1092.4L765.2,1098.9L733.6,1101.8L730.3,1116.3L736.3,1122.8L722.3,1135.6L722.9,1148.8L708.3,1162.2L691.4,1156.5L668.3,1179.3L675.9,1192.6L671.7,1204.0L655.5,1202.9L642.9,1183.7L642.9,1165.7L620.4,1156.5L623.6,1145.0L614.8,1140.7L604.6,1147.0L609.5,1165.7L592.7,1172.3L596.9,1179.6L592.5,1185.6L547.5,1198.7L541.1,1218.9L521.4,1223.0L520.1,1216.5L510.4,1229.4L495.3,1228.4L475.2,1240.0L475.6,1246.6L468.2,1247.9L470.9,1262.9L464.6,1267.1L454.6,1257.2L446.4,1261.4L455.5,1291.3L439.0,1296.3L433.9,1287.7L428.5,1294.4L422.9,1283.2L397.7,1295.3L399.2,1288.7L388.3,1282.5L390.2,1298.3L379.9,1283.7L385.6,1267.0L378.4,1254.9L361.3,1252.7L353.0,1240.5L370.1,1223.8L353.1,1222.6L353.2,1213.2L344.4,1200.4L329.9,1196.2L327.2,1183.5L319.4,1178.5L329.6,1173.4L328.4,1165.7L337.2,1165.3L338.6,1146.2L327.7,1143.3L330.1,1130.4L309.8,1131.7L304.6,1113.2L320.4,1117.4L327.7,1102.1L352.9,1087.0L348.6,1081.7L356.4,1077.1L340.1,1081.3L337.9,1063.5L362.6,1032.2L362.8,1022.7L360.0,993.3L339.9,970.4L344.4,956.1L331.6,951.6L333.4,941.5L319.5,935.1L326.0,928.2L320.8,911.6L336.3,903.0L352.5,908.2L342.5,896.7L350.8,892.4L392.4,913.2L390.0,900.4L402.6,905.7L436.7,888.6L444.8,894.1L460.2,876.7L459.7,868.9L437.6,857.2L438.0,848.4L444.8,848.1L448.9,836.1L466.3,834.2L485.5,807.8L511.8,797.4L534.2,798.5L580.5,769.0L584.2,757.2L579.2,754.5L584.8,742.7L597.7,747.9L601.9,762.2L637.0,771.0L645.2,786.0L635.6,787.6L639.8,795.2L631.0,815.6L651.1,825.3L647.0,826.7L648.5,837.6L628.7,845.2L634.0,854.7L678.6,848.4L690.5,832.5L712.1,838.7L730.8,818.7L718.9,812.2L722.8,784.6L718.4,772.0L697.5,760.9L695.0,747.2L716.7,749.5L728.8,732.4L754.2,729.6Z"
+	},
+	{
+		name: "Rheinland-Pfalz",
+		d: "M614.8,1140.7L623.6,1145.0L620.4,1156.5L642.9,1165.7L642.9,1183.7L655.5,1202.9L666.5,1202.1L669.7,1225.0L675.1,1229.8L669.7,1244.3L656.1,1238.9L648.8,1246.7L646.5,1257.2L651.9,1266.4L644.5,1275.2L660.4,1285.1L669.4,1310.3L655.4,1311.7L659.3,1321.0L654.8,1325.8L648.1,1320.3L634.1,1328.0L630.6,1336.5L638.3,1344.0L637.6,1353.4L626.1,1346.9L612.5,1365.8L629.0,1386.5L688.5,1372.4L702.8,1389.3L703.3,1408.7L710.9,1416.6L709.2,1424.1L716.0,1437.6L725.3,1437.1L705.3,1456.4L716.1,1482.4L714.4,1490.7L722.3,1510.3L718.7,1515.9L728.9,1518.1L721.9,1530.3L727.3,1530.0L726.6,1538.2L719.5,1545.0L726.1,1552.8L710.3,1567.4L705.3,1602.4L685.9,1634.5L661.7,1629.5L636.9,1613.1L625.7,1618.7L614.9,1611.1L594.1,1615.6L571.6,1603.0L565.2,1585.5L543.1,1585.0L533.2,1566.5L548.3,1554.9L552.1,1533.8L533.4,1529.1L527.4,1518.4L536.1,1508.8L532.1,1500.8L536.3,1493.2L531.7,1492.5L530.1,1480.6L521.1,1485.7L491.3,1467.2L423.2,1498.6L386.1,1491.7L383.8,1485.3L392.4,1474.5L393.5,1462.4L408.4,1448.0L410.3,1426.9L390.5,1424.1L383.7,1415.6L375.5,1420.2L375.0,1412.8L363.4,1406.0L360.5,1391.2L351.5,1390.6L341.1,1364.1L348.8,1335.5L355.8,1331.6L352.7,1319.9L369.6,1312.5L373.7,1299.1L393.1,1298.2L386.4,1283.5L399.2,1288.7L397.7,1295.3L422.9,1283.2L428.5,1294.4L433.9,1287.7L439.0,1296.3L455.5,1291.3L446.4,1261.4L454.6,1257.2L464.6,1267.1L470.9,1262.9L468.2,1247.9L475.6,1246.6L475.2,1240.0L495.3,1228.4L510.4,1229.4L520.1,1216.5L521.4,1223.0L541.1,1218.9L547.5,1198.7L592.5,1185.6L596.9,1179.6L592.7,1172.3L609.5,1165.7L604.6,1147.0L614.8,1140.7Z"
+	},
+	{
+		name: "Saarland",
+		d: "M492.3,1468.1L521.1,1485.7L530.1,1480.6L531.7,1492.5L536.3,1493.2L532.1,1500.8L536.1,1508.8L527.4,1518.4L533.4,1529.1L552.1,1533.8L548.3,1554.9L533.2,1566.5L544.5,1591.2L518.1,1598.6L502.0,1589.0L495.5,1599.2L491.6,1580.6L474.0,1572.0L460.5,1574.2L463.8,1583.0L459.5,1589.7L444.0,1586.4L432.7,1557.9L416.2,1540.9L421.7,1536.6L411.4,1519.9L394.8,1510.0L382.4,1512.3L385.0,1491.7L423.2,1498.6L476.5,1469.1L492.3,1468.1Z"
+	},
+	{
+		name: "Sachsen-Anhalt",
+		d: "M1231.5,599.0L1240.4,602.2L1241.3,610.1L1267.1,617.4L1263.0,624.3L1265.9,629.3L1329.1,642.2L1332.8,659.1L1325.8,664.9L1323.6,680.7L1329.4,687.6L1330.1,703.4L1319.2,704.2L1321.0,718.0L1314.9,730.6L1321.8,728.8L1318.8,735.6L1323.6,738.6L1329.7,730.9L1345.2,742.9L1336.1,759.4L1340.9,762.4L1337.8,774.0L1341.7,778.0L1331.4,802.2L1339.2,810.1L1326.2,824.5L1335.7,841.1L1360.7,863.8L1369.6,860.1L1379.1,872.9L1400.7,865.6L1418.9,878.6L1428.7,876.8L1429.5,885.5L1447.0,885.0L1448.7,893.7L1460.4,894.0L1459.2,901.6L1477.7,901.1L1473.7,907.8L1483.5,941.7L1457.8,962.2L1454.1,954.4L1444.2,961.9L1426.1,950.9L1417.1,960.3L1402.7,956.1L1394.7,967.4L1330.5,980.5L1323.6,989.9L1324.4,1001.3L1315.6,1006.9L1323.2,1017.5L1322.9,1041.2L1316.1,1043.9L1325.4,1070.6L1320.5,1079.0L1326.2,1079.1L1324.2,1089.4L1330.8,1092.4L1327.9,1097.0L1338.4,1101.9L1332.5,1115.0L1340.1,1117.0L1328.3,1140.2L1321.7,1130.8L1293.8,1133.3L1287.1,1126.6L1289.1,1121.9L1271.9,1110.5L1252.6,1115.1L1237.4,1097.1L1205.6,1098.0L1205.8,1077.1L1188.6,1069.5L1207.0,1049.5L1194.6,1038.0L1193.7,1027.5L1182.2,1020.7L1128.5,1019.1L1131.3,1016.2L1124.6,1015.3L1125.6,1002.8L1119.9,998.0L1121.8,988.3L1111.3,976.8L1120.0,972.8L1118.1,967.0L1082.3,960.5L1070.5,930.9L1061.7,924.4L1061.6,906.6L1074.3,892.6L1067.4,882.8L1074.3,878.0L1063.4,873.0L1060.4,863.2L1070.3,864.4L1080.1,853.9L1125.7,852.8L1121.5,840.2L1137.8,832.7L1140.7,824.0L1132.9,816.2L1144.5,808.6L1127.7,779.3L1142.4,769.7L1119.4,747.2L1121.3,738.4L1131.3,738.5L1119.1,718.9L1126.2,704.1L1117.0,708.1L1102.7,677.1L1096.8,677.9L1092.1,643.1L1120.5,643.1L1128.5,628.4L1136.4,626.6L1181.4,637.1L1211.4,619.6L1213.5,602.8L1234.5,595.1L1231.5,599.0Z"
+	},
+	{
+		name: "Sachsen",
+		d: "M1431.8,952.9L1444.2,961.9L1454.1,954.4L1467.3,970.0L1478.8,972.2L1477.6,981.8L1488.0,991.6L1482.5,1016.3L1487.3,1015.4L1489.0,1024.1L1497.6,1027.1L1505.7,1013.0L1515.2,1017.1L1519.3,1009.6L1541.6,1031.2L1576.8,1033.3L1607.8,1023.8L1614.8,1030.1L1625.3,1011.2L1620.4,1002.7L1629.6,1002.8L1627.1,998.6L1637.1,986.0L1667.4,997.5L1704.1,978.9L1719.4,984.5L1723.4,971.9L1731.3,991.4L1758.8,999.4L1767.4,1009.7L1768.1,1035.2L1777.8,1046.7L1779.4,1064.6L1762.0,1128.4L1744.3,1153.8L1741.9,1169.8L1710.8,1163.3L1717.2,1143.4L1702.5,1145.7L1708.1,1129.1L1693.2,1121.9L1693.1,1113.0L1691.3,1121.0L1676.3,1124.1L1659.7,1112.3L1652.1,1133.0L1676.9,1140.9L1672.3,1154.6L1653.3,1155.2L1621.8,1177.1L1605.1,1176.3L1595.5,1181.4L1596.1,1191.7L1588.4,1198.0L1539.8,1199.3L1536.1,1219.0L1526.3,1228.9L1511.8,1216.9L1504.1,1232.6L1491.5,1230.0L1483.0,1253.2L1456.8,1251.2L1456.0,1266.1L1447.8,1275.0L1423.9,1263.8L1404.0,1279.2L1389.5,1273.7L1373.6,1278.6L1369.9,1291.4L1349.2,1309.7L1343.3,1334.1L1336.1,1333.3L1336.3,1322.1L1328.3,1315.6L1331.3,1309.9L1321.9,1309.1L1321.8,1298.0L1309.8,1300.6L1286.7,1289.7L1288.0,1280.2L1273.4,1267.2L1283.9,1264.3L1286.0,1255.8L1271.1,1241.7L1293.5,1218.1L1296.8,1238.8L1317.1,1233.1L1315.5,1219.9L1335.8,1217.9L1344.9,1205.7L1329.6,1190.7L1339.3,1181.5L1332.7,1171.1L1363.2,1165.3L1370.1,1152.4L1397.8,1144.7L1390.6,1125.7L1377.2,1125.4L1379.3,1118.8L1374.5,1120.6L1373.7,1109.3L1366.2,1103.4L1327.9,1097.0L1330.8,1092.4L1324.2,1089.4L1326.2,1079.1L1320.5,1079.0L1325.4,1070.6L1316.1,1043.9L1322.9,1041.2L1323.2,1017.5L1315.6,1006.9L1324.4,1001.3L1322.6,991.8L1330.5,980.5L1431.8,952.9Z"
+	},
+	{
+		name: "Schleswig-Holstein",
+		d: "M1140.9,185.6L1167.4,193.4L1180.2,222.3L1148.8,222.2L1144.9,210.3L1131.2,211.5L1132.5,196.7L1140.9,185.6ZM712.6,43.5L718.2,51.4L703.9,65.0L706.1,83.2L716.2,90.1L777.7,79.2L844.1,96.2L853.4,111.2L873.7,100.3L878.0,115.0L906.7,90.6L905.0,103.0L935.3,112.6L943.6,124.0L953.7,121.9L953.9,112.6L961.6,117.4L974.4,147.4L966.1,139.4L958.9,147.2L958.0,159.8L931.9,172.9L923.9,187.4L928.4,182.4L958.9,161.0L960.5,147.0L974.3,148.1L973.2,181.3L943.1,204.3L947.7,209.8L989.3,199.4L1000.9,207.4L995.9,213.5L999.7,225.7L992.6,231.4L990.0,247.4L998.4,242.8L997.5,233.7L1005.5,219.2L1020.1,213.1L1065.9,233.2L1082.2,249.2L1095.7,247.3L1118.2,227.9L1150.3,225.5L1139.1,235.5L1144.8,278.6L1110.3,308.7L1098.3,306.6L1089.6,319.6L1095.4,333.9L1110.1,336.8L1111.6,353.8L1123.9,357.3L1113.8,359.9L1109.6,352.7L1092.4,365.4L1088.6,376.5L1090.7,400.7L1121.2,420.9L1117.4,445.9L1101.3,447.2L1101.4,464.3L1071.7,478.4L1068.9,498.2L1062.0,504.1L1020.2,484.5L1023.0,479.5L995.9,459.8L994.5,444.8L1002.7,443.7L1000.5,435.7L1005.5,432.7L991.8,417.8L1000.8,406.7L997.6,401.7L982.3,406.8L980.5,417.8L969.2,416.9L967.3,425.9L953.8,425.0L940.8,443.2L930.2,431.3L924.4,450.3L916.3,448.6L896.0,435.3L889.5,414.5L854.3,368.6L799.9,359.6L778.9,326.3L802.2,323.3L805.7,316.2L796.3,296.8L785.3,299.3L777.0,284.9L781.5,263.8L792.3,261.5L800.2,247.0L785.7,259.1L782.8,253.7L783.2,260.7L779.5,252.9L750.9,258.1L740.3,247.9L744.3,234.5L757.4,234.8L745.1,226.6L786.4,221.7L811.7,202.6L804.9,189.4L793.2,205.7L776.8,203.4L776.6,195.8L787.3,187.4L790.3,169.6L777.9,168.2L782.5,163.4L779.4,154.7L757.7,131.4L758.6,120.2L742.0,88.0L714.0,98.7L697.0,91.1L700.5,94.2L695.4,97.7L695.1,128.0L692.1,125.3L695.0,81.3L712.6,43.5ZM921.7,189.9L895.7,192.7L900.3,202.1L908.4,192.1L922.9,197.7L920.6,191.1L921.7,189.9ZM713.3,42.0L714.2,40.0L721.5,43.0L713.3,42.0ZM758.4,179.4L755.2,196.7L741.8,192.0L758.4,179.4ZM733.9,124.2L742.8,134.2L738.3,145.3L710.9,138.1L714.8,127.7L733.9,124.2ZM735.8,173.2L739.2,179.0L729.0,174.7L735.8,173.2ZM723.7,201.8L731.6,213.7L722.7,216.9L719.4,208.4L723.7,201.8ZM723.9,182.4L728.3,186.7L723.0,196.4L723.9,182.4ZM724.8,171.8L727.7,179.1L720.3,179.0L724.8,171.8ZM704.5,136.5L701.6,142.7L710.6,164.2L694.1,148.9L704.5,136.5Z"
+	},
+	{
+		name: "Thüringen",
+		d: "M1093.0,960.2L1120.0,969.9L1111.3,976.8L1121.8,988.3L1119.9,998.0L1125.6,1002.8L1124.6,1015.3L1131.3,1016.2L1128.5,1019.1L1182.2,1020.7L1193.7,1027.5L1194.6,1038.0L1207.0,1049.5L1188.6,1069.5L1205.8,1077.1L1208.6,1083.7L1202.8,1089.5L1208.5,1099.9L1237.4,1097.1L1252.6,1115.1L1271.9,1110.5L1289.1,1121.9L1287.1,1126.6L1293.8,1133.3L1321.7,1130.8L1327.3,1140.2L1340.1,1119.8L1332.5,1115.0L1338.4,1101.9L1366.2,1103.4L1373.7,1109.3L1374.5,1120.6L1379.3,1118.8L1377.2,1125.4L1390.6,1125.7L1397.8,1145.7L1370.1,1152.4L1363.2,1165.3L1332.7,1171.1L1339.3,1181.5L1329.6,1190.7L1335.4,1190.7L1335.2,1201.9L1343.8,1209.4L1335.8,1217.9L1324.3,1216.1L1323.2,1222.7L1316.5,1219.0L1314.3,1231.2L1318.1,1232.1L1300.7,1238.8L1295.0,1236.0L1295.4,1220.0L1288.6,1220.9L1279.7,1237.9L1271.1,1241.7L1285.9,1256.7L1282.1,1257.7L1283.9,1264.3L1273.4,1267.2L1279.9,1270.9L1269.4,1277.5L1261.8,1280.4L1255.4,1272.9L1213.7,1285.3L1207.2,1270.3L1201.5,1273.1L1196.9,1265.6L1198.9,1249.6L1185.7,1247.8L1181.9,1256.3L1169.6,1259.2L1175.1,1287.3L1170.2,1312.6L1152.6,1307.1L1155.4,1296.8L1147.9,1287.4L1136.8,1293.1L1129.4,1287.6L1129.4,1293.2L1120.1,1281.1L1110.0,1280.2L1084.1,1290.5L1086.1,1299.9L1105.5,1311.0L1105.5,1318.5L1087.0,1316.8L1086.1,1329.0L1068.2,1323.5L1066.2,1296.2L1048.2,1290.6L1042.5,1278.4L1032.1,1280.3L1034.0,1272.7L1022.6,1254.8L989.4,1236.9L975.2,1249.3L979.0,1238.8L975.0,1224.5L982.7,1222.6L976.7,1208.4L961.0,1210.0L960.1,1220.4L948.4,1217.4L959.0,1193.1L956.1,1186.6L961.8,1181.9L960.8,1171.5L972.4,1168.7L972.3,1160.2L978.9,1155.5L971.2,1146.0L965.4,1149.8L967.3,1142.2L960.6,1145.0L960.5,1139.4L979.7,1139.5L972.0,1130.9L975.7,1122.4L1001.6,1125.4L1001.5,1115.0L992.9,1112.1L997.5,1096.0L988.9,1090.2L996.5,1087.4L1003.3,1096.0L1007.0,1079.9L981.0,1068.2L978.0,1054.8L964.6,1052.8L956.7,1030.7L977.6,1013.7L994.8,1015.7L991.9,1012.8L1000.4,1002.3L1017.6,999.7L1027.9,988.2L1029.7,975.6L1074.8,983.9L1071.8,966.8L1093.0,960.2Z"
+	}
+];
+var CITY_POINTS = {
+	"Hamburg": {
+		x: 967.8,
+		y: 455.2
+	},
+	"Kiel": {
+		x: 988.6,
+		y: 244.1
+	},
+	"Lübeck": {
+		x: 1079.3,
+		y: 369.7
+	},
+	"Itzehoe": {
+		x: 890.9,
+		y: 353.8
+	},
+	"Pinneberg": {
+		x: 936.6,
+		y: 424.5
+	},
+	"Bremen": {
+		x: 776,
+		y: 582.2
+	},
+	"Lüneburg": {
+		x: 1035.4,
+		y: 537.3
+	},
+	"Schwerin": {
+		x: 1196.4,
+		y: 432.3
+	},
+	"Berlin": {
+		x: 1516.6,
+		y: 731
+	},
+	"Köln": {
+		x: 479.8,
+		y: 1142.2
+	}
+};
+var rows = [
+	{
+		id: "hamburg",
+		title: "Hamburg",
+		subtitle: "Hauptsitz",
+		cities: ["hamburg"],
+		isHq: true
+	},
+	{
+		id: "pinneberg",
+		title: "Pinneberg & Itzehoe",
+		subtitle: "Standort",
+		cities: ["itzehoe"]
+	},
+	{
+		id: "kiel",
+		title: "Kiel & Lübeck",
+		subtitle: "Standort",
+		cities: ["kiel", "luebeck"]
+	},
+	{
+		id: "bremen",
+		title: "Bremen",
+		subtitle: "Standort",
+		cities: ["bremen"]
+	},
+	{
+		id: "lueneburg",
+		title: "Lüneburg & Schwerin",
+		subtitle: "Standort",
+		cities: ["lueneburg", "schwerin"]
+	},
+	{
+		id: "berlin",
+		title: "Berlin",
+		subtitle: "Standort",
+		cities: ["berlin"]
+	}
+];
+var markers = {
+	hamburg: {
+		x: CITY_POINTS["Hamburg"].x,
+		y: CITY_POINTS["Hamburg"].y,
+		label: "Hamburg"
+	},
+	itzehoe: {
+		x: CITY_POINTS["Itzehoe"].x,
+		y: CITY_POINTS["Itzehoe"].y,
+		label: "Itzehoe"
+	},
+	kiel: {
+		x: CITY_POINTS["Kiel"].x,
+		y: CITY_POINTS["Kiel"].y,
+		label: "Kiel"
+	},
+	luebeck: {
+		x: CITY_POINTS["Lübeck"].x,
+		y: CITY_POINTS["Lübeck"].y,
+		label: "Lübeck"
+	},
+	bremen: {
+		x: CITY_POINTS["Bremen"].x,
+		y: CITY_POINTS["Bremen"].y,
+		label: "Bremen"
+	},
+	lueneburg: {
+		x: CITY_POINTS["Lüneburg"].x,
+		y: CITY_POINTS["Lüneburg"].y,
+		label: "Lüneburg"
+	},
+	schwerin: {
+		x: CITY_POINTS["Schwerin"].x,
+		y: CITY_POINTS["Schwerin"].y,
+		label: "Schwerin"
+	},
+	berlin: {
+		x: CITY_POINTS["Berlin"].x,
+		y: CITY_POINTS["Berlin"].y,
+		label: "Berlin"
+	}
+};
+var spokes = {
+	itzehoe: {
+		x1: CITY_POINTS["Hamburg"].x,
+		y1: CITY_POINTS["Hamburg"].y,
+		x2: CITY_POINTS["Itzehoe"].x,
+		y2: CITY_POINTS["Itzehoe"].y
+	},
+	kiel: {
+		x1: CITY_POINTS["Hamburg"].x,
+		y1: CITY_POINTS["Hamburg"].y,
+		x2: CITY_POINTS["Kiel"].x,
+		y2: CITY_POINTS["Kiel"].y
+	},
+	luebeck: {
+		x1: CITY_POINTS["Hamburg"].x,
+		y1: CITY_POINTS["Hamburg"].y,
+		x2: CITY_POINTS["Lübeck"].x,
+		y2: CITY_POINTS["Lübeck"].y
+	},
+	bremen: {
+		x1: CITY_POINTS["Hamburg"].x,
+		y1: CITY_POINTS["Hamburg"].y,
+		x2: CITY_POINTS["Bremen"].x,
+		y2: CITY_POINTS["Bremen"].y
+	},
+	lueneburg: {
+		x1: CITY_POINTS["Hamburg"].x,
+		y1: CITY_POINTS["Hamburg"].y,
+		x2: CITY_POINTS["Lüneburg"].x,
+		y2: CITY_POINTS["Lüneburg"].y
+	},
+	schwerin: {
+		x1: CITY_POINTS["Hamburg"].x,
+		y1: CITY_POINTS["Hamburg"].y,
+		x2: CITY_POINTS["Schwerin"].x,
+		y2: CITY_POINTS["Schwerin"].y
+	},
+	berlin: {
+		x1: CITY_POINTS["Hamburg"].x,
+		y1: CITY_POINTS["Hamburg"].y,
+		x2: CITY_POINTS["Berlin"].x,
+		y2: CITY_POINTS["Berlin"].y
+	}
+};
+function StandortKarte() {
+	const [activeCities, setActiveCities] = (0, import_react.useState)(["hamburg"]);
+	const activeSet = (0, import_react.useMemo)(() => new Set(activeCities), [activeCities]);
+	const activateByCities = (cities) => {
+		setActiveCities(cities);
+	};
+	const clearAll = () => {
+		setActiveCities([]);
+	};
+	return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(import_jsx_runtime.Fragment, { children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("style", { children: `
+        .standort-card-shell {
+          display: grid;
+          grid-template-columns: 0.78fr 1.3fr;
+          width: 100%;
+          max-width: 1280px;
+          margin: 0 auto;
+          background: #fff;
+          border-radius: 22px;
+          box-shadow: 0 30px 60px -25px rgba(8, 33, 63, 0.35), 0 2px 0 rgba(8, 33, 63, 0.04);
+          overflow: hidden;
+          border: 1px solid #dbe1e8;
+        }
+
+        .standort-directory {
+          background: #fff;
+          padding: 44px 38px 40px;
+          display: flex;
+          flex-direction: column;
+          position: relative;
+        }
+
+        .standort-eyebrow {
+          font-size: 11px;
+          letter-spacing: 0.16em;
+          text-transform: uppercase;
+          color: #d79a4b;
+          font-weight: 600;
+          margin-bottom: 10px;
+          font-family: "Inter", sans-serif;
+        }
+
+        .standort-title {
+          margin: 0 0 6px;
+          color: #0d2e52;
+          font-size: 30px;
+          line-height: 1.1;
+          font-family: "Fraunces", serif;
+          font-weight: 500;
+        }
+
+        .standort-sub {
+          margin: 0 0 28px;
+          font-size: 13.5px;
+          color: #647186;
+          max-width: 34ch;
+          line-height: 1.6;
+          font-family: "Inter", sans-serif;
+        }
+
+        .standort-list {
+          list-style: none;
+          margin: 0;
+          padding: 0;
+          border-top: 1px solid #dbe1e8;
+        }
+
+        .standort-item {
+          display: flex;
+          align-items: center;
+          gap: 14px;
+          padding: 14px 10px;
+          border-bottom: 1px solid #dbe1e8;
+          position: relative;
+          cursor: pointer;
+          transition: background 0.25s ease, padding-left 0.25s ease;
+          font-family: "Inter", sans-serif;
+        }
+
+        .standort-item::before {
+          content: "";
+          position: absolute;
+          left: 0;
+          top: 0;
+          bottom: 0;
+          width: 3px;
+          background: #d79a4b;
+          transform: scaleY(0);
+          transform-origin: center;
+          transition: transform 0.25s ease;
+        }
+
+        .standort-item.active,
+        .standort-item:hover {
+          background: #f2f6fa;
+          padding-left: 18px;
+        }
+
+        .standort-item.active::before,
+        .standort-item:hover::before {
+          transform: scaleY(1);
+        }
+
+        .standort-dot {
+          width: 9px;
+          height: 9px;
+          border-radius: 50%;
+          background: #0e3a67;
+          flex: 0 0 auto;
+          transition: all 0.25s ease;
+        }
+
+        .standort-item.hq .standort-dot {
+          background: #d79a4b;
+          box-shadow: 0 0 0 3px #f0d3a2;
+        }
+
+        .standort-item.active .standort-dot,
+        .standort-item:hover .standort-dot {
+          background: #d79a4b;
+          transform: scale(1.25);
+          box-shadow: 0 0 0 4px #f0d3a2;
+        }
+
+        .standort-text {
+          display: flex;
+          flex-direction: column;
+        }
+
+        .standort-name {
+          font-size: 14.5px;
+          font-weight: 600;
+          letter-spacing: 0.01em;
+          color: #122436;
+        }
+
+        .standort-tag {
+          font-size: 11px;
+          letter-spacing: 0.03em;
+          color: #647186;
+        }
+
+        .standort-footer {
+          margin-top: auto;
+          padding-top: 22px;
+          font-size: 11px;
+          color: #647186;
+          letter-spacing: 0.02em;
+          font-family: "Inter", sans-serif;
+        }
+
+        .standort-map-panel {
+          position: relative;
+          background: linear-gradient(160deg, #08213f 0%, #0e3a67 55%, #1c69a8 100%);
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          padding: 18px;
+          min-height: 640px;
+        }
+
+        .standort-map-panel::before {
+          content: "Deutschland";
+          position: absolute;
+          top: 24px;
+          left: 28px;
+          font-family: "Fraunces", serif;
+          font-size: 12px;
+          letter-spacing: 0.2em;
+          text-transform: uppercase;
+          color: rgba(255,255,255,0.55);
+          z-index: 2;
+        }
+
+        .standort-map {
+          width: 100%;
+          height: auto;
+          max-height: 800px;
+          overflow: visible;
+          position: relative;
+          z-index: 1;
+        }
+
+        .standort-state {
+          fill: rgba(255,255,255,0.09);
+          stroke: rgba(255,255,255,0.42);
+          stroke-width: 4px;
+          stroke-linejoin: round;
+          transition: fill 0.3s ease;
+        }
+
+        .standort-spoke {
+          stroke: rgba(240,211,162,0.45);
+          stroke-width: 5;
+          stroke-dasharray: 10 18;
+          fill: none;
+          opacity: 0;
+          transition: opacity 0.3s ease;
+        }
+
+        .standort-spoke.show {
+          opacity: 1;
+        }
+
+        .standort-marker circle.core {
+          fill: #f0d3a2;
+          stroke: #d79a4b;
+          stroke-width: 8;
+          transition: transform 0.25s ease, fill 0.25s ease;
+          transform-box: fill-box;
+          transform-origin: center;
+          cursor: pointer;
+        }
+
+        .standort-marker.hq circle.core {
+          fill: #d79a4b;
+          stroke: #fff6e8;
+        }
+
+        .standort-marker circle.pulse {
+          fill: none;
+          stroke: #f0d3a2;
+          stroke-width: 6;
+          opacity: 0;
+          transform-box: fill-box;
+          transform-origin: center;
+        }
+
+        .standort-marker.active circle.core,
+        .standort-marker:hover circle.core {
+          transform: scale(1.55);
+          fill: #fff6e8;
+          stroke: #d79a4b;
+        }
+
+        .standort-marker.active circle.pulse,
+        .standort-marker:hover circle.pulse {
+          animation: pulse 1.4s ease-out infinite;
+        }
+
+        @keyframes pulse {
+          0% { opacity: 0.55; transform: scale(1); }
+          100% { opacity: 0; transform: scale(2.4); }
+        }
+
+        .standort-marker text {
+          font-family: "Inter", sans-serif;
+          font-size: 44px;
+          font-weight: 600;
+          fill: rgba(255,255,255,0.72);
+          transition: fill 0.25s ease;
+          pointer-events: none;
+          paint-order: stroke;
+          stroke: rgba(8,33,63,0.85);
+          stroke-width: 6px;
+        }
+
+        .standort-marker.active text,
+        .standort-marker:hover text {
+          fill: #ffffff;
+        }
+
+        @media (max-width: 860px) {
+          .standort-card-shell {
+            grid-template-columns: 1fr;
+          }
+
+          .standort-map-panel {
+            padding-top: 40px;
+            min-height: 420px;
+          }
+        }
+      ` }), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+		className: "standort-card-shell",
+		children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+			className: "standort-directory",
+			children: [
+				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+					className: "standort-eyebrow",
+					children: "Standorte"
+				}),
+				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h1", {
+					className: "standort-title",
+					children: "Wo Sie uns finden"
+				}),
+				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+					className: "standort-sub",
+					children: "Sieben Regionen, ein Team. Hamburg ist unser Hauptsitz — von dort aus sind wir in ganz Norddeutschland und darüber hinaus vertreten."
+				}),
+				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("ul", {
+					className: "standort-list",
+					children: rows.map((row) => {
+						const isActive = row.cities.some((city) => activeSet.has(city));
+						return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("li", {
+							className: `standort-item ${row.isHq ? "hq" : ""} ${isActive ? "active" : ""}`,
+							onMouseEnter: () => activateByCities(row.cities),
+							onMouseLeave: clearAll,
+							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { className: "standort-dot" }), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", {
+								className: "standort-text",
+								children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+									className: "standort-name",
+									children: row.title
+								}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+									className: "standort-tag",
+									children: row.subtitle
+								})]
+							})]
+						}, row.id);
+					})
+				}),
+				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+					className: "standort-footer",
+					children: "Mit der Maus über einen Ort fahren, um ihn auf der Karte zu sehen."
+				})
+			]
+		}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+			className: "standort-map-panel",
+			children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("svg", {
+				className: "standort-map",
+				viewBox: "0 0 2084 2084",
+				xmlns: "http://www.w3.org/2000/svg",
+				"aria-label": "Deutschlandkarte mit DHANSA Standorten",
+				children: [
+					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("g", { children: GERMANY_STATES.map((state) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", {
+						d: state.d,
+						fill: "rgba(255,255,255,0.08)",
+						stroke: "rgba(255,255,255,0.35)",
+						strokeWidth: 4,
+						vectorEffect: "non-scaling-stroke"
+					}, state.name)) }),
+					Object.entries(spokes).map(([city, spoke]) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)("line", {
+						className: `standort-spoke ${activeSet.has(city) ? "show" : ""}`,
+						x1: spoke.x1,
+						y1: spoke.y1,
+						x2: spoke.x2,
+						y2: spoke.y2
+					}, city)),
+					Object.entries(markers).map(([city, marker]) => {
+						const isActive = activeSet.has(city);
+						const isHq = city === "hamburg";
+						return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("g", {
+							className: `standort-marker ${isHq ? "hq" : ""} ${isActive ? "active" : ""}`,
+							onMouseEnter: () => activateByCities([city]),
+							onMouseLeave: clearAll,
+							style: { cursor: "pointer" },
+							children: [
+								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("circle", {
+									className: "pulse",
+									cx: marker.x,
+									cy: marker.y,
+									r: isHq ? 42 : 34
+								}),
+								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("circle", {
+									className: "core",
+									cx: marker.x,
+									cy: marker.y,
+									r: isHq ? 26 : 20
+								}),
+								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("text", {
+									x: marker.x + (isHq ? 35 : 26),
+									y: marker.y - (isHq ? 14 : 10),
+									children: marker.label
+								})
+							]
+						}, city);
+					})
+				]
+			})
+		})]
+	})] });
+}
+function Einsatzgebiet() {
+	return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("section", {
+		id: "einsatzgebiet",
+		className: "section relative overflow-hidden bg-[#f5f8fc]",
+		children: [
+			/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { className: "pointer-events-none absolute -left-16 top-10 h-56 w-56 rounded-full bg-primary/10 blur-3xl" }),
+			/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { className: "pointer-events-none absolute -right-24 bottom-8 h-64 w-64 rounded-full bg-blue-light-section blur-3xl" }),
+			/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+				className: "relative mx-auto max-w-7xl px-5 lg:px-8",
+				children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+					className: "mx-auto max-w-3xl text-center",
+					children: [
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+							className: "eyebrow",
+							children: "Einsatzgebiet"
+						}),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h2", {
+							className: "mt-4 font-display text-4xl font-bold leading-[1.08] text-slate-900 sm:text-5xl",
+							children: "Hamburg als Standort. Deutschland als Einsatzfeld."
+						}),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+							className: "mt-5 text-base leading-relaxed text-slate-600 sm:text-lg",
+							children: "Unser Hauptsitz liegt in Hamburg. Von dort aus versorgen wir Kunden in Norddeutschland und koordinieren größere Einsätze flexibel auch bundesweit."
+						})
+					]
+				}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+					className: "mt-10 overflow-hidden rounded-[30px] border border-slate-200 bg-white shadow-lift",
+					children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+						className: "flex items-center justify-between gap-3 border-b border-slate-200 bg-slate-50 px-4 py-3 sm:px-6",
+						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+							className: "inline-flex items-center gap-2 rounded-full border border-primary/20 bg-white px-3 py-1.5 text-[0.68rem] font-semibold tracking-[0.14em] text-primary uppercase",
+							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(MapPinned, { className: "size-3.5" }), "Standorte"]
+						}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+							className: "text-[0.68rem] font-medium tracking-[0.12em] text-slate-500 uppercase",
+							children: "Hamburg · Norddeutschland · deutschlandweit"
+						})]
+					}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+						className: "p-3 sm:p-4",
+						children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(StandortKarte, {})
+					})]
+				})]
+			})
+		]
+	});
+}
+function GoogleLogo() {
+	return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("svg", {
+		viewBox: "0 0 48 48",
+		"aria-hidden": "true",
+		className: "size-6",
+		children: [
+			/* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", {
+				fill: "#FFC107",
+				d: "M43.6 20.5H42V20H24v8h11.3C33.6 32.7 29.2 36 24 36c-6.6 0-12-5.4-12-12s5.4-12 12-12c3 0 5.7 1.1 7.8 2.9l5.7-5.7C34.1 6.1 29.3 4 24 4 12.9 4 4 12.9 4 24s8.9 20 20 20 20-8.9 20-20c0-1.3-.1-2.4-.4-3.5z"
+			}),
+			/* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", {
+				fill: "#FF3D00",
+				d: "M6.3 14.7l6.6 4.8C14.6 15.7 18.9 12 24 12c3 0 5.7 1.1 7.8 2.9l5.7-5.7C34.1 6.1 29.3 4 24 4c-7.7 0-14.3 4.3-17.7 10.7z"
+			}),
+			/* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", {
+				fill: "#4CAF50",
+				d: "M24 44c5.2 0 10-2 13.5-5.2l-6.2-5.2C29.2 35.2 26.8 36 24 36c-5.1 0-9.5-3.3-11.1-8l-6.5 5C9.8 39.6 16.3 44 24 44z"
+			}),
+			/* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", {
+				fill: "#1976D2",
+				d: "M43.6 20.5H42V20H24v8h11.3c-1.1 3.1-3.2 5.5-6 7l6.2 5.2C39.1 36.9 44 31 44 24c0-1.3-.1-2.4-.4-3.5z"
+			})
+		]
+	});
+}
+function Testimonials() {
+	return /* @__PURE__ */ (0, import_jsx_runtime.jsx)("section", {
+		id: "bewertungen",
+		className: "section bg-blue-light overflow-hidden",
+		children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+			className: "mx-auto max-w-7xl px-5 lg:px-8",
+			children: [
+				/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+					className: "mx-auto max-w-3xl text-center",
+					children: [
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+							className: "eyebrow",
+							children: "Bewertungen"
+						}),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h2", {
+							className: "mt-4 font-display text-4xl font-bold leading-[1.08] text-foreground sm:text-5xl",
+							children: "Was Kunden über uns sagen"
+						}),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+							className: "mt-6 inline-flex items-center gap-3 rounded-full border border-primary/20 bg-white px-5 py-2.5 shadow-soft",
+							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+								className: "flex gap-0.5 text-yellow-400",
+								children: Array.from({ length: 5 }).map((_, i) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Star, { className: "size-4 fill-current" }, i))
+							}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+								className: "text-sm font-bold text-foreground",
+								children: "5.0 / 5 auf Google"
+							})]
+						}),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+							className: "mx-auto mt-7 max-w-xl rounded-2xl border border-primary/20 bg-white p-4 shadow-soft",
+							children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+								className: "flex items-center justify-between gap-4",
+								children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+									className: "flex items-center gap-3",
+									children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(GoogleLogo, {}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+										className: "text-left",
+										children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+											className: "text-sm font-semibold text-foreground",
+											children: "Google Unternehmensprofil"
+										}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+											className: "text-xs text-muted-foreground",
+											children: "DHANSA Personal & Dienstleistungen e.K."
+										})]
+									})]
+								}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+									className: "rounded-full bg-primary px-3 py-1 text-xs font-semibold text-white",
+									children: "5.0 Sterne"
+								})]
+							})
+						})
+					]
+				}),
+				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+					className: "mt-14 grid gap-5 md:grid-cols-2 lg:grid-cols-3",
+					children: TESTIMONIALS.map((t, i) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("figure", {
+						className: "animate-review-float flex flex-col rounded-2xl border border-primary/10 bg-white p-7 shadow-lift",
+						style: { animationDelay: `${i * .18}s` },
+						children: [
+							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+								className: "flex gap-0.5 text-yellow-400",
+								children: Array.from({ length: 5 }).map((_, idx) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Star, { className: "size-3.5 fill-current" }, idx))
+							}),
+							/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Quote, { className: "mt-3 size-6 text-primary/25" }),
+							/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("blockquote", {
+								className: "mt-3 flex-1 text-sm leading-relaxed text-foreground",
+								children: [
+									"„",
+									t.quote,
+									"\""
+								]
+							}),
+							/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("figcaption", {
+								className: "mt-5 border-t border-border pt-4",
+								children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+									className: "font-display text-sm font-semibold text-foreground",
+									children: t.name
+								}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+									className: "text-xs text-muted-foreground",
+									children: t.role
+								})]
+							})
+						]
+					}, t.name))
+				}),
+				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+					className: "mt-10 text-center",
+					children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("a", {
+						href: COMPANY.googleHref,
+						target: "_blank",
+						rel: "noopener noreferrer",
+						className: "inline-flex items-center gap-2 rounded-full border-2 border-primary bg-white px-6 py-3 text-sm font-semibold text-primary shadow-soft transition-all hover:bg-primary hover:text-white",
+						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+							className: "flex gap-0.5 text-yellow-400",
+							children: Array.from({ length: 5 }).map((_, i) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Star, { className: "size-3.5 fill-current" }, i))
+						}), "Alle Google Bewertungen lesen"]
+					})
+				})
+			]
+		})
+	});
+}
+function Jobs() {
+	return /* @__PURE__ */ (0, import_jsx_runtime.jsx)("section", {
+		id: "karriere",
+		className: "section bg-white",
+		children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+			className: "mx-auto max-w-7xl px-5 lg:px-8",
+			children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+				className: "grid gap-12 lg:grid-cols-2 lg:gap-20 items-center",
+				children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { children: [
+					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+						className: "eyebrow",
+						children: "Wir stellen ein"
+					}),
+					/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("h2", {
+						className: "mt-4 font-display text-4xl font-bold leading-[1.08] text-foreground sm:text-5xl",
+						children: [
+							"Werde Teil des",
+							" ",
+							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+								className: "text-primary",
+								children: "DHANSA Teams"
+							})
+						]
+					}),
+					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+						className: "mt-5 text-base leading-relaxed text-muted-foreground",
+						children: "Wir wachsen — und suchen Verstärkung in Reinigung, Umzug, Galabau und Hausmeisterdienst. Faire Bezahlung, festes Team, Standort Hamburg."
+					}),
+					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("ul", {
+						className: "mt-8 space-y-3",
+						children: [
+							"Faire & pünktliche Bezahlung",
+							"Geregelte Arbeitszeiten",
+							"Festes Team, keine Subunternehmer",
+							"Quereinsteiger willkommen"
+						].map((item) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("li", {
+							className: "flex items-center gap-3 text-sm text-foreground",
+							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { className: "size-2 rounded-full bg-primary shrink-0" }), item]
+						}, item))
+					}),
+					/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+						className: "mt-8 flex flex-wrap gap-3",
+						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Button, {
+							asChild: true,
+							variant: "hero",
+							size: "pill",
+							children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("a", {
+								href: "/karriere",
+								children: ["Mehr zur Karriere", /* @__PURE__ */ (0, import_jsx_runtime.jsx)(ArrowRight, { className: "size-4" })]
+							})
+						}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Button, {
+							asChild: true,
+							variant: "outline",
+							size: "pill",
+							children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
+								href: `mailto:${COMPANY.email}?subject=Bewerbung`,
+								children: "Initiativ-Bewerbung"
+							})
+						})]
+					})
+				] }), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+					className: "grid gap-3",
+					children: JOBS.map((job) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("a", {
+						href: `mailto:${COMPANY.email}?subject=${encodeURIComponent(`Bewerbung: ${job.title}`)}`,
+						className: "group flex items-center justify-between rounded-2xl border border-border bg-white p-5 shadow-soft transition-all hover:border-primary/30 hover:shadow-md hover:-translate-y-0.5",
+						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+							className: "flex items-center gap-4",
+							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+								className: "grid size-11 place-items-center rounded-xl bg-primary/10",
+								children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Briefcase, { className: "size-5 text-primary" })
+							}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+								className: "font-display text-base font-semibold text-foreground",
+								children: job.title
+							}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+								className: "flex items-center gap-2 mt-0.5 text-xs text-muted-foreground",
+								children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(MapPin, { className: "size-3" }), job.location]
+							})] })]
+						}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+							className: "text-right",
+							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+								className: "text-sm font-semibold text-primary",
+								children: job.pay
+							}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)(ArrowRight, { className: "size-4 text-muted-foreground mt-1 ml-auto transition-transform group-hover:translate-x-1" })]
+						})]
+					}, job.title))
+				})]
+			})
+		})
+	});
+}
+function Faq() {
+	return /* @__PURE__ */ (0, import_jsx_runtime.jsx)("section", {
+		id: "faq",
+		className: "section bg-white",
+		children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+			className: "mx-auto max-w-7xl px-5 lg:px-8",
+			children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+				className: "grid gap-12 lg:grid-cols-[0.85fr_1.15fr] lg:gap-20",
+				children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+					className: "rounded-3xl gradient-primary p-8 text-white shadow-lift self-start",
+					children: [
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+							className: "eyebrow-white",
+							children: "FAQ"
+						}),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h2", {
+							className: "mt-4 font-display text-3xl font-bold leading-[1.08] sm:text-4xl",
+							children: "Häufig gestellte Fragen"
+						}),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+							className: "mt-5 text-sm leading-relaxed text-white/75",
+							children: "Von A wie Angebot bis Z wie Zufriedenheit — die wichtigsten Antworten rund um unsere Leistungen. Etwas nicht dabei? Sprechen Sie uns an."
+						}),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+							className: "mt-8 flex flex-col gap-3",
+							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Button, {
+								asChild: true,
+								variant: "glass",
+								size: "pill",
+								className: "w-full",
+								children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
+									href: "#kontakt",
+									children: "Frage stellen"
+								})
+							}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Button, {
+								asChild: true,
+								variant: "glassOutline",
+								size: "pill",
+								className: "w-full",
+								children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("a", {
+									href: COMPANY.phoneHref,
+									children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Phone, { className: "size-4" }), "Direkt anrufen"]
+								})
+							})]
+						}),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+							className: "mt-8 grid grid-cols-2 gap-3",
+							children: [
+								{
+									value: "5+",
+									label: "Jahre Erfahrung"
+								},
+								{
+									value: "100+",
+									label: "Zufriedene Kunden"
+								},
+								{
+									value: "24/7",
+									label: "Erreichbarkeit"
+								},
+								{
+									value: "40+",
+									label: "Mitarbeiter:innen"
+								}
+							].map((s) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+								className: "rounded-xl bg-white/15 p-3 text-center",
+								children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+									className: "font-display text-xl font-bold text-white",
+									children: s.value
+								}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+									className: "text-xs text-white/65 mt-0.5",
+									children: s.label
+								})]
+							}, s.label))
+						})
+					]
+				}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Accordion, {
+					type: "single",
+					collapsible: true,
+					defaultValue: "faq-0",
+					className: "w-full",
+					children: FAQS.map((f, i) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(AccordionItem, {
+						value: `faq-${i}`,
+						className: "border-border",
+						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(AccordionTrigger, {
+							className: "text-left font-display text-base font-semibold text-foreground hover:no-underline hover:text-primary",
+							children: f.q
+						}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)(AccordionContent, {
+							className: "text-sm leading-relaxed text-muted-foreground",
+							children: f.a
+						})]
+					}, f.q))
+				})]
+			})
+		})
+	});
+}
+var Input = import_react.forwardRef(({ className, type, ...props }, ref) => {
+	return /* @__PURE__ */ (0, import_jsx_runtime.jsx)("input", {
+		type,
+		className: cn("flex h-9 w-full rounded-md border border-input bg-transparent px-3 py-1 text-base shadow-sm transition-colors file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 md:text-sm", className),
+		ref,
+		...props
+	});
+});
+Input.displayName = "Input";
+var labelVariants = cva("text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70");
+var Label = import_react.forwardRef(({ className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Root, {
+	ref,
+	className: cn(labelVariants(), className),
+	...props
+}));
+Label.displayName = Root.displayName;
+var Textarea = import_react.forwardRef(({ className, ...props }, ref) => {
+	return /* @__PURE__ */ (0, import_jsx_runtime.jsx)("textarea", {
+		className: cn("flex min-h-[60px] w-full rounded-md border border-input bg-transparent px-3 py-2 text-base shadow-sm placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 md:text-sm", className),
+		ref,
+		...props
+	});
+});
+Textarea.displayName = "Textarea";
+function Contact() {
+	const [service, setService] = (0, import_react.useState)(SERVICES[0].title);
+	const handleSubmit = (event) => {
+		event.preventDefault();
+		const form = new FormData(event.currentTarget);
+		const body = [
+			`Leistungsbereich: ${service}`,
+			`Name: ${form.get("name")}`,
+			`Telefon: ${form.get("phone")}`,
+			`E-Mail: ${form.get("email")}`,
+			"",
+			String(form.get("message") ?? "")
+		].join("\n");
+		window.location.href = `mailto:${COMPANY.email}?subject=${encodeURIComponent(`Anfrage: ${service}`)}&body=${encodeURIComponent(body)}`;
+	};
+	return /* @__PURE__ */ (0, import_jsx_runtime.jsx)("section", {
+		id: "kontakt",
+		className: "section bg-blue-deep text-white",
+		children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+			className: "mx-auto max-w-7xl px-5 lg:px-8",
+			children: [
+				/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+					className: "mx-auto max-w-3xl text-center mb-14",
+					children: [
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+							className: "eyebrow-white",
+							children: "Kontakt"
+						}),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h2", {
+							className: "mt-4 font-display text-4xl font-bold leading-[1.08] sm:text-5xl",
+							children: "Jetzt Angebot anfordern"
+						}),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+							className: "mt-5 text-base leading-relaxed text-white/70",
+							children: "Mit DHANSA entscheiden Sie sich für einen Partner, der Kompetenz, Organisation und persönlichen Service bietet — in Hamburg und darüber hinaus."
+						})
+					]
+				}),
+				/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+					className: "grid gap-10 lg:grid-cols-[0.85fr_1.15fr] lg:gap-14",
+					children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+						className: "flex flex-col gap-4",
+						children: [[
+							{
+								icon: Phone,
+								label: "Telefon",
+								value: COMPANY.phone,
+								href: COMPANY.phoneHref
+							},
+							{
+								icon: MessageCircle,
+								label: "WhatsApp",
+								value: COMPANY.phone,
+								href: `https://wa.me/${COMPANY.whatsapp}`
+							},
+							{
+								icon: Mail,
+								label: "E-Mail",
+								value: COMPANY.email,
+								href: `mailto:${COMPANY.email}`
+							},
+							{
+								icon: MapPin,
+								label: "Adresse",
+								value: "Hamburg, Deutschland"
+							},
+							{
+								icon: Clock,
+								label: "Erreichbarkeit",
+								value: "24/7 Service · Mo–So"
+							}
+						].map((item) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+							className: "flex items-center gap-4 rounded-2xl border border-white/15 bg-white/10 p-5",
+							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+								className: "grid size-11 shrink-0 place-items-center rounded-xl bg-primary",
+								children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(item.icon, { className: "size-5 text-white" })
+							}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+								className: "text-xs font-semibold uppercase tracking-wider text-white/50",
+								children: item.label
+							}), item.href ? /* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
+								href: item.href,
+								className: "font-display text-base font-semibold text-white hover:text-primary-glow transition-colors",
+								children: item.value
+							}) : /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+								className: "font-display text-base font-semibold text-white",
+								children: item.value
+							})] })]
+						}, item.label)), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+							className: "mt-2 rounded-2xl border border-white/15 bg-white/10 p-6",
+							children: [
+								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+									className: "font-display text-sm font-semibold text-white mb-1",
+									children: "Kurzfristiger Bedarf?"
+								}),
+								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+									className: "text-xs text-white/60 mb-4",
+									children: "Einsätze in der Regel innerhalb von 24–48 Stunden."
+								}),
+								/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Button, {
+									asChild: true,
+									variant: "hero",
+									size: "pill",
+									className: "w-full shadow-blue",
+									children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("a", {
+										href: COMPANY.phoneHref,
+										children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Phone, { className: "size-4" }), COMPANY.phone]
+									})
+								})
+							]
+						})]
+					}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("form", {
+						onSubmit: handleSubmit,
+						className: "rounded-3xl bg-white p-7 shadow-lift sm:p-10",
+						children: [
+							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h3", {
+								className: "font-display text-2xl font-bold text-foreground",
+								children: "Anfrage senden"
+							}),
+							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+								className: "mt-2 text-sm text-muted-foreground",
+								children: "Wir melden uns innerhalb von 24 Stunden mit einem unverbindlichen Angebot."
+							}),
+							/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+								className: "mt-7",
+								children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Label, {
+									className: "text-xs font-semibold uppercase tracking-wider text-muted-foreground",
+									children: "Leistungsbereich"
+								}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+									className: "mt-3 flex flex-wrap gap-2",
+									children: SERVICES.map((s) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)("button", {
+										type: "button",
+										onClick: () => setService(s.title),
+										className: `rounded-full border px-3.5 py-2 text-xs font-semibold transition-colors ${service === s.title ? "border-primary bg-primary text-white" : "border-border bg-secondary text-muted-foreground hover:border-primary/40 hover:text-foreground"}`,
+										children: s.title
+									}, s.id))
+								})]
+							}),
+							/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+								className: "mt-6 grid gap-4 sm:grid-cols-2",
+								children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+									className: "grid gap-2",
+									children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Label, {
+										htmlFor: "name",
+										children: "Name"
+									}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Input, {
+										id: "name",
+										name: "name",
+										required: true,
+										placeholder: "Ihr Name"
+									})]
+								}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+									className: "grid gap-2",
+									children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Label, {
+										htmlFor: "phone",
+										children: "Telefon"
+									}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Input, {
+										id: "phone",
+										name: "phone",
+										placeholder: "Für schnellen Rückruf"
+									})]
+								})]
+							}),
+							/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+								className: "mt-4 grid gap-2",
+								children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Label, {
+									htmlFor: "email",
+									children: "E-Mail"
+								}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Input, {
+									id: "email",
+									name: "email",
+									type: "email",
+									required: true,
+									placeholder: "name@firma.de"
+								})]
+							}),
+							/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+								className: "mt-4 grid gap-2",
+								children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Label, {
+									htmlFor: "message",
+									children: "Ihre Anfrage"
+								}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Textarea, {
+									id: "message",
+									name: "message",
+									rows: 4,
+									required: true,
+									placeholder: "Beschreiben Sie kurz Umfang, Ort und Wunschtermin."
+								})]
+							}),
+							/* @__PURE__ */ (0, import_jsx_runtime.jsxs)(Button, {
+								type: "submit",
+								variant: "hero",
+								size: "pillLg",
+								className: "mt-7 w-full shadow-blue",
+								children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Send, { className: "size-4" }), "Angebot anfordern"]
+							}),
+							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+								className: "mt-3 text-center text-xs text-muted-foreground",
+								children: "Kostenlose Besichtigung · Zertifiziert · Schnelle Termine"
+							})
+						]
+					})]
+				}),
+				/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+					className: "mt-10 rounded-3xl border border-white/20 bg-white/10 p-3 shadow-lift",
+					children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+						className: "mb-3 px-2",
+						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+							className: "text-xs font-semibold uppercase tracking-wider text-white/60",
+							children: "Standortkarte"
+						}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+							className: "text-sm text-white/80",
+							children: "DHANSA in Hamburg"
+						})]
+					}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("iframe", {
+						title: "Standort DHANSA Hamburg",
+						src: "https://www.google.com/maps?q=Hamburg%20Deutschland&output=embed",
+						className: "h-72 w-full rounded-2xl border-0",
+						loading: "lazy",
+						referrerPolicy: "no-referrer-when-downgrade"
+					})]
+				})
+			]
+		})
+	});
+}
+function Index() {
+	return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+		className: "min-h-screen bg-background",
+		children: [
+			/* @__PURE__ */ (0, import_jsx_runtime.jsx)(SiteHeader, {}),
+			/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("main", { children: [
+				/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Hero, {}),
+				/* @__PURE__ */ (0, import_jsx_runtime.jsx)(PartnerMarquee, {}),
+				/* @__PURE__ */ (0, import_jsx_runtime.jsx)(About, {}),
+				/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Einsatzgebiet, {}),
+				/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Services, {}),
+				/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Strengths, {}),
+				/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Process, {}),
+				/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Testimonials, {}),
+				/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Jobs, {}),
+				/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Faq, {}),
+				/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Contact, {})
+			] }),
+			/* @__PURE__ */ (0, import_jsx_runtime.jsx)(SiteFooter, {})
+		]
+	});
+}
+//#endregion
+export { Index as component };

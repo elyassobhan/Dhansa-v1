@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Menu, Phone, X, ChevronDown, MessageCircle } from "lucide-react";
-import { Link } from "@tanstack/react-router";
+import { Link, useLocation } from "@tanstack/react-router";
 import { COMPANY, SERVICES } from "@/data/site";
 import { Button } from "@/components/ui/button";
 import logo from "@/assets/logo.png";
@@ -12,6 +12,7 @@ const NAV = [
   { label: "Über uns", href: "/#ueber-uns" },
   { label: "Bewertungen", href: "/#bewertungen" },
   { label: "FAQ", href: "/#faq" },
+  { label: "Karriere", href: "/karriere" },
   { label: "Kontakt", href: "/#kontakt" },
 ];
 
@@ -19,6 +20,9 @@ export function SiteHeader() {
   const [open, setOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const [servicesOpen, setServicesOpen] = useState(false);
+  const location = useLocation();
+  const isCareerPage = location.pathname === "/karriere";
+  const useDarkHeader = isCareerPage && !scrolled;
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 40);
@@ -32,7 +36,9 @@ export function SiteHeader() {
       className={`fixed inset-x-0 top-0 z-50 transition-all duration-300 ${
         scrolled
           ? "border-b border-border bg-white shadow-soft"
-          : "bg-transparent"
+          : useDarkHeader
+            ? "border-b border-white/10 bg-ink/60 backdrop-blur-sm"
+            : "bg-transparent"
       }`}
     >
       <div className="mx-auto flex h-28 max-w-7xl items-center justify-between gap-6 px-5 lg:px-8">

@@ -107,6 +107,7 @@ export function SiteFooter() {
                   { label: "Unsere Stärke", href: "/#staerke" },
                   { label: "Bewertungen", href: "/#bewertungen" },
                   { label: "FAQ", href: "/#faq" },
+                  { label: "Karriere", href: "/karriere" },
                   { label: "Kontakt", href: "/#kontakt" },
                 ].map((l) => (
                   <li key={l.label}>

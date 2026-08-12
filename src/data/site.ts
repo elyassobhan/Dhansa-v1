@@ -16,6 +16,7 @@ import photo06 from "@/assets/Transport-umzug.jpeg";
 import photo07 from "@/assets/Winter-diesnt.jpeg";
 import photo08 from "@/assets/Winter-diesnt-02.jpeg";
 import photo09 from "@/assets/Winter-diesnt-03.jpeg";
+import transportVan from "@/assets/transport-van.jpeg";
 
 export const COMPANY = {
   name: "DHANSA",
@@ -41,6 +42,7 @@ export const PHOTO_ASSETS = {
   photo07,
   photo08,
   photo09,
+  transportVan,
 } as const;
 
 export type Service = {
@@ -121,6 +123,36 @@ export const SERVICES: Service[] = [
       { value: "Flexibel", label: "Leistungsumfang" },
     ],
     photo: photo06,
+  },
+  {
+    id: "transport-logistik",
+    icon: Truck,
+    title: "Transport & Logistik",
+    kicker: "Transportlösungen aus Hamburg",
+    claim: "Professionell. Zuverlässig. Termingerecht.",
+    headline: "Transportlösungen aus Hamburg für Unternehmen, Gewerbekunden und öffentliche Auftraggeber.",
+    description:
+      "Wir übernehmen Transporte zuverlässig und flexibel – für Unternehmen, Gewerbekunden und öffentliche Auftraggeber. Mit erfahrenem Personal und passenden Transportfahrzeugen sorgen wir für eine termingerechte Abwicklung in Hamburg und Umgebung.",
+    items: [
+      "Private & gewerbliche Umzüge sorgfältig und termingerecht",
+      "Kurier- & Direktfahrten für schnelle Zustellungen",
+      "Gewerbliche Transporte für Unternehmen & Gewerbe",
+      "Paket- & Warenversand zuverlässig und kontrolliert",
+      "Flexible Koordination nach Terminplan",
+      "Persönliche Betreuung mit klarer Kommunikation",
+    ],
+    subLinks: [
+      "Umzüge",
+      "Kurier & Direktfahrten",
+      "Gewerbliche Transporte",
+      "Paket & Ware",
+    ],
+    stats: [
+      { value: "Termingerecht", label: "Ablauf" },
+      { value: "Zuverlässig", label: "Service" },
+      { value: "Flexibel", label: "Planung" },
+    ],
+    photo: transportVan,
   },
   {
     id: "galabau",
@@ -427,9 +459,78 @@ export const FAQS = [
   },
 ];
 
-export const JOBS = [
-  { title: "Reinigungskraft", location: "Hamburg", pay: "ab 14,50 €/Std." },
-  { title: "Möbelpacker / Fahrer", location: "Hamburg", pay: "ab 15,00 €/Std." },
-  { title: "Galabau-Mitarbeiter", location: "Hamburg", pay: "ab 2.900 € brutto" },
-  { title: "Hausmeister / Winterdienst", location: "Hamburg", pay: "ab 14,00 €/Std." },
+export const CAREER_OPENINGS = [
+  {
+    title: "Transportmitarbeiter / Fahrer",
+    type: "Vollzeit",
+    location: "Hamburg",
+    pay: "ab 15,00 €/Std.",
+    summary:
+      "Verantwortung für sichere Transporte, zuverlässige Lieferungen und professionelle Kundenbetreuung in Hamburg und Umgebung.",
+    requirements: [
+      "Verlässliche und pünktliche Arbeitsweise",
+      "Sicherer Umgang mit Fahrzeug und Transportaufgaben",
+      "Gute Kommunikation mit Kunden und Team",
+    ],
+  },
+  {
+    title: "Möbelpacker / Umzugshelfer",
+    type: "Vollzeit / Teilzeit",
+    location: "Hamburg",
+    pay: "ab 14,50 €/Std.",
+    summary:
+      "Sorgfältiger Umgang mit Möbeln, Verpackung und Organisation von Umzügen für Privat- und Gewerbekunden.",
+    requirements: [
+      "Körperlich fit und belastbar",
+      "Achtsamkeit beim Handling von Gegenständen",
+      "Teamfähigkeit und sauberer Arbeitsstil",
+    ],
+  },
+  {
+    title: "Reinigungskraft für Gewerbe",
+    type: "Teilzeit / Nachtschicht",
+    location: "Hamburg",
+    pay: "ab 14,50 €/Std.",
+    summary:
+      "Selbstständige und gründliche Arbeit in Büros, Praxisräumen, Gebäuden und Gewerbeobjekten.",
+    requirements: [
+      "Saubere Arbeitsweise und Verantwortungsgefühl",
+      "Pünktlichkeit und Zuverlässigkeit",
+      "Gute Organisation und Hygieneverständnis",
+    ],
+  },
+  {
+    title: "Hausmeister / Winterdienst",
+    type: "Vollzeit",
+    location: "Hamburg",
+    pay: "ab 14,00 €/Std.",
+    summary:
+      "Wartung, Kontrolle und zuverlässige Umsetzung von Außen- und Winterdienstaufgaben an verschiedenen Objekten.",
+    requirements: [
+      "Verantwortungsbewusstes Arbeiten",
+      "Flexibilität bei Außeneinsätzen",
+      "Sicherer Umgang mit dem Objektbereich",
+    ],
+  },
+];
+
+export const JOBS = CAREER_OPENINGS.map(({ title, location, pay }) => ({
+  title,
+  location,
+  pay,
+}));
+
+export const CAREER_BENEFITS = [
+  "Faire und transparente Vergütung",
+  "Kleines, stabiles Team mit klaren Verantwortlichkeiten",
+  "Flexible Einsatzzeiten und gute Einbindung",
+  "Schneller Einstieg mit Einarbeitung vor Ort",
+  "Quereinsteiger willkommen",
+];
+
+export const CAREER_PROCESS = [
+  "Kontaktaufnahme per Mail oder Telefon",
+  "Persönliches Gespräch & kurze Einschätzung",
+  "Einsatz- und Termineinigung",
+  "Schneller Start in Ihrem Bereich",
 ];

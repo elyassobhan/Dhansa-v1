@@ -39,7 +39,23 @@ const SCHEMES = [
     ctaSecondary: "glassOutline",
   },
   {
-    // 03 Galabau — primary blue bg, white text
+    // 03 Transport & Logistik — deep blue service
+    section: "bg-blue-deep text-white",
+    badge: "bg-white/10 text-white/80 border border-white/20",
+    numColor: "text-white/10",
+    titleColor: "text-white",
+    claimColor: "text-primary-glow",
+    descColor: "text-white/70",
+    checkBg: "bg-primary-glow/20 text-primary-glow border border-primary-glow/30",
+    tagBg: "bg-white/10 border border-white/20 text-white/80",
+    photoBg: "from-ink/90 via-ink/40 to-transparent",
+    statBorder: "border-white/20 bg-white/10",
+    eyebrowColor: "text-primary-glow",
+    ctaPrimary: "glass",
+    ctaSecondary: "glassOutline",
+  },
+  {
+    // 04 Galabau — primary blue bg, white text
     section: "bg-blue-mid text-white",
     badge: "bg-white/15 text-white border border-white/25",
     numColor: "text-white/10",
@@ -55,7 +71,7 @@ const SCHEMES = [
     ctaSecondary: "glassOutline",
   },
   {
-    // 04 Tiefbau & Erdarbeiten — stone blue bg, dark text
+    // 05 Tiefbau & Erdarbeiten — stone blue bg, dark text
     section: "bg-slate-100 text-foreground",
     badge: "bg-primary/10 text-primary border border-primary/20",
     numColor: "text-primary/15",
@@ -71,7 +87,7 @@ const SCHEMES = [
     ctaSecondary: "outline",
   },
   {
-    // 05 Winterdienst — sky blue bg, dark text
+    // 06 Winterdienst — sky blue bg, dark text
     section: "bg-blue-light",
     badge: "bg-primary/10 text-primary border border-primary/20",
     numColor: "text-primary/15",
@@ -87,7 +103,7 @@ const SCHEMES = [
     ctaSecondary: "outline",
   },
   {
-    // 06 Personal — navy gradient bg, white text
+    // 07 Personal — navy gradient bg, white text
     section: "bg-navy text-white",
     badge: "bg-primary/30 text-white border border-primary/40",
     numColor: "text-white/8",
@@ -114,7 +130,7 @@ export function Services() {
         <div className="mx-auto max-w-3xl px-5">
           <p className="eyebrow">Unsere Leistungen</p>
           <h2 className="mt-4 font-display text-4xl font-bold leading-[1.08] text-foreground sm:text-5xl">
-            Sechs Bereiche. Ein Partner.
+            Sieben Bereiche. Ein Partner.
           </h2>
           <p className="mt-5 text-base leading-relaxed text-muted-foreground sm:text-lg">
             Jeder Bereich mit eigenem Team, eigener Ausrüstung und festem Ansprechpartner —

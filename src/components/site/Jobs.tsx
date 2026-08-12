@@ -33,12 +33,19 @@ export function Jobs() {
               ))}
             </ul>
 
-            <Button asChild variant="hero" size="pill" className="mt-8">
-              <a href={`mailto:${COMPANY.email}?subject=Bewerbung`}>
-                Initiativ-Bewerbung
-                <ArrowRight className="size-4" />
-              </a>
-            </Button>
+            <div className="mt-8 flex flex-wrap gap-3">
+              <Button asChild variant="hero" size="pill">
+                <a href="/karriere">
+                  Mehr zur Karriere
+                  <ArrowRight className="size-4" />
+                </a>
+              </Button>
+              <Button asChild variant="outline" size="pill">
+                <a href={`mailto:${COMPANY.email}?subject=Bewerbung`}>
+                  Initiativ-Bewerbung
+                </a>
+              </Button>
+            </div>
           </div>
 
           {/* Right: job cards */}

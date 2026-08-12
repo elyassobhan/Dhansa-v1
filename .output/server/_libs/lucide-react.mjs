@@ -199,6 +199,34 @@ var Briefcase = createLucideIcon("briefcase", [["path", {
 * This source code is licensed under the ISC license.
 * See the LICENSE file in the root directory of this source tree.
 */
+var Building2 = createLucideIcon("building-2", [
+	["path", {
+		d: "M10 12h4",
+		key: "a56b0p"
+	}],
+	["path", {
+		d: "M10 8h4",
+		key: "1sr2af"
+	}],
+	["path", {
+		d: "M14 21v-3a2 2 0 0 0-4 0v3",
+		key: "1rgiei"
+	}],
+	["path", {
+		d: "M6 10H4a2 2 0 0 0-2 2v7a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-2",
+		key: "secmi2"
+	}],
+	["path", {
+		d: "M6 21V5a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v16",
+		key: "16ra0t"
+	}]
+]);
+/**
+* @license lucide-react v0.575.0 - ISC
+*
+* This source code is licensed under the ISC license.
+* See the LICENSE file in the root directory of this source tree.
+*/
 var Check = createLucideIcon("check", [["path", {
 	d: "M20 6 9 17l-5-5",
 	key: "1gmf2c"
@@ -219,6 +247,21 @@ var ChevronDown = createLucideIcon("chevron-down", [["path", {
 * This source code is licensed under the ISC license.
 * See the LICENSE file in the root directory of this source tree.
 */
+var Clock3 = createLucideIcon("clock-3", [["circle", {
+	cx: "12",
+	cy: "12",
+	r: "10",
+	key: "1mglay"
+}], ["path", {
+	d: "M12 6v6h4",
+	key: "135r8i"
+}]]);
+/**
+* @license lucide-react v0.575.0 - ISC
+*
+* This source code is licensed under the ISC license.
+* See the LICENSE file in the root directory of this source tree.
+*/
 var Clock = createLucideIcon("clock", [["circle", {
 	cx: "12",
 	cy: "12",
@@ -228,6 +271,34 @@ var Clock = createLucideIcon("clock", [["circle", {
 	d: "M12 6v6l4 2",
 	key: "mmk7yg"
 }]]);
+/**
+* @license lucide-react v0.575.0 - ISC
+*
+* This source code is licensed under the ISC license.
+* See the LICENSE file in the root directory of this source tree.
+*/
+var Handshake = createLucideIcon("handshake", [
+	["path", {
+		d: "m11 17 2 2a1 1 0 1 0 3-3",
+		key: "efffak"
+	}],
+	["path", {
+		d: "m14 14 2.5 2.5a1 1 0 1 0 3-3l-3.88-3.88a3 3 0 0 0-4.24 0l-.88.88a1 1 0 1 1-3-3l2.81-2.81a5.79 5.79 0 0 1 7.06-.87l.47.28a2 2 0 0 0 1.42.25L21 4",
+		key: "9pr0kb"
+	}],
+	["path", {
+		d: "m21 3 1 11h-2",
+		key: "1tisrp"
+	}],
+	["path", {
+		d: "M3 3 2 14l6.5 6.5a1 1 0 1 0 3-3",
+		key: "1uvwmv"
+	}],
+	["path", {
+		d: "M3 4h8",
+		key: "1ep09j"
+	}]
+]);
 /**
 * @license lucide-react v0.575.0 - ISC
 *
@@ -325,6 +396,30 @@ var MessageCircle = createLucideIcon("message-circle", [["path", {
 	d: "M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719",
 	key: "1sd12s"
 }]]);
+/**
+* @license lucide-react v0.575.0 - ISC
+*
+* This source code is licensed under the ISC license.
+* See the LICENSE file in the root directory of this source tree.
+*/
+var MessageSquareText = createLucideIcon("message-square-text", [
+	["path", {
+		d: "M22 17a2 2 0 0 1-2 2H6.828a2 2 0 0 0-1.414.586l-2.202 2.202A.71.71 0 0 1 2 21.286V5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2z",
+		key: "18887p"
+	}],
+	["path", {
+		d: "M7 11h10",
+		key: "1twpyw"
+	}],
+	["path", {
+		d: "M7 15h6",
+		key: "d9of3u"
+	}],
+	["path", {
+		d: "M7 7h8",
+		key: "af5zfr"
+	}]
+]);
 /**
 * @license lucide-react v0.575.0 - ISC
 *
@@ -630,4 +725,4 @@ var Zap = createLucideIcon("zap", [["path", {
 	key: "1xq2db"
 }]]);
 //#endregion
-export { ArrowLeft as A, ChevronDown as C, Award as D, BadgeCheck as E, ArrowUp as O, Clock as S, Briefcase as T, Menu as _, Truck as a, Mail as b, Star as c, Shield as d, ShieldCheck as f, MessageCircle as g, Phone as h, Users as i, ArrowRight as k, SprayCan as l, Quote as m, X as n, TrendingUp as o, Send as p, Wrench as r, Trees as s, Zap as t, Snowflake as u, MapPinned as v, Check as w, Leaf as x, MapPin as y };
+export { BadgeCheck as A, Handshake as C, Check as D, ChevronDown as E, ArrowUp as M, ArrowRight as N, Building2 as O, ArrowLeft as P, Leaf as S, Clock3 as T, MessageCircle as _, Truck as a, MapPin as b, Star as c, Shield as d, ShieldCheck as f, MessageSquareText as g, Phone as h, Users as i, Award as j, Briefcase as k, SprayCan as l, Quote as m, X as n, TrendingUp as o, Send as p, Wrench as r, Trees as s, Zap as t, Snowflake as u, Menu as v, Clock as w, Mail as x, MapPinned as y };

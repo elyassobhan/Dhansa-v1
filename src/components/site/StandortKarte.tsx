@@ -4,17 +4,15 @@ import { CITY_POINTS, GERMANY_STATES } from "@/data/germany-map";
 
 const rows = [
   { id: "hamburg", title: "Hamburg", subtitle: "Hauptsitz", cities: ["hamburg"], isHq: true },
-  { id: "pinneberg", title: "Pinneberg & Itzehoe", subtitle: "Standort", cities: ["pinneberg", "itzehoe"] },
+  { id: "pinneberg", title: "Pinneberg & Itzehoe", subtitle: "Standort", cities: ["itzehoe"] },
   { id: "kiel", title: "Kiel & Lübeck", subtitle: "Standort", cities: ["kiel", "luebeck"] },
   { id: "bremen", title: "Bremen", subtitle: "Standort", cities: ["bremen"] },
   { id: "lueneburg", title: "Lüneburg & Schwerin", subtitle: "Standort", cities: ["lueneburg", "schwerin"] },
   { id: "berlin", title: "Berlin", subtitle: "Standort", cities: ["berlin"] },
-  { id: "koeln", title: "Köln & Umgebung", subtitle: "Standort", cities: ["koeln"] },
 ] as const;
 
 const markers = {
   hamburg: { x: CITY_POINTS["Hamburg"].x, y: CITY_POINTS["Hamburg"].y, label: "Hamburg" },
-  pinneberg: { x: CITY_POINTS["Pinneberg"].x, y: CITY_POINTS["Pinneberg"].y, label: "Pinneberg" },
   itzehoe: { x: CITY_POINTS["Itzehoe"].x, y: CITY_POINTS["Itzehoe"].y, label: "Itzehoe" },
   kiel: { x: CITY_POINTS["Kiel"].x, y: CITY_POINTS["Kiel"].y, label: "Kiel" },
   luebeck: { x: CITY_POINTS["Lübeck"].x, y: CITY_POINTS["Lübeck"].y, label: "Lübeck" },
@@ -22,11 +20,9 @@ const markers = {
   lueneburg: { x: CITY_POINTS["Lüneburg"].x, y: CITY_POINTS["Lüneburg"].y, label: "Lüneburg" },
   schwerin: { x: CITY_POINTS["Schwerin"].x, y: CITY_POINTS["Schwerin"].y, label: "Schwerin" },
   berlin: { x: CITY_POINTS["Berlin"].x, y: CITY_POINTS["Berlin"].y, label: "Berlin" },
-  koeln: { x: CITY_POINTS["Köln"].x, y: CITY_POINTS["Köln"].y, label: "Köln" },
 } as const;
 
 const spokes: Record<string, { x1: number; y1: number; x2: number; y2: number }> = {
-  pinneberg: { x1: CITY_POINTS["Hamburg"].x, y1: CITY_POINTS["Hamburg"].y, x2: CITY_POINTS["Pinneberg"].x, y2: CITY_POINTS["Pinneberg"].y },
   itzehoe: { x1: CITY_POINTS["Hamburg"].x, y1: CITY_POINTS["Hamburg"].y, x2: CITY_POINTS["Itzehoe"].x, y2: CITY_POINTS["Itzehoe"].y },
   kiel: { x1: CITY_POINTS["Hamburg"].x, y1: CITY_POINTS["Hamburg"].y, x2: CITY_POINTS["Kiel"].x, y2: CITY_POINTS["Kiel"].y },
   luebeck: { x1: CITY_POINTS["Hamburg"].x, y1: CITY_POINTS["Hamburg"].y, x2: CITY_POINTS["Lübeck"].x, y2: CITY_POINTS["Lübeck"].y },
@@ -34,7 +30,6 @@ const spokes: Record<string, { x1: number; y1: number; x2: number; y2: number }>
   lueneburg: { x1: CITY_POINTS["Hamburg"].x, y1: CITY_POINTS["Hamburg"].y, x2: CITY_POINTS["Lüneburg"].x, y2: CITY_POINTS["Lüneburg"].y },
   schwerin: { x1: CITY_POINTS["Hamburg"].x, y1: CITY_POINTS["Hamburg"].y, x2: CITY_POINTS["Schwerin"].x, y2: CITY_POINTS["Schwerin"].y },
   berlin: { x1: CITY_POINTS["Hamburg"].x, y1: CITY_POINTS["Hamburg"].y, x2: CITY_POINTS["Berlin"].x, y2: CITY_POINTS["Berlin"].y },
-  koeln: { x1: CITY_POINTS["Hamburg"].x, y1: CITY_POINTS["Hamburg"].y, x2: CITY_POINTS["Köln"].x, y2: CITY_POINTS["Köln"].y },
 };
 
 export function StandortKarte() {
