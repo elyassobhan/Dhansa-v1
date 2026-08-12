@@ -7,6 +7,16 @@ import {
   type LucideIcon,
 } from "lucide-react";
 
+import photo01 from "@/assets/bau-arbeit.jpeg";
+import photo02 from "@/assets/Gebaeudereinung-02.jpeg";
+import photo03 from "@/assets/strasse-bau.jpeg";
+import photo04 from "@/assets/Gebaeudereinung-03.jpeg";
+import photo05 from "@/assets/Personal.jpeg";
+import photo06 from "@/assets/Transport-umzug.jpeg";
+import photo07 from "@/assets/Winter-diesnt.jpeg";
+import photo08 from "@/assets/Winter-diesnt-02.jpeg";
+import photo09 from "@/assets/Winter-diesnt-03.jpeg";
+
 export const COMPANY = {
   name: "DHANSA",
   legal: "DHANSA Personal & Dienstleistungen e.K.",
@@ -22,15 +32,15 @@ export const COMPANY = {
 };
 
 export const PHOTO_ASSETS = {
-  photo01: "/src/assets/bau-arbeit.jpeg",
-  photo02: "/src/assets/Gebaeudereinung-02.jpeg",
-  photo03: "/src/assets/strasse-bau.jpeg",
-  photo04: "/src/assets/Gebaeudereinung-03.jpeg",
-  photo05: "/src/assets/Personal.jpeg",
-  photo06: "/src/assets/Transport-umzug.jpeg",
-  photo07: "/src/assets/Winter-diesnt.jpeg",
-  photo08: "/src/assets/Winter-diesnt-02.jpeg",
-  photo09: "/src/assets/Winter-diesnt-03.jpeg",
+  photo01,
+  photo02,
+  photo03,
+  photo04,
+  photo05,
+  photo06,
+  photo07,
+  photo08,
+  photo09,
 } as const;
 
 export type Service = {
@@ -80,7 +90,7 @@ export const SERVICES: Service[] = [
       { value: "Individuell", label: "Leistungsumfang" },
       { value: "Geprüft", label: "Personal" },
     ],
-    photo: "/src/assets/Gebaeudereinung-02.jpeg",
+    photo: photo02,
   },
   {
     id: "umzug",
@@ -110,7 +120,7 @@ export const SERVICES: Service[] = [
       { value: "Strukturiert", label: "Ablauf" },
       { value: "Flexibel", label: "Leistungsumfang" },
     ],
-    photo: "/src/assets/Transport-umzug.jpeg",
+    photo: photo06,
   },
   {
     id: "galabau",
@@ -204,7 +214,7 @@ export const SERVICES: Service[] = [
       { value: "Mo–So", label: "24/7" },
       { value: "365 Tage", label: "Im Jahr" },
     ],
-    photo: "/src/assets/Winter-diesnt.jpeg",
+    photo: photo07,
   },
   {
     id: "personal",
@@ -233,7 +243,7 @@ export const SERVICES: Service[] = [
       { value: "0 €", label: "Erstberatung" },
       { value: "100 %", label: "Geprüfte Kräfte" },
     ],
-    photo: "/src/assets/Personal.jpeg",
+    photo: photo05,
   },
 ];
 
