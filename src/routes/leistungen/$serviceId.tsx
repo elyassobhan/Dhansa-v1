@@ -15,21 +15,26 @@ export const Route = createFileRoute("/leistungen/$serviceId")({
   loader: ({ params }) => {
     const service = SERVICES.find((s) => s.id === params.serviceId);
     if (!service) throw notFound();
-    return { service };
+    return { serviceId: service.id };
   },
-  head: ({ loaderData }) => ({
-    meta: [
-      { title: `${loaderData?.service.title} Hamburg | DHANSA` },
-      { name: "description", content: loaderData?.service.description },
-      { property: "og:title", content: `${loaderData?.service.title} Hamburg | DHANSA` },
-      { property: "og:description", content: loaderData?.service.description },
-    ],
-  }),
+  head: ({ loaderData }) => {
+    const service = SERVICES.find((s) => s.id === loaderData?.serviceId);
+    return {
+      meta: [
+        { title: `${service?.title} Hamburg | DHANSA` },
+        { name: "description", content: service?.description },
+        { property: "og:title", content: `${service?.title} Hamburg | DHANSA` },
+        { property: "og:description", content: service?.description },
+      ],
+    };
+  },
   component: ServicePage,
 });
 
 function ServicePage() {
-  const { service } = Route.useLoaderData();
+  const { serviceId } = Route.useLoaderData();
+  const service = SERVICES.find((s) => s.id === serviceId);
+  if (!service) throw notFound();
   const otherServices = SERVICES.filter((s) => s.id !== service.id);
 
   return (

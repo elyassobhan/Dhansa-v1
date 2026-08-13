@@ -40,10 +40,8 @@ export function CookieConsent() {
     setSettingsOpen(false);
   };
 
-  if (!visible) return null;
-
   return (
-    <div className="fixed inset-x-0 bottom-0 z-[80] px-4 pb-4">
+    <div id="cookie-consent" className={`${visible ? "" : "hidden "}fixed inset-x-0 bottom-0 z-[80] px-4 pb-4`}>
       <div className="mx-auto max-w-5xl rounded-2xl border border-primary/20 bg-white p-4 shadow-lift sm:p-6">
         <div className="flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between">
           <div className="max-w-3xl">
@@ -97,10 +95,10 @@ export function CookieConsent() {
           </div>
 
           <div className="flex flex-wrap gap-2 sm:justify-end">
-            <Button type="button" variant="outline" size="pill" onClick={acceptEssential}>
+            <Button id="cookie-accept-essential" type="button" variant="outline" size="pill" onClick={acceptEssential}>
               Nur notwendige
             </Button>
-            <Button type="button" variant="hero" size="pill" className="shadow-blue" onClick={acceptAll}>
+            <Button id="cookie-accept-all" type="button" variant="hero" size="pill" className="shadow-blue" onClick={acceptAll}>
               Alle akzeptieren
             </Button>
           </div>

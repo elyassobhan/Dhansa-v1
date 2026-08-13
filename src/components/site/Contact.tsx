@@ -87,17 +87,19 @@ export function Contact() {
               <Label className="text-xs font-semibold uppercase tracking-wider text-muted-foreground">
                 Leistungsbereich
               </Label>
+              <input type="hidden" name="service" value={service} />
               <div className="mt-3 flex flex-wrap gap-2">
                 {SERVICES.map((s) => (
                   <button
                     key={s.id}
                     type="button"
-                    onClick={() => setService(s.title)}
-                    className={`rounded-full border px-3.5 py-2 text-xs font-semibold transition-colors ${
+                    data-service={s.title}
+                    className={`js-service-pick rounded-full border px-3.5 py-2 text-xs font-semibold transition-colors ${
                       service === s.title
                         ? "border-primary bg-primary text-white"
                         : "border-border bg-secondary text-muted-foreground hover:border-primary/40 hover:text-foreground"
                     }`}
+                    onClick={() => setService(s.title)}
                   >
                     {s.title}
                   </button>

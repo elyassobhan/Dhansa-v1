@@ -19,7 +19,6 @@ const NAV = [
 export function SiteHeader() {
   const [open, setOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
-  const [servicesOpen, setServicesOpen] = useState(false);
   const location = useLocation();
   const isCareerPage = location.pathname === "/karriere";
   const useDarkHeader = isCareerPage && !scrolled;
@@ -33,6 +32,7 @@ export function SiteHeader() {
 
   return (
     <header
+      id="site-header"
       className={`fixed inset-x-0 top-0 z-50 transition-all duration-300 ${
         scrolled
           ? "border-b border-border bg-white shadow-soft"
@@ -47,10 +47,10 @@ export function SiteHeader() {
         <Link to="/" className="flex items-center gap-3 shrink-0">
           <img src={logo} alt="DHANSA" className="h-20 w-auto object-contain" />
           <div className="flex flex-col leading-tight">
-            <span className={`font-brand text-2xl font-extrabold tracking-tight transition-colors ${scrolled ? "text-foreground" : "text-white"}`}>
+            <span className={`js-header-brand font-brand text-2xl font-extrabold tracking-tight transition-colors ${scrolled ? "text-foreground" : "text-white"}`}>
               DHANSA
             </span>
-            <span className={`text-xs font-medium tracking-wide transition-colors ${scrolled ? "text-muted-foreground" : "text-white/70"}`}>
+            <span className={`js-header-sub text-xs font-medium tracking-wide transition-colors ${scrolled ? "text-muted-foreground" : "text-white/70"}`}>
               Personal &amp; Dienstleistungen e.K.
             </span>
           </div>
@@ -60,15 +60,10 @@ export function SiteHeader() {
         <nav className="hidden items-center gap-0.5 lg:flex">
           {NAV.map((item) =>
             item.hasDropdown ? (
-              <div
-                key={item.label}
-                className="relative"
-                onMouseEnter={() => setServicesOpen(true)}
-                onMouseLeave={() => setServicesOpen(false)}
-              >
+              <div key={item.label} className="group relative">
                 <a
                   href={item.href}
-                  className={`flex items-center gap-1 rounded-lg px-3.5 py-2 text-sm font-medium transition-colors ${
+                  className={`js-header-link flex items-center gap-1 rounded-lg px-3.5 py-2 text-sm font-medium transition-colors ${
                     scrolled
                       ? "text-muted-foreground hover:bg-secondary hover:text-foreground"
                       : "text-white/85 hover:text-white"
@@ -77,15 +72,13 @@ export function SiteHeader() {
                   {item.label}
                   <ChevronDown className="size-3.5" />
                 </a>
-                {servicesOpen && (
-                  <div className="absolute left-1/2 top-full w-72 -translate-x-1/2 pt-2">
+                <div className="invisible absolute left-1/2 top-full z-50 w-72 -translate-x-1/2 pt-2 opacity-0 transition group-hover:visible group-hover:opacity-100">
                     <div className="rounded-2xl border border-border bg-white p-2 shadow-xl">
                       {SERVICES.map((s) => (
                         <Link
                           key={s.id}
                           to="/leistungen/$serviceId"
                           params={{ serviceId: s.id }}
-                          onClick={() => setServicesOpen(false)}
                           className="flex items-start gap-3 rounded-xl px-3 py-2.5 transition-colors hover:bg-blue-light-section"
                         >
                           <s.icon className="mt-0.5 size-4 shrink-0 text-primary" />
@@ -96,14 +89,13 @@ export function SiteHeader() {
                         </Link>
                       ))}
                     </div>
-                  </div>
-                )}
+                </div>
               </div>
             ) : (
               <a
                 key={item.label}
                 href={item.href}
-                className={`rounded-lg px-3.5 py-2 text-sm font-medium transition-colors ${
+                className={`js-header-link rounded-lg px-3.5 py-2 text-sm font-medium transition-colors ${
                   scrolled
                     ? "text-muted-foreground hover:bg-secondary hover:text-foreground"
                     : "text-white/85 hover:text-white"
@@ -132,7 +124,9 @@ export function SiteHeader() {
           </Button>
           <button
             type="button"
+            id="menu-toggle"
             aria-label="Menü öffnen"
+            aria-controls="mobile-menu"
             onClick={() => setOpen((v) => !v)}
             className={`grid size-11 place-items-center rounded-xl border lg:hidden transition-colors ${
               scrolled
@@ -146,8 +140,7 @@ export function SiteHeader() {
       </div>
 
       {/* Mobile menu */}
-      {open && (
-        <div className="border-t border-border bg-white px-5 pb-6 pt-3 lg:hidden">
+      <div id="mobile-menu" className={`${open ? "" : "hidden"} border-t border-border bg-white px-5 pb-6 pt-3 lg:hidden`}>
           <nav className="flex flex-col">
             {NAV.map((item) => (
               <a
@@ -185,8 +178,7 @@ export function SiteHeader() {
               </a>
             </Button>
           </div>
-        </div>
-      )}
+      </div>
     </header>
   );
 }
