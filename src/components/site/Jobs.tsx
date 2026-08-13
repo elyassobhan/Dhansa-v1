@@ -15,8 +15,8 @@ export function Jobs() {
               <span className="text-primary">DHANSA Teams</span>
             </h2>
             <p className="mt-5 text-base leading-relaxed text-muted-foreground">
-              Wir wachsen — und suchen Verstärkung in Reinigung, Umzug, Galabau und
-              Hausmeisterdienst. Faire Bezahlung, festes Team, Standort Hamburg.
+              Wir wachsen — und suchen Verstärkung im Galabau und Tiefbau. Faire Bezahlung,
+              festes Team, Standort Hamburg.
             </p>
 
             <ul className="mt-8 space-y-3">

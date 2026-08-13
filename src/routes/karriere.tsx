@@ -32,7 +32,7 @@ export const Route = createFileRoute("/karriere")({
       {
         name: "description",
         content:
-          "Karriere bei DHANSA: Verlässliche Jobs in Transport & Logistik, Reinigung, Hausmeisterservice und mehr aus Hamburg.",
+          "Karriere bei DHANSA: Offene Stellen im Galabau und Tiefbau aus Hamburg.",
       },
     ],
   }),

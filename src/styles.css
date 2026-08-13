@@ -70,12 +70,12 @@
   --popover-foreground: oklch(0.17 0.04 258);
 
   /* Blue palette — 5 shades */
-  --primary:       oklch(0.46 0.23 256);   /* main CTA blue */
-  --primary-deep:  oklch(0.28 0.18 260);   /* navy */
-  --primary-mid:   oklch(0.52 0.20 248);   /* medium blue */
-  --primary-light: oklch(0.72 0.14 240);   /* light blue */
-  --primary-sky:   oklch(0.93 0.05 240);   /* sky tint */
-  --primary-glow:  oklch(0.80 0.12 232);   /* highlight */
+  --primary: oklch(0.46 0.23 256);
+  --primary-deep: oklch(0.28 0.18 260);
+  --primary-mid: oklch(0.52 0.20 248);
+  --primary-light: oklch(0.72 0.14 240);
+  --primary-sky: oklch(0.93 0.05 240);
+  --primary-glow: oklch(0.80 0.12 232);
   --primary-foreground: oklch(1 0 0);
 
   --secondary: oklch(0.97 0.007 248);
@@ -91,12 +91,12 @@
   --ring: oklch(0.46 0.23 256);
 
   /* Section backgrounds */
-  --ink:                oklch(0.15 0.045 260);   /* near-black navy */
-  --ink-foreground:     oklch(0.98 0.005 250);
-  --blue-section:       oklch(0.28 0.18 260);    /* deep navy section */
+  --ink: oklch(0.15 0.045 260);
+  --ink-foreground: oklch(0.98 0.005 250);
+  --blue-section: oklch(0.28 0.18 260);
   --blue-section-foreground: oklch(0.98 0.005 250);
-  --blue-mid-section:   oklch(0.46 0.23 256);    /* primary blue section */
-  --blue-light-section: oklch(0.93 0.05 240);    /* sky-blue section */
+  --blue-mid-section: oklch(0.46 0.23 256);
+  --blue-light-section: oklch(0.93 0.05 240);
 
   --chart-1: oklch(0.46 0.23 256);
   --chart-2: oklch(0.72 0.14 240);
@@ -114,34 +114,55 @@
   --sidebar-ring: oklch(0.46 0.23 256);
 
   --gradient-primary: linear-gradient(135deg, oklch(0.28 0.18 260), oklch(0.46 0.23 256) 55%, oklch(0.56 0.20 246));
-  --gradient-navy:    linear-gradient(135deg, oklch(0.15 0.045 260), oklch(0.28 0.18 260));
-  --gradient-sky:     linear-gradient(180deg, oklch(0.93 0.05 240), oklch(1 0 0));
+  --gradient-navy: linear-gradient(135deg, oklch(0.15 0.045 260), oklch(0.28 0.18 260));
+  --gradient-sky: linear-gradient(180deg, oklch(0.93 0.05 240), oklch(1 0 0));
   --shadow-soft: 0 1px 3px oklch(0.17 0.04 258 / 0.06), 0 8px 24px -12px oklch(0.17 0.04 258 / 0.10);
   --shadow-lift: 0 20px 60px -20px oklch(0.28 0.18 260 / 0.28);
   --shadow-blue: 0 8px 32px -8px oklch(0.46 0.23 256 / 0.35);
 }
 
 @layer base {
-  * { border-color: var(--color-border); }
+  * {
+    border-color: var(--color-border);
+  }
+
   body {
     background-color: var(--color-background);
     color: var(--color-foreground);
     font-family: var(--font-sans);
     -webkit-font-smoothing: antialiased;
   }
-  h1, h2, h3, h4 {
+
+  h1,
+  h2,
+  h3,
+  h4 {
     font-family: var(--font-display);
     letter-spacing: -0.02em;
   }
 }
 
-@utility gradient-primary  { background-image: var(--gradient-primary); }
-@utility gradient-navy     { background-image: var(--gradient-navy); }
-@utility gradient-sky      { background-image: var(--gradient-sky); }
-@utility shadow-soft       { box-shadow: var(--shadow-soft); }
-@utility shadow-lift       { box-shadow: var(--shadow-lift); }
-@utility shadow-blue       { box-shadow: var(--shadow-blue); }
-@utility font-brand        { font-family: var(--font-brand); }
+@utility gradient-primary {
+  background-image: var(--gradient-primary);
+}
+@utility gradient-navy {
+  background-image: var(--gradient-navy);
+}
+@utility gradient-sky {
+  background-image: var(--gradient-sky);
+}
+@utility shadow-soft {
+  box-shadow: var(--shadow-soft);
+}
+@utility shadow-lift {
+  box-shadow: var(--shadow-lift);
+}
+@utility shadow-blue {
+  box-shadow: var(--shadow-blue);
+}
+@utility font-brand {
+  font-family: var(--font-brand);
+}
 
 @utility eyebrow {
   font-family: var(--font-display);
@@ -161,11 +182,17 @@
   color: oklch(0.80 0.12 232);
 }
 
-@utility section { padding-block: 5.5rem; }
+@utility section {
+  padding-block: 5.5rem;
+}
 
 @keyframes marquee {
-  from { transform: translateX(0); }
-  to   { transform: translateX(-50%); }
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
 }
 @utility animate-marquee {
   animation: marquee 28s linear infinite;
@@ -175,23 +202,317 @@
 }
 
 @keyframes map-pulse {
-  0%, 100% { opacity: 0.6; transform: scale(1); }
-  50%       { opacity: 1;   transform: scale(1.08); }
+  0%,
+  100% {
+    opacity: 0.6;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.08);
+  }
 }
 @utility animate-map-pulse {
   animation: map-pulse 2.5s ease-in-out infinite;
 }
 
 @keyframes review-float {
-  0%, 100% { transform: translateY(0px); }
-  50% { transform: translateY(-6px); }
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
 }
 @utility animate-review-float {
   animation: review-float 4.6s ease-in-out infinite;
 }
 
-/* Section colour helpers */
-@utility bg-blue-deep   { background-color: var(--blue-section); }
-@utility bg-blue-mid    { background-color: var(--blue-mid-section); }
-@utility bg-blue-light  { background-color: var(--blue-light-section); }
-@utility bg-navy        { background-color: var(--ink); }
+@utility bg-blue-deep {
+  background-color: var(--blue-section);
+}
+@utility bg-blue-mid {
+  background-color: var(--blue-mid-section);
+}
+@utility bg-blue-light {
+  background-color: var(--blue-light-section);
+}
+@utility bg-navy {
+  background-color: var(--ink);
+}
+
+/* Standort map card */
+.standort-card-shell {
+  display: grid;
+  grid-template-columns: 0.78fr 1.3fr;
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  overflow: hidden;
+  background: #fff;
+  border: 1px solid #dbe1e8;
+  border-radius: 22px;
+  box-shadow:
+    0 30px 60px -25px rgba(8, 33, 63, 0.35),
+    0 2px 0 rgba(8, 33, 63, 0.04);
+}
+
+.standort-directory {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding: 44px 38px 40px;
+  background: #fff;
+}
+
+.standort-eyebrow {
+  margin-bottom: 10px;
+  color: #d79a4b;
+  font-family: var(--font-display);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.standort-title {
+  margin: 0 0 6px;
+  color: #0d2e52;
+  font-family: var(--font-display);
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 1.1;
+}
+
+.standort-sub {
+  max-width: 34ch;
+  margin: 0 0 28px;
+  color: #647186;
+  font-family: var(--font-sans);
+  font-size: 13.5px;
+  line-height: 1.6;
+}
+
+.standort-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  border-top: 1px solid #dbe1e8;
+}
+
+.standort-item {
+  display: flex;
+  align-items: center;
+  position: relative;
+  gap: 14px;
+  padding: 14px 10px;
+  border-bottom: 1px solid #dbe1e8;
+  font-family: var(--font-sans);
+  cursor: pointer;
+  transition:
+    background 0.25s ease,
+    padding-left 0.25s ease;
+}
+
+.standort-item::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 3px;
+  background: #d79a4b;
+  transform: scaleY(0);
+  transform-origin: center;
+  transition: transform 0.25s ease;
+}
+
+.standort-item.active,
+.standort-item:hover {
+  padding-left: 18px;
+  background: #f2f6fa;
+}
+
+.standort-item.active::before,
+.standort-item:hover::before {
+  transform: scaleY(1);
+}
+
+.standort-dot {
+  flex: 0 0 auto;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: #0e3a67;
+  transition: all 0.25s ease;
+}
+
+.standort-item.hq .standort-dot {
+  background: #d79a4b;
+  box-shadow: 0 0 0 3px #f0d3a2;
+}
+
+.standort-item.active .standort-dot,
+.standort-item:hover .standort-dot {
+  background: #d79a4b;
+  box-shadow: 0 0 0 4px #f0d3a2;
+  transform: scale(1.25);
+}
+
+.standort-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.standort-name {
+  color: #122436;
+  font-size: 14.5px;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+}
+
+.standort-tag {
+  color: #647186;
+  font-size: 11px;
+  letter-spacing: 0.03em;
+}
+
+.standort-footer {
+  margin-top: auto;
+  padding-top: 22px;
+  color: #647186;
+  font-family: var(--font-sans);
+  font-size: 11px;
+  letter-spacing: 0.02em;
+}
+
+.standort-map-panel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  min-height: 640px;
+  padding: 18px;
+  background: linear-gradient(160deg, #08213f 0%, #0e3a67 55%, #1c69a8 100%);
+}
+
+.standort-map-panel::before {
+  content: "Deutschland";
+  position: absolute;
+  top: 24px;
+  left: 28px;
+  z-index: 2;
+  color: rgba(255, 255, 255, 0.55);
+  font-family: var(--font-display);
+  font-size: 12px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+
+.standort-map {
+  width: 100%;
+  max-height: 800px;
+  height: auto;
+  overflow: visible;
+  position: relative;
+  z-index: 1;
+}
+
+.standort-state {
+  fill: rgba(255, 255, 255, 0.09);
+  stroke: rgba(255, 255, 255, 0.42);
+  stroke-width: 4px;
+  stroke-linejoin: round;
+  transition: fill 0.3s ease;
+}
+
+.standort-spoke {
+  fill: none;
+  stroke: rgba(240, 211, 162, 0.45);
+  stroke-width: 5;
+  stroke-dasharray: 10 18;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.standort-spoke.show {
+  opacity: 1;
+}
+
+.standort-marker circle.core {
+  fill: #f0d3a2;
+  stroke: #d79a4b;
+  stroke-width: 8;
+  transform-box: fill-box;
+  transform-origin: center;
+  cursor: pointer;
+  transition:
+    transform 0.25s ease,
+    fill 0.25s ease;
+}
+
+.standort-marker.hq circle.core {
+  fill: #d79a4b;
+  stroke: #fff6e8;
+}
+
+.standort-marker circle.pulse {
+  fill: none;
+  stroke: #f0d3a2;
+  stroke-width: 6;
+  opacity: 0;
+  transform-box: fill-box;
+  transform-origin: center;
+}
+
+.standort-marker.active circle.core,
+.standort-marker:hover circle.core {
+  fill: #fff6e8;
+  stroke: #d79a4b;
+  transform: scale(1.55);
+}
+
+.standort-marker.active circle.pulse,
+.standort-marker:hover circle.pulse {
+  animation: pulse 1.4s ease-out infinite;
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 0.55;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(2.4);
+  }
+}
+
+.standort-marker text {
+  fill: rgba(255, 255, 255, 0.72);
+  stroke: rgba(8, 33, 63, 0.85);
+  stroke-width: 6px;
+  paint-order: stroke;
+  font-family: var(--font-sans);
+  font-size: 44px;
+  font-weight: 600;
+  pointer-events: none;
+  transition: fill 0.25s ease;
+}
+
+.standort-marker.active text,
+.standort-marker:hover text {
+  fill: #ffffff;
+}
+
+@media (max-width: 860px) {
+  .standort-card-shell {
+    grid-template-columns: 1fr;
+  }
+
+  .standort-map-panel {
+    min-height: 420px;
+    padding-top: 40px;
+  }
+}

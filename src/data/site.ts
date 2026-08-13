@@ -465,6 +465,33 @@ export const FAQS = [
 
 export const CAREER_OPENINGS = [
   {
+    title: "Galabau-Mitarbeiter / Landschaftsgärtner",
+    type: "Vollzeit",
+    location: "Hamburg",
+    pay: "ab 14,50 €/Std.",
+    summary:
+      "Garten- und Landschaftsbau vor Ort: Pflege, Pflanzung, Schnittarbeiten und Instandhaltung von Grünanlagen für Privat- und Gewerbekunden.",
+    requirements: [
+      "Körperlich fit und einsatzbereit im Außenbereich",
+      "Sorgfältiger Umgang mit Pflanzen, Geräten und Maschinen",
+      "Teamfähigkeit und zuverlässige Arbeitsweise",
+    ],
+  },
+  {
+    title: "Tiefbau-Mitarbeiter / Erdarbeiten",
+    type: "Vollzeit",
+    location: "Hamburg",
+    pay: "ab 15,00 €/Std.",
+    summary:
+      "Erdarbeiten, Baugruben, Gräben und Bauvorbereitung — präzise, sicher und termintreu auf Baustellen in Hamburg und Umgebung.",
+    requirements: [
+      "Körperlich belastbar und sicherheitsbewusst",
+      "Erfahrung oder Interesse an Erdarbeiten und Baustelleneinsätzen",
+      "Zuverlässigkeit und klare Teamkommunikation",
+    ],
+  },
+  /*
+  {
     title: "Transportmitarbeiter / Fahrer",
     type: "Vollzeit",
     location: "Hamburg",
@@ -503,7 +530,7 @@ export const CAREER_OPENINGS = [
       "Gute Organisation und Hygieneverständnis",
     ],
   },
-    {
+  {
     title: "IT Manager / Systemadministrator",
     type: "Vollzeit",
     location: "Hamburg",
@@ -516,7 +543,6 @@ export const CAREER_OPENINGS = [
       "Problemlösungsfähigkeiten und Teamfähigkeit",
     ],
   },
-
   {
     title: "Hausmeister / Winterdienst",
     type: "Vollzeit",
@@ -530,6 +556,7 @@ export const CAREER_OPENINGS = [
       "Sicherer Umgang mit dem Objektbereich",
     ],
   },
+  */
 ];
 
 export const JOBS = CAREER_OPENINGS.map(({ title, location, pay }) => ({
