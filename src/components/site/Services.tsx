@@ -7,23 +7,7 @@ import { Button } from "@/components/ui/button";
 /* Each service gets its own colour scheme */
 const SCHEMES = [
   {
-    // 01 Gebäudereinigung — white bg, primary blue accent
-    section: "bg-white",
-    badge: "bg-primary/10 text-primary border border-primary/20",
-    numColor: "text-primary/20",
-    titleColor: "text-foreground",
-    claimColor: "text-primary",
-    descColor: "text-muted-foreground",
-    checkBg: "bg-primary text-white",
-    tagBg: "bg-blue-light-section border border-primary/20 text-primary",
-    photoBg: "from-primary-deep/90 via-primary/50 to-transparent",
-    statBorder: "border-white/25 bg-white/15",
-    eyebrowColor: "text-primary",
-    ctaPrimary: "hero",
-    ctaSecondary: "outline",
-  },
-  {
-    // 02 Umzüge — deep navy bg, white text
+    // 01 Umzüge — deep navy bg, white text
     section: "bg-blue-deep text-white",
     badge: "bg-white/10 text-white/80 border border-white/20",
     numColor: "text-white/10",
@@ -39,7 +23,7 @@ const SCHEMES = [
     ctaSecondary: "glassOutline",
   },
   {
-    // 03 Transport & Logistik — deep blue service
+    // 02 Transport & Logistik — deep blue service
     section: "bg-blue-deep text-white",
     badge: "bg-white/10 text-white/80 border border-white/20",
     numColor: "text-white/10",
@@ -55,7 +39,7 @@ const SCHEMES = [
     ctaSecondary: "glassOutline",
   },
   {
-    // 04 Galabau — primary blue bg, white text
+    // 03 Galabau — primary blue bg, white text
     section: "bg-blue-mid text-white",
     badge: "bg-white/15 text-white border border-white/25",
     numColor: "text-white/10",
@@ -71,7 +55,7 @@ const SCHEMES = [
     ctaSecondary: "glassOutline",
   },
   {
-    // 05 Tiefbau & Erdarbeiten — stone blue bg, dark text
+    // 04 Tiefbau & Erdarbeiten — stone blue bg, dark text
     section: "bg-slate-100 text-foreground",
     badge: "bg-primary/10 text-primary border border-primary/20",
     numColor: "text-primary/15",
@@ -87,7 +71,7 @@ const SCHEMES = [
     ctaSecondary: "outline",
   },
   {
-    // 06 Winterdienst — sky blue bg, dark text
+    // 05 Winterdienst — sky blue bg, dark text
     section: "bg-blue-light",
     badge: "bg-primary/10 text-primary border border-primary/20",
     numColor: "text-primary/15",
@@ -103,7 +87,7 @@ const SCHEMES = [
     ctaSecondary: "outline",
   },
   {
-    // 07 Personal — navy gradient bg, white text
+    // 06 Personal — navy gradient bg, white text
     section: "bg-navy text-white",
     badge: "bg-primary/30 text-white border border-primary/40",
     numColor: "text-white/8",
@@ -117,6 +101,22 @@ const SCHEMES = [
     eyebrowColor: "text-primary-glow",
     ctaPrimary: "glass",
     ctaSecondary: "glassOutline",
+  },
+  {
+    // 07 Gebäudereinigung — white bg, primary blue accent
+    section: "bg-white",
+    badge: "bg-primary/10 text-primary border border-primary/20",
+    numColor: "text-primary/20",
+    titleColor: "text-foreground",
+    claimColor: "text-primary",
+    descColor: "text-muted-foreground",
+    checkBg: "bg-primary text-white",
+    tagBg: "bg-blue-light-section border border-primary/20 text-primary",
+    photoBg: "from-primary-deep/90 via-primary/50 to-transparent",
+    statBorder: "border-white/25 bg-white/15",
+    eyebrowColor: "text-primary",
+    ctaPrimary: "hero",
+    ctaSecondary: "outline",
   },
 ] as const;
 

@@ -33,6 +33,19 @@ function ImpressumPage() {
             </section>
 
             <section>
+              <h2 className="font-display text-xl font-bold text-foreground">Vertreten durch</h2>
+              <p className="mt-2 text-sm leading-relaxed text-muted-foreground">
+                Inhaber: {COMPANY.owner}
+                <br />
+                {COMPANY.hra}
+                <br />
+                {COMPANY.ustId}
+                <br />
+                {COMPANY.taxNumber}
+              </p>
+            </section>
+
+            <section>
               <h2 className="font-display text-xl font-bold text-foreground">Kontakt</h2>
               <p className="mt-2 text-sm leading-relaxed text-muted-foreground">
                 Telefon: {COMPANY.phone}

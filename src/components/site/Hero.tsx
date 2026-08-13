@@ -46,9 +46,9 @@ export function Hero() {
           </p>
 
           <p className="mt-6 text-base leading-relaxed text-white/80 sm:text-lg">
-            DHANSA verbindet Gebäudereinigung, Umzüge, Transport &amp; Logistik, Galabau,
-            Winterdienst und Personal in einem klaren, verlässlichen Service für Privat- und
-            Gewerbekunden in Hamburg.
+            Professionell Galabau, Tiefbau &amp; Erdarbeiten, professionelle Gebäudereinigung,
+            zuverlässige Umzüge &amp; Entrümpelungen, Winterdienst und Personal — alles aus
+            einer Hand für Privat- und Gewerbekunden.
           </p>
 
           <div className="mt-8 flex flex-wrap gap-3">

@@ -82,14 +82,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       {
         name: "description",
         content:
-          "Personal, Transport & Logistik, Gebäudereinigung, Galabau, Tiefbau und Services aus Hamburg — zuverlässig aus einer Hand.",
+          "Personal, Transport & Logistik, Galabau, Tiefbau, Umzüge, Winterdienst und Gebäudereinigung aus Hamburg — zuverlässig aus einer Hand.",
       },
       { name: "author", content: "DHANSA Personal & Dienstleistungen e.K." },
       { property: "og:title", content: "DHANSA Personal & Dienstleistungen e.K. | Hamburg" },
       {
         property: "og:description",
         content:
-          "Personal, Transport & Logistik, Gebäudereinigung, Galabau, Tiefbau und Services aus Hamburg — zuverlässig aus einer Hand.",
+          "Personal, Transport & Logistik, Galabau, Tiefbau, Umzüge, Winterdienst und Gebäudereinigung aus Hamburg — zuverlässig aus einer Hand.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },

@@ -33,10 +33,6 @@ export function About() {
               Hamburger Wurzeln.{" "}
               <span className="text-primary">Norddeutscher Anspruch.</span>
             </h2>
-            <p className="mt-5 text-base leading-relaxed text-muted-foreground sm:text-lg">
-              Als inhabergeführtes Unternehmen aus Hamburg steht DHANSA Personal &amp; Dienstleistungen e.K.
-              für zuverlässige, professionelle und flexibel skalierbare Dienstleistungen aus einer Hand.
-            </p>
           </div>
 
           {/* Stats bar */}
@@ -53,10 +49,6 @@ export function About() {
             {/* Left */}
             <div>
               <p className="text-base leading-relaxed text-muted-foreground sm:text-lg">
-                Als inhabergeführtes Unternehmen aus Hamburg steht DHANSA Personal &amp; Dienstleistungen e.K.
-                für zuverlässige, professionelle und flexibel skalierbare Dienstleistungen aus einer Hand.
-              </p>
-              <p className="mt-4 text-base leading-relaxed text-muted-foreground sm:text-lg">
                 Unser junges, dynamisches Team arbeitet engagiert, lösungsorientiert und mit einem hohen
                 Anspruch an Qualität und Zuverlässigkeit. Wir unterstützen Unternehmen, Gewerbekunden und
                 öffentliche Auftraggeber bei der effizienten Umsetzung unterschiedlichster Projekte und

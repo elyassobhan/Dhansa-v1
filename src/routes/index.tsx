@@ -12,9 +12,9 @@ import { Faq } from "@/components/site/Faq";
 import { Contact } from "@/components/site/Contact";
 import { SiteFooter } from "@/components/site/SiteFooter";
 
-const TITLE = "DHANSA Hamburg | Gebäudereinigung, Umzüge, Galabau, Tiefbau & Winterdienst";
+const TITLE = "DHANSA Hamburg | Galabau, Tiefbau, Umzüge, Winterdienst, Personal & Gebäudereinigung";
 const DESCRIPTION =
-  "DHANSA Personal & Dienstleistungen e.K. aus Hamburg: Gebäudereinigung, Umzüge & Entrümpelung, Galabau & Grünpflege, Tiefbau & Erdarbeiten, Winterdienst & Hausmeisterservice sowie Personal — alles aus einer Hand.";
+  "DHANSA Personal & Dienstleistungen e.K. aus Hamburg: Galabau, Tiefbau & Erdarbeiten, Umzüge & Entrümpelung, Winterdienst & Hausmeisterservice, Personal sowie Gebäudereinigung — alles aus einer Hand.";
 
 export const Route = createFileRoute("/")({
   head: () => ({

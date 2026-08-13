@@ -21,6 +21,10 @@ import transportVan from "@/assets/transport-van.jpeg";
 export const COMPANY = {
   name: "DHANSA",
   legal: "DHANSA Personal & Dienstleistungen e.K.",
+  owner: "Daryush Hassanzadeh",
+  hra: "HRA 133407",
+  ustId: "USt-IdNr.: DE352561439",
+  taxNumber: "Steuernummer: 46/088/05457",
   tagline: "Menschen. Lösungen. Vertrauen.",
   phone: "0162 3179 432",
   phoneHref: "tel:+491623179432",
@@ -60,40 +64,6 @@ export type Service = {
 };
 
 export const SERVICES: Service[] = [
-  {
-    id: "reinigung",
-    icon: SprayCan,
-    title: "Gebäudereinigung",
-    kicker: "Gewerbe · Objekte · Reinigung",
-    claim: "Professionelle Reinigung für Gewerbe & Objekte.",
-    headline: "Verlässliche, gründliche und flexible Reinigungsleistungen aus Hamburg.",
-    description:
-      "DHANSA steht für zuverlässige, gründliche und flexible Reinigungsleistungen. Wir betreuen Unternehmen, Gewerbeobjekte und öffentliche Einrichtungen – regelmäßig, individuell und mit geschultem Personal.",
-    items: [
-      "Unterhaltsreinigung",
-      "Büroreinigung",
-      "Sanitärreinigung",
-      "Treppenhausreinigung",
-      "Praxis- & medizinische Objekte",
-      "Fitnessstudios & Freizeit",
-      "Industriereinigung",
-      "Grund- & Baureinigung",
-      "Weitere Leistungen auf Anfrage",
-    ],
-    subLinks: [
-      "Glasreinigung",
-      "Sonderreinigung",
-      "Küchenreinigung",
-      "Desinfektion",
-      "Endreinigung",
-    ],
-    stats: [
-      { value: "Regelmäßig", label: "Einsatzplan" },
-      { value: "Individuell", label: "Leistungsumfang" },
-      { value: "Geprüft", label: "Personal" },
-    ],
-    photo: photo02,
-  },
   {
     id: "umzug",
     icon: Truck,
@@ -277,6 +247,40 @@ export const SERVICES: Service[] = [
     ],
     photo: photo05,
   },
+  {
+    id: "reinigung",
+    icon: SprayCan,
+    title: "Gebäudereinigung",
+    kicker: "Gewerbe · Objekte · Reinigung",
+    claim: "Professionelle Reinigung für Gewerbe & Objekte.",
+    headline: "Verlässliche, gründliche und flexible Reinigungsleistungen aus Hamburg.",
+    description:
+      "DHANSA steht für zuverlässige, gründliche und flexible Reinigungsleistungen. Wir betreuen Unternehmen, Gewerbeobjekte und öffentliche Einrichtungen – regelmäßig, individuell und mit geschultem Personal.",
+    items: [
+      "Unterhaltsreinigung",
+      "Büroreinigung",
+      "Sanitärreinigung",
+      "Treppenhausreinigung",
+      "Praxis- & medizinische Objekte",
+      "Fitnessstudios & Freizeit",
+      "Industriereinigung",
+      "Grund- & Baureinigung",
+      "Weitere Leistungen auf Anfrage",
+    ],
+    subLinks: [
+      "Glasreinigung",
+      "Sonderreinigung",
+      "Küchenreinigung",
+      "Desinfektion",
+      "Endreinigung",
+    ],
+    stats: [
+      { value: "Regelmäßig", label: "Einsatzplan" },
+      { value: "Individuell", label: "Leistungsumfang" },
+      { value: "Geprüft", label: "Personal" },
+    ],
+    photo: photo02,
+  },
 ];
 
 export const STATS_HERO = [
@@ -435,7 +439,7 @@ export const FAQS = [
   {
     category: "Allgemein",
     q: "Welche Leistungen kann ich anfragen?",
-    a: "Gebäudereinigung, Umzüge & Entrümpelung, Galabau & Grünpflege, Winterdienst & Hausmeisterservice sowie Personal & Arbeitnehmerüberlassung — alles aus einer Hand.",
+    a: "Umzüge & Entrümpelung, Galabau & Grünpflege, Tiefbau & Erdarbeiten, Winterdienst & Hausmeisterservice, Personal & Arbeitnehmerüberlassung sowie Gebäudereinigung — alles aus einer Hand.",
   },
   {
     category: "Allgemein",
@@ -499,6 +503,20 @@ export const CAREER_OPENINGS = [
       "Gute Organisation und Hygieneverständnis",
     ],
   },
+    {
+    title: "IT Manager / Systemadministrator",
+    type: "Vollzeit",
+    location: "Hamburg",
+    pay: "ab 19,00 €/Std.",
+    summary:
+      "Verantwortung für die IT-Infrastruktur, Systemadministration und technische Unterstützung im Unternehmen.",
+    requirements: [
+      "Erfahrung in der IT-Administration",
+      "Kenntnisse in Netzwerken und Systemen",
+      "Problemlösungsfähigkeiten und Teamfähigkeit",
+    ],
+  },
+
   {
     title: "Hausmeister / Winterdienst",
     type: "Vollzeit",

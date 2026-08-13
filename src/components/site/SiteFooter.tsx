@@ -49,8 +49,9 @@ export function SiteFooter() {
                 </div>
               </div>
               <p className="mt-5 max-w-sm text-sm leading-relaxed text-white/55">
-                Gebäudereinigung, Umzüge &amp; Entrümpelung, Galabau &amp; Grünpflege,
-                Winterdienst &amp; Hausmeisterservice sowie Personal — zuverlässig aus einer Hand.
+                Professionell Galabau, Tiefbau &amp; Erdarbeiten, zuverlässige Umzüge &amp;
+                Entrümpelungen, Winterdienst und Personal sowie Gebäudereinigung — alles aus
+                einer Hand für Privat- und Gewerbekunden.
               </p>
               <p className="mt-4 font-display text-sm font-semibold text-primary-glow">
                 {COMPANY.tagline}
